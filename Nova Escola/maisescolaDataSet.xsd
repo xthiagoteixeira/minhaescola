@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="maisescolaDataSet" targetNamespace="http://tempuri.org/maisescolaDataSet.xsd" xmlns:mstns="http://tempuri.org/maisescolaDataSet.xsd" xmlns="http://tempuri.org/maisescolaDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="maisescolaConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="maisescolaConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Mais_Escola.My.MySettings.GlobalReference.Default.maisescolaConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="alunoTableAdapter" GeneratorDataComponentClassName="alunoTableAdapter" Name="aluno" UserDataComponentName="alunoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.aluno" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT codigo_aluno, nome, ra, turma, anovigente, nro, data, bf, status, ra_digito FROM aluno</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="aluno_fichaTableAdapter" GeneratorDataComponentClassName="aluno_fichaTableAdapter" Name="aluno_ficha" UserDataComponentName="aluno_fichaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.aluno_ficha" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT INSCRICAO, CODIGO, NOME, RG_NUM, RG_UF, SEXO, DT_NASC, ENDERECO, NUMERO, APTO, BAIRRO, CIDADE, UF, CEP, DDD, FONE, RAMAL, PAI, MAE, CTNASC, FICHA, ANO, MODU, CURSO, NUM, Status_Matricula, Motivo_Desistencia, Data_Desistencia, Escola_Transferencia, Periodo, Certidao_Nascimento, Livro, Folhas, Data_Matricula, file_id, ra, ra_digito FROM aluno_ficha</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="aluno_ficha_telefoneTableAdapter" GeneratorDataComponentClassName="aluno_ficha_telefoneTableAdapter" Name="aluno_ficha_telefone" UserDataComponentName="aluno_ficha_telefoneTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.aluno_ficha_telefone" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idAlunoFone, tipo, fone, idAlunoFicha FROM aluno_ficha_telefone</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="arquivomortoTableAdapter" GeneratorDataComponentClassName="arquivomortoTableAdapter" Name="arquivomorto" UserDataComponentName="arquivomortoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.arquivomorto" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idAM, INSCRICAO, Pasta, idAM_e, idAM_p, idAM_c FROM arquivomorto</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="arquivomorto_corredorTableAdapter" GeneratorDataComponentClassName="arquivomorto_corredorTableAdapter" Name="arquivomorto_corredor" UserDataComponentName="arquivomorto_corredorTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.arquivomorto_corredor" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idAM_c, corredor, bloqueado FROM arquivomorto_corredor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="arquivomorto_estanteTableAdapter" GeneratorDataComponentClassName="arquivomorto_estanteTableAdapter" Name="arquivomorto_estante" UserDataComponentName="arquivomorto_estanteTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.arquivomorto_estante" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idAM_e, estante, bloqueado FROM arquivomorto_estante</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="arquivomorto_movimentacaoTableAdapter" GeneratorDataComponentClassName="arquivomorto_movimentacaoTableAdapter" Name="arquivomorto_movimentacao" UserDataComponentName="arquivomorto_movimentacaoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.arquivomorto_movimentacao" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idAM_m, idAM, data, idUsuarioDSK, idAM_t, descricao FROM arquivomorto_movimentacao</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="arquivomorto_prateleiraTableAdapter" GeneratorDataComponentClassName="arquivomorto_prateleiraTableAdapter" Name="arquivomorto_prateleira" UserDataComponentName="arquivomorto_prateleiraTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.arquivomorto_prateleira" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idAM_p, prateleira, bloqueado FROM arquivomorto_prateleira</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="arquivomorto_tipoTableAdapter" GeneratorDataComponentClassName="arquivomorto_tipoTableAdapter" Name="arquivomorto_tipo" UserDataComponentName="arquivomorto_tipoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.arquivomorto_tipo" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idAM_t, tipo, bloqueado FROM arquivomorto_tipo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="boletimTableAdapter" GeneratorDataComponentClassName="boletimTableAdapter" Name="boletim" UserDataComponentName="boletimTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.boletim" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT cod_boletim, nro_aluno, M, F, AC, S, codigo, porcentagem FROM boletim</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="boletimwebTableAdapter" GeneratorDataComponentClassName="boletimwebTableAdapter" Name="boletimweb" UserDataComponentName="boletimwebTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.boletimweb" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idBoletimWeb, tabela, dt_atualizacao, sincronizado, tabela_opcao FROM boletimweb</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="bolsasTableAdapter" GeneratorDataComponentClassName="bolsasTableAdapter" Name="bolsas" UserDataComponentName="bolsasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.bolsas" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idbolsas, nro, codigo_trma, ano, tipo, bimestre, porcentagem FROM bolsas</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="cidadeTableAdapter" GeneratorDataComponentClassName="cidadeTableAdapter" Name="cidade" UserDataComponentName="cidadeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.cidade" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idcidade, cidade, estado, bloqueado FROM cidade</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="delib11_boletimTableAdapter" GeneratorDataComponentClassName="delib11_boletimTableAdapter" Name="delib11_boletim" UserDataComponentName="delib11_boletimTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.delib11_boletim" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idDelibBol, idDelibNF, idUsuarioDSK, idDelib_cat, idDelib_des FROM delib11_boletim</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="delib11_categoriaTableAdapter" GeneratorDataComponentClassName="delib11_categoriaTableAdapter" Name="delib11_categoria" UserDataComponentName="delib11_categoriaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.delib11_categoria" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idDelib_cat, categoria, bloqueado FROM delib11_categoria</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="delib11_descricaoTableAdapter" GeneratorDataComponentClassName="delib11_descricaoTableAdapter" Name="delib11_descricao" UserDataComponentName="delib11_descricaoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.delib11_descricao" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idDelib_des, idDelib_cat, descricao, bloqueado FROM delib11_descricao</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="delib11_nfTableAdapter" GeneratorDataComponentClassName="delib11_nfTableAdapter" Name="delib11_nf" UserDataComponentName="delib11_nfTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.delib11_nf" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idDelibNF, anovigente, turma, nro_aluno FROM delib11_nf</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="delib11_notasfreqTableAdapter" GeneratorDataComponentClassName="delib11_notasfreqTableAdapter" Name="delib11_notasfreq" UserDataComponentName="delib11_notasfreqTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.delib11_notasfreq" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idDelib_nf, idDelib_cat, idDelib_des, notasfreq, nro_aluno, nota FROM delib11_notasfreq</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="disciplinasTableAdapter" GeneratorDataComponentClassName="disciplinasTableAdapter" Name="disciplinas" UserDataComponentName="disciplinasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.disciplinas" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT codigo_disc, disciplina, qtdadeaulas, bloqueado, area FROM disciplinas</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="empresaTableAdapter" GeneratorDataComponentClassName="empresaTableAdapter" Name="empresa" UserDataComponentName="empresaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.empresa" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idEmpresa, Nome, CNPJ, Responsavel, Modulo, CS, Endereco FROM empresa</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="escolaTableAdapter" GeneratorDataComponentClassName="escolaTableAdapter" Name="escola" UserDataComponentName="escolaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.escola" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idescola, nome, de, endereco, fones, idFile FROM escola</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="fileTableAdapter" GeneratorDataComponentClassName="fileTableAdapter" Name="file" UserDataComponentName="fileTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.file" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT file_id, file_name, file_size, file FROM file</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="funcionarioTableAdapter" GeneratorDataComponentClassName="funcionarioTableAdapter" Name="funcionario" UserDataComponentName="funcionarioTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.funcionario" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idfuncionario, nome, endereco, bairro, cep, fone, idcidade, cpf, rg, obs, dtnascimento, admissao, demissao, idcargo, pSim, pNao, iddisciplina FROM funcionario</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="logsTableAdapter" GeneratorDataComponentClassName="logsTableAdapter" Name="logs" UserDataComponentName="logsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.logs" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idLogs, Descricao, idUsuario, idLogCat, DataLancamento FROM logs</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="logs_categoriasTableAdapter" GeneratorDataComponentClassName="logs_categoriasTableAdapter" Name="logs_categorias" UserDataComponentName="logs_categoriasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.logs_categorias" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idLogCat, Categoria FROM logs_categorias</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="notasfreqTableAdapter" GeneratorDataComponentClassName="notasfreqTableAdapter" Name="notasfreq" UserDataComponentName="notasfreqTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.notasfreq" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT cod_nf, cod_bimestre, turma, disciplina, anovigente, qtdadeaulas, previsaoaulas, dt_criacao, dt_atualizacao, sincronizado, sincronizado_delib11 FROM notasfreq</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="notasfreq_profTableAdapter" GeneratorDataComponentClassName="notasfreq_profTableAdapter" Name="notasfreq_prof" UserDataComponentName="notasfreq_profTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.notasfreq_prof" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idnfp, data_lancamento, grupo, cod_nf FROM notasfreq_prof</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="preferenciasTableAdapter" GeneratorDataComponentClassName="preferenciasTableAdapter" Name="preferencias" UserDataComponentName="preferenciasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.preferencias" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idPreferencias, x, y, z, w, t, ferramenta1, ferramenta2, ferramenta3, ferramenta4, ferramenta5, ferramenta6, mp_inicio, mp_final FROM preferencias</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="professor_gruposTableAdapter" GeneratorDataComponentClassName="professor_gruposTableAdapter" Name="professor_grupos" UserDataComponentName="professor_gruposTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.professor_grupos" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idProfGrupos, codigo_disc, codigo_trma, idUsuarioDSK FROM professor_grupos</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rpt_atacomplTableAdapter" GeneratorDataComponentClassName="rpt_atacomplTableAdapter" Name="rpt_atacompl" UserDataComponentName="rpt_atacomplTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.rpt_atacompl" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idReport, C1, C2, C3, C4, C5, P1, P2, P3, P4, P5, C6, C7, P6, P7, C8, C9, C10, C11, P8, P9, P10, P11, DataEscolhida, cod_bimestre FROM rpt_atacompl</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rpt_bolatrasoTableAdapter" GeneratorDataComponentClassName="rpt_bolatrasoTableAdapter" Name="rpt_bolatraso" UserDataComponentName="rpt_bolatrasoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.rpt_bolatraso" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idBolAtraso, disciplina, turma, cod_bimestre, anovigente FROM rpt_bolatraso</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="rpt_reciboTableAdapter" GeneratorDataComponentClassName="rpt_reciboTableAdapter" Name="rpt_recibo" UserDataComponentName="rpt_reciboTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.rpt_recibo" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idRecibo, recibo, data FROM rpt_recibo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tempdeclaracaoTableAdapter" GeneratorDataComponentClassName="tempdeclaracaoTableAdapter" Name="tempdeclaracao" UserDataComponentName="tempdeclaracaoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.tempdeclaracao" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idDec, idDeclaracao, nome, horarioINICIO, horarioFIM, op1, op2, op3, op4, op5, op6, op7, op8, ra, turma, tempdeclaracaocol, observacao FROM tempdeclaracao</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="turmaTableAdapter" GeneratorDataComponentClassName="turmaTableAdapter" Name="turma" UserDataComponentName="turmaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.turma" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT codigo_trma, classe, periodo, bloqueado, ensino FROM turma</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="usuariodskTableAdapter" GeneratorDataComponentClassName="usuariodskTableAdapter" Name="usuariodsk" UserDataComponentName="usuariodskTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.usuariodsk" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT usuario, senha, cod_prof, codigo, nome, bloqueado FROM usuariodsk</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="usuariodsk_perfilTableAdapter" GeneratorDataComponentClassName="usuariodsk_perfilTableAdapter" Name="usuariodsk_perfil" UserDataComponentName="usuariodsk_perfilTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="maisescolaConnectionString (MySettings)" DbObjectName="maisescola.usuariodsk_perfil" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT idUsuariodsk_perfil, perfil FROM usuariodsk_perfil</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="maisescolaDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="maisescolaDataSet" msprop:Generator_UserDSName="maisescolaDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="aluno" msprop:Generator_TableClassName="alunoDataTable" msprop:Generator_TableVarName="tablealuno" msprop:Generator_TablePropName="aluno" msprop:Generator_RowDeletingName="alunoRowDeleting" msprop:Generator_RowChangingName="alunoRowChanging" msprop:Generator_RowEvHandlerName="alunoRowChangeEventHandler" msprop:Generator_RowDeletedName="alunoRowDeleted" msprop:Generator_UserTableName="aluno" msprop:Generator_RowChangedName="alunoRowChanged" msprop:Generator_RowEvArgName="alunoRowChangeEvent" msprop:Generator_RowClassName="alunoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="aluno_ficha" msprop:Generator_TableClassName="aluno_fichaDataTable" msprop:Generator_TableVarName="tablealuno_ficha" msprop:Generator_TablePropName="aluno_ficha" msprop:Generator_RowDeletingName="aluno_fichaRowDeleting" msprop:Generator_RowChangingName="aluno_fichaRowChanging" msprop:Generator_RowEvHandlerName="aluno_fichaRowChangeEventHandler" msprop:Generator_RowDeletedName="aluno_fichaRowDeleted" msprop:Generator_UserTableName="aluno_ficha" msprop:Generator_RowChangedName="aluno_fichaRowChanged" msprop:Generator_RowEvArgName="aluno_fichaRowChangeEvent" msprop:Generator_RowClassName="aluno_fichaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="aluno_ficha_telefone" msprop:Generator_TableClassName="aluno_ficha_telefoneDataTable" msprop:Generator_TableVarName="tablealuno_ficha_telefone" msprop:Generator_TablePropName="aluno_ficha_telefone" msprop:Generator_RowDeletingName="aluno_ficha_telefoneRowDeleting" msprop:Generator_RowChangingName="aluno_ficha_telefoneRowChanging" msprop:Generator_RowEvHandlerName="aluno_ficha_telefoneRowChangeEventHandler" msprop:Generator_RowDeletedName="aluno_ficha_telefoneRowDeleted" msprop:Generator_UserTableName="aluno_ficha_telefone" msprop:Generator_RowChangedName="aluno_ficha_telefoneRowChanged" msprop:Generator_RowEvArgName="aluno_ficha_telefoneRowChangeEvent" msprop:Generator_RowClassName="aluno_ficha_telefoneRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="arquivomorto" msprop:Generator_TableClassName="arquivomortoDataTable" msprop:Generator_TableVarName="tablearquivomorto" msprop:Generator_TablePropName="arquivomorto" msprop:Generator_RowDeletingName="arquivomortoRowDeleting" msprop:Generator_RowChangingName="arquivomortoRowChanging" msprop:Generator_RowEvHandlerName="arquivomortoRowChangeEventHandler" msprop:Generator_RowDeletedName="arquivomortoRowDeleted" msprop:Generator_UserTableName="arquivomorto" msprop:Generator_RowChangedName="arquivomortoRowChanged" msprop:Generator_RowEvArgName="arquivomortoRowChangeEvent" msprop:Generator_RowClassName="arquivomortoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="arquivomorto_corredor" msprop:Generator_TableClassName="arquivomorto_corredorDataTable" msprop:Generator_TableVarName="tablearquivomorto_corredor" msprop:Generator_TablePropName="arquivomorto_corredor" msprop:Generator_RowDeletingName="arquivomorto_corredorRowDeleting" msprop:Generator_RowChangingName="arquivomorto_corredorRowChanging" msprop:Generator_RowEvHandlerName="arquivomorto_corredorRowChangeEventHandler" msprop:Generator_RowDeletedName="arquivomorto_corredorRowDeleted" msprop:Generator_UserTableName="arquivomorto_corredor" msprop:Generator_RowChangedName="arquivomorto_corredorRowChanged" msprop:Generator_RowEvArgName="arquivomorto_corredorRowChangeEvent" msprop:Generator_RowClassName="arquivomorto_corredorRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="arquivomorto_estante" msprop:Generator_TableClassName="arquivomorto_estanteDataTable" msprop:Generator_TableVarName="tablearquivomorto_estante" msprop:Generator_TablePropName="arquivomorto_estante" msprop:Generator_RowDeletingName="arquivomorto_estanteRowDeleting" msprop:Generator_RowChangingName="arquivomorto_estanteRowChanging" msprop:Generator_RowEvHandlerName="arquivomorto_estanteRowChangeEventHandler" msprop:Generator_RowDeletedName="arquivomorto_estanteRowDeleted" msprop:Generator_UserTableName="arquivomorto_estante" msprop:Generator_RowChangedName="arquivomorto_estanteRowChanged" msprop:Generator_RowEvArgName="arquivomorto_estanteRowChangeEvent" msprop:Generator_RowClassName="arquivomorto_estanteRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="arquivomorto_movimentacao" msprop:Generator_TableClassName="arquivomorto_movimentacaoDataTable" msprop:Generator_TableVarName="tablearquivomorto_movimentacao" msprop:Generator_TablePropName="arquivomorto_movimentacao" msprop:Generator_RowDeletingName="arquivomorto_movimentacaoRowDeleting" msprop:Generator_RowChangingName="arquivomorto_movimentacaoRowChanging" msprop:Generator_RowEvHandlerName="arquivomorto_movimentacaoRowChangeEventHandler" msprop:Generator_RowDeletedName="arquivomorto_movimentacaoRowDeleted" msprop:Generator_UserTableName="arquivomorto_movimentacao" msprop:Generator_RowChangedName="arquivomorto_movimentacaoRowChanged" msprop:Generator_RowEvArgName="arquivomorto_movimentacaoRowChangeEvent" msprop:Generator_RowClassName="arquivomorto_movimentacaoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="arquivomorto_prateleira" msprop:Generator_TableClassName="arquivomorto_prateleiraDataTable" msprop:Generator_TableVarName="tablearquivomorto_prateleira" msprop:Generator_TablePropName="arquivomorto_prateleira" msprop:Generator_RowDeletingName="arquivomorto_prateleiraRowDeleting" msprop:Generator_RowChangingName="arquivomorto_prateleiraRowChanging" msprop:Generator_RowEvHandlerName="arquivomorto_prateleiraRowChangeEventHandler" msprop:Generator_RowDeletedName="arquivomorto_prateleiraRowDeleted" msprop:Generator_UserTableName="arquivomorto_prateleira" msprop:Generator_RowChangedName="arquivomorto_prateleiraRowChanged" msprop:Generator_RowEvArgName="arquivomorto_prateleiraRowChangeEvent" msprop:Generator_RowClassName="arquivomorto_prateleiraRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="arquivomorto_tipo" msprop:Generator_TableClassName="arquivomorto_tipoDataTable" msprop:Generator_TableVarName="tablearquivomorto_tipo" msprop:Generator_TablePropName="arquivomorto_tipo" msprop:Generator_RowDeletingName="arquivomorto_tipoRowDeleting" msprop:Generator_RowChangingName="arquivomorto_tipoRowChanging" msprop:Generator_RowEvHandlerName="arquivomorto_tipoRowChangeEventHandler" msprop:Generator_RowDeletedName="arquivomorto_tipoRowDeleted" msprop:Generator_UserTableName="arquivomorto_tipo" msprop:Generator_RowChangedName="arquivomorto_tipoRowChanged" msprop:Generator_RowEvArgName="arquivomorto_tipoRowChangeEvent" msprop:Generator_RowClassName="arquivomorto_tipoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="boletim" msprop:Generator_TableClassName="boletimDataTable" msprop:Generator_TableVarName="tableboletim" msprop:Generator_TablePropName="boletim" msprop:Generator_RowDeletingName="boletimRowDeleting" msprop:Generator_RowChangingName="boletimRowChanging" msprop:Generator_RowEvHandlerName="boletimRowChangeEventHandler" msprop:Generator_RowDeletedName="boletimRowDeleted" msprop:Generator_UserTableName="boletim" msprop:Generator_RowChangedName="boletimRowChanged" msprop:Generator_RowEvArgName="boletimRowChangeEvent" msprop:Generator_RowClassName="boletimRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="boletimweb" msprop:Generator_TableClassName="boletimwebDataTable" msprop:Generator_TableVarName="tableboletimweb" msprop:Generator_TablePropName="boletimweb" msprop:Generator_RowDeletingName="boletimwebRowDeleting" msprop:Generator_RowChangingName="boletimwebRowChanging" msprop:Generator_RowEvHandlerName="boletimwebRowChangeEventHandler" msprop:Generator_RowDeletedName="boletimwebRowDeleted" msprop:Generator_UserTableName="boletimweb" msprop:Generator_RowChangedName="boletimwebRowChanged" msprop:Generator_RowEvArgName="boletimwebRowChangeEvent" msprop:Generator_RowClassName="boletimwebRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="bolsas" msprop:Generator_TableClassName="bolsasDataTable" msprop:Generator_TableVarName="tablebolsas" msprop:Generator_TablePropName="bolsas" msprop:Generator_RowDeletingName="bolsasRowDeleting" msprop:Generator_RowChangingName="bolsasRowChanging" msprop:Generator_RowEvHandlerName="bolsasRowChangeEventHandler" msprop:Generator_RowDeletedName="bolsasRowDeleted" msprop:Generator_UserTableName="bolsas" msprop:Generator_RowChangedName="bolsasRowChanged" msprop:Generator_RowEvArgName="bolsasRowChangeEvent" msprop:Generator_RowClassName="bolsasRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cidade" msprop:Generator_TableClassName="cidadeDataTable" msprop:Generator_TableVarName="tablecidade" msprop:Generator_TablePropName="cidade" msprop:Generator_RowDeletingName="cidadeRowDeleting" msprop:Generator_RowChangingName="cidadeRowChanging" msprop:Generator_RowEvHandlerName="cidadeRowChangeEventHandler" msprop:Generator_RowDeletedName="cidadeRowDeleted" msprop:Generator_UserTableName="cidade" msprop:Generator_RowChangedName="cidadeRowChanged" msprop:Generator_RowEvArgName="cidadeRowChangeEvent" msprop:Generator_RowClassName="cidadeRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="delib11_boletim" msprop:Generator_TableClassName="delib11_boletimDataTable" msprop:Generator_TableVarName="tabledelib11_boletim" msprop:Generator_TablePropName="delib11_boletim" msprop:Generator_RowDeletingName="delib11_boletimRowDeleting" msprop:Generator_RowChangingName="delib11_boletimRowChanging" msprop:Generator_RowEvHandlerName="delib11_boletimRowChangeEventHandler" msprop:Generator_RowDeletedName="delib11_boletimRowDeleted" msprop:Generator_UserTableName="delib11_boletim" msprop:Generator_RowChangedName="delib11_boletimRowChanged" msprop:Generator_RowEvArgName="delib11_boletimRowChangeEvent" msprop:Generator_RowClassName="delib11_boletimRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="delib11_categoria" msprop:Generator_TableClassName="delib11_categoriaDataTable" msprop:Generator_TableVarName="tabledelib11_categoria" msprop:Generator_TablePropName="delib11_categoria" msprop:Generator_RowDeletingName="delib11_categoriaRowDeleting" msprop:Generator_RowChangingName="delib11_categoriaRowChanging" msprop:Generator_RowEvHandlerName="delib11_categoriaRowChangeEventHandler" msprop:Generator_RowDeletedName="delib11_categoriaRowDeleted" msprop:Generator_UserTableName="delib11_categoria" msprop:Generator_RowChangedName="delib11_categoriaRowChanged" msprop:Generator_RowEvArgName="delib11_categoriaRowChangeEvent" msprop:Generator_RowClassName="delib11_categoriaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="delib11_descricao" msprop:Generator_TableClassName="delib11_descricaoDataTable" msprop:Generator_TableVarName="tabledelib11_descricao" msprop:Generator_TablePropName="delib11_descricao" msprop:Generator_RowDeletingName="delib11_descricaoRowDeleting" msprop:Generator_RowChangingName="delib11_descricaoRowChanging" msprop:Generator_RowEvHandlerName="delib11_descricaoRowChangeEventHandler" msprop:Generator_RowDeletedName="delib11_descricaoRowDeleted" msprop:Generator_UserTableName="delib11_descricao" msprop:Generator_RowChangedName="delib11_descricaoRowChanged" msprop:Generator_RowEvArgName="delib11_descricaoRowChangeEvent" msprop:Generator_RowClassName="delib11_descricaoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="delib11_nf" msprop:Generator_TableClassName="delib11_nfDataTable" msprop:Generator_TableVarName="tabledelib11_nf" msprop:Generator_TablePropName="delib11_nf" msprop:Generator_RowDeletingName="delib11_nfRowDeleting" msprop:Generator_RowChangingName="delib11_nfRowChanging" msprop:Generator_RowEvHandlerName="delib11_nfRowChangeEventHandler" msprop:Generator_RowDeletedName="delib11_nfRowDeleted" msprop:Generator_UserTableName="delib11_nf" msprop:Generator_RowChangedName="delib11_nfRowChanged" msprop:Generator_RowEvArgName="delib11_nfRowChangeEvent" msprop:Generator_RowClassName="delib11_nfRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="delib11_notasfreq" msprop:Generator_TableClassName="delib11_notasfreqDataTable" msprop:Generator_TableVarName="tabledelib11_notasfreq" msprop:Generator_TablePropName="delib11_notasfreq" msprop:Generator_RowDeletingName="delib11_notasfreqRowDeleting" msprop:Generator_RowChangingName="delib11_notasfreqRowChanging" msprop:Generator_RowEvHandlerName="delib11_notasfreqRowChangeEventHandler" msprop:Generator_RowDeletedName="delib11_notasfreqRowDeleted" msprop:Generator_UserTableName="delib11_notasfreq" msprop:Generator_RowChangedName="delib11_notasfreqRowChanged" msprop:Generator_RowEvArgName="delib11_notasfreqRowChangeEvent" msprop:Generator_RowClassName="delib11_notasfreqRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="disciplinas" msprop:Generator_TableClassName="disciplinasDataTable" msprop:Generator_TableVarName="tabledisciplinas" msprop:Generator_TablePropName="disciplinas" msprop:Generator_RowDeletingName="disciplinasRowDeleting" msprop:Generator_RowChangingName="disciplinasRowChanging" msprop:Generator_RowEvHandlerName="disciplinasRowChangeEventHandler" msprop:Generator_RowDeletedName="disciplinasRowDeleted" msprop:Generator_UserTableName="disciplinas" msprop:Generator_RowChangedName="disciplinasRowChanged" msprop:Generator_RowEvArgName="disciplinasRowChangeEvent" msprop:Generator_RowClassName="disciplinasRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="empresa" msprop:Generator_TableClassName="empresaDataTable" msprop:Generator_TableVarName="tableempresa" msprop:Generator_TablePropName="empresa" msprop:Generator_RowDeletingName="empresaRowDeleting" msprop:Generator_RowChangingName="empresaRowChanging" msprop:Generator_RowEvHandlerName="empresaRowChangeEventHandler" msprop:Generator_RowDeletedName="empresaRowDeleted" msprop:Generator_UserTableName="empresa" msprop:Generator_RowChangedName="empresaRowChanged" msprop:Generator_RowEvArgName="empresaRowChangeEvent" msprop:Generator_RowClassName="empresaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="escola" msprop:Generator_TableClassName="escolaDataTable" msprop:Generator_TableVarName="tableescola" msprop:Generator_TablePropName="escola" msprop:Generator_RowDeletingName="escolaRowDeleting" msprop:Generator_RowChangingName="escolaRowChanging" msprop:Generator_RowEvHandlerName="escolaRowChangeEventHandler" msprop:Generator_RowDeletedName="escolaRowDeleted" msprop:Generator_UserTableName="escola" msprop:Generator_RowChangedName="escolaRowChanged" msprop:Generator_RowEvArgName="escolaRowChangeEvent" msprop:Generator_RowClassName="escolaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="file" msprop:Generator_TableClassName="fileDataTable" msprop:Generator_TableVarName="tablefile" msprop:Generator_TablePropName="file" msprop:Generator_RowDeletingName="fileRowDeleting" msprop:Generator_RowChangingName="fileRowChanging" msprop:Generator_RowEvHandlerName="fileRowChangeEventHandler" msprop:Generator_RowDeletedName="fileRowDeleted" msprop:Generator_UserTableName="file" msprop:Generator_RowChangedName="fileRowChanged" msprop:Generator_RowEvArgName="fileRowChangeEvent" msprop:Generator_RowClassName="fileRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="funcionario" msprop:Generator_TableClassName="funcionarioDataTable" msprop:Generator_TableVarName="tablefuncionario" msprop:Generator_TablePropName="funcionario" msprop:Generator_RowDeletingName="funcionarioRowDeleting" msprop:Generator_RowChangingName="funcionarioRowChanging" msprop:Generator_RowEvHandlerName="funcionarioRowChangeEventHandler" msprop:Generator_RowDeletedName="funcionarioRowDeleted" msprop:Generator_UserTableName="funcionario" msprop:Generator_RowChangedName="funcionarioRowChanged" msprop:Generator_RowEvArgName="funcionarioRowChangeEvent" msprop:Generator_RowClassName="funcionarioRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="logs" msprop:Generator_TableClassName="logsDataTable" msprop:Generator_TableVarName="tablelogs" msprop:Generator_TablePropName="logs" msprop:Generator_RowDeletingName="logsRowDeleting" msprop:Generator_RowChangingName="logsRowChanging" msprop:Generator_RowEvHandlerName="logsRowChangeEventHandler" msprop:Generator_RowDeletedName="logsRowDeleted" msprop:Generator_UserTableName="logs" msprop:Generator_RowChangedName="logsRowChanged" msprop:Generator_RowEvArgName="logsRowChangeEvent" msprop:Generator_RowClassName="logsRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="logs_categorias" msprop:Generator_TableClassName="logs_categoriasDataTable" msprop:Generator_TableVarName="tablelogs_categorias" msprop:Generator_TablePropName="logs_categorias" msprop:Generator_RowDeletingName="logs_categoriasRowDeleting" msprop:Generator_RowChangingName="logs_categoriasRowChanging" msprop:Generator_RowEvHandlerName="logs_categoriasRowChangeEventHandler" msprop:Generator_RowDeletedName="logs_categoriasRowDeleted" msprop:Generator_UserTableName="logs_categorias" msprop:Generator_RowChangedName="logs_categoriasRowChanged" msprop:Generator_RowEvArgName="logs_categoriasRowChangeEvent" msprop:Generator_RowClassName="logs_categoriasRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="notasfreq" msprop:Generator_TableClassName="notasfreqDataTable" msprop:Generator_TableVarName="tablenotasfreq" msprop:Generator_TablePropName="notasfreq" msprop:Generator_RowDeletingName="notasfreqRowDeleting" msprop:Generator_RowChangingName="notasfreqRowChanging" msprop:Generator_RowEvHandlerName="notasfreqRowChangeEventHandler" msprop:Generator_RowDeletedName="notasfreqRowDeleted" msprop:Generator_UserTableName="notasfreq" msprop:Generator_RowChangedName="notasfreqRowChanged" msprop:Generator_RowEvArgName="notasfreqRowChangeEvent" msprop:Generator_RowClassName="notasfreqRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="notasfreq_prof" msprop:Generator_TableClassName="notasfreq_profDataTable" msprop:Generator_TableVarName="tablenotasfreq_prof" msprop:Generator_TablePropName="notasfreq_prof" msprop:Generator_RowDeletingName="notasfreq_profRowDeleting" msprop:Generator_RowChangingName="notasfreq_profRowChanging" msprop:Generator_RowEvHandlerName="notasfreq_profRowChangeEventHandler" msprop:Generator_RowDeletedName="notasfreq_profRowDeleted" msprop:Generator_UserTableName="notasfreq_prof" msprop:Generator_RowChangedName="notasfreq_profRowChanged" msprop:Generator_RowEvArgName="notasfreq_profRowChangeEvent" msprop:Generator_RowClassName="notasfreq_profRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="preferencias" msprop:Generator_TableClassName="preferenciasDataTable" msprop:Generator_TableVarName="tablepreferencias" msprop:Generator_TablePropName="preferencias" msprop:Generator_RowDeletingName="preferenciasRowDeleting" msprop:Generator_RowChangingName="preferenciasRowChanging" msprop:Generator_RowEvHandlerName="preferenciasRowChangeEventHandler" msprop:Generator_RowDeletedName="preferenciasRowDeleted" msprop:Generator_UserTableName="preferencias" msprop:Generator_RowChangedName="preferenciasRowChanged" msprop:Generator_RowEvArgName="preferenciasRowChangeEvent" msprop:Generator_RowClassName="preferenciasRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="professor_grupos" msprop:Generator_TableClassName="professor_gruposDataTable" msprop:Generator_TableVarName="tableprofessor_grupos" msprop:Generator_TablePropName="professor_grupos" msprop:Generator_RowDeletingName="professor_gruposRowDeleting" msprop:Generator_RowChangingName="professor_gruposRowChanging" msprop:Generator_RowEvHandlerName="professor_gruposRowChangeEventHandler" msprop:Generator_RowDeletedName="professor_gruposRowDeleted" msprop:Generator_UserTableName="professor_grupos" msprop:Generator_RowChangedName="professor_gruposRowChanged" msprop:Generator_RowEvArgName="professor_gruposRowChangeEvent" msprop:Generator_RowClassName="professor_gruposRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rpt_atacompl" msprop:Generator_TableClassName="rpt_atacomplDataTable" msprop:Generator_TableVarName="tablerpt_atacompl" msprop:Generator_TablePropName="rpt_atacompl" msprop:Generator_RowDeletingName="rpt_atacomplRowDeleting" msprop:Generator_RowChangingName="rpt_atacomplRowChanging" msprop:Generator_RowEvHandlerName="rpt_atacomplRowChangeEventHandler" msprop:Generator_RowDeletedName="rpt_atacomplRowDeleted" msprop:Generator_UserTableName="rpt_atacompl" msprop:Generator_RowChangedName="rpt_atacomplRowChanged" msprop:Generator_RowEvArgName="rpt_atacomplRowChangeEvent" msprop:Generator_RowClassName="rpt_atacomplRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rpt_bolatraso" msprop:Generator_TableClassName="rpt_bolatrasoDataTable" msprop:Generator_TableVarName="tablerpt_bolatraso" msprop:Generator_TablePropName="rpt_bolatraso" msprop:Generator_RowDeletingName="rpt_bolatrasoRowDeleting" msprop:Generator_RowChangingName="rpt_bolatrasoRowChanging" msprop:Generator_RowEvHandlerName="rpt_bolatrasoRowChangeEventHandler" msprop:Generator_RowDeletedName="rpt_bolatrasoRowDeleted" msprop:Generator_UserTableName="rpt_bolatraso" msprop:Generator_RowChangedName="rpt_bolatrasoRowChanged" msprop:Generator_RowEvArgName="rpt_bolatrasoRowChangeEvent" msprop:Generator_RowClassName="rpt_bolatrasoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rpt_recibo" msprop:Generator_TableClassName="rpt_reciboDataTable" msprop:Generator_TableVarName="tablerpt_recibo" msprop:Generator_TablePropName="rpt_recibo" msprop:Generator_RowDeletingName="rpt_reciboRowDeleting" msprop:Generator_RowChangingName="rpt_reciboRowChanging" msprop:Generator_RowEvHandlerName="rpt_reciboRowChangeEventHandler" msprop:Generator_RowDeletedName="rpt_reciboRowDeleted" msprop:Generator_UserTableName="rpt_recibo" msprop:Generator_RowChangedName="rpt_reciboRowChanged" msprop:Generator_RowEvArgName="rpt_reciboRowChangeEvent" msprop:Generator_RowClassName="rpt_reciboRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tempdeclaracao" msprop:Generator_TableClassName="tempdeclaracaoDataTable" msprop:Generator_TableVarName="tabletempdeclaracao" msprop:Generator_TablePropName="tempdeclaracao" msprop:Generator_RowDeletingName="tempdeclaracaoRowDeleting" msprop:Generator_RowChangingName="tempdeclaracaoRowChanging" msprop:Generator_RowEvHandlerName="tempdeclaracaoRowChangeEventHandler" msprop:Generator_RowDeletedName="tempdeclaracaoRowDeleted" msprop:Generator_UserTableName="tempdeclaracao" msprop:Generator_RowChangedName="tempdeclaracaoRowChanged" msprop:Generator_RowEvArgName="tempdeclaracaoRowChangeEvent" msprop:Generator_RowClassName="tempdeclaracaoRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="turma" msprop:Generator_TableClassName="turmaDataTable" msprop:Generator_TableVarName="tableturma" msprop:Generator_TablePropName="turma" msprop:Generator_RowDeletingName="turmaRowDeleting" msprop:Generator_RowChangingName="turmaRowChanging" msprop:Generator_RowEvHandlerName="turmaRowChangeEventHandler" msprop:Generator_RowDeletedName="turmaRowDeleted" msprop:Generator_UserTableName="turma" msprop:Generator_RowChangedName="turmaRowChanged" msprop:Generator_RowEvArgName="turmaRowChangeEvent" msprop:Generator_RowClassName="turmaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="usuariodsk" msprop:Generator_TableClassName="usuariodskDataTable" msprop:Generator_TableVarName="tableusuariodsk" msprop:Generator_TablePropName="usuariodsk" msprop:Generator_RowDeletingName="usuariodskRowDeleting" msprop:Generator_RowChangingName="usuariodskRowChanging" msprop:Generator_RowEvHandlerName="usuariodskRowChangeEventHandler" msprop:Generator_RowDeletedName="usuariodskRowDeleted" msprop:Generator_UserTableName="usuariodsk" msprop:Generator_RowChangedName="usuariodskRowChanged" msprop:Generator_RowEvArgName="usuariodskRowChangeEvent" msprop:Generator_RowClassName="usuariodskRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="usuariodsk_perfil" msprop:Generator_TableClassName="usuariodsk_perfilDataTable" msprop:Generator_TableVarName="tableusuariodsk_perfil" msprop:Generator_TablePropName="usuariodsk_perfil" msprop:Generator_RowDeletingName="usuariodsk_perfilRowDeleting" msprop:Generator_RowChangingName="usuariodsk_perfilRowChanging" msprop:Generator_RowEvHandlerName="usuariodsk_perfilRowChangeEventHandler" msprop:Generator_RowDeletedName="usuariodsk_perfilRowDeleted" msprop:Generator_UserTableName="usuariodsk_perfil" msprop:Generator_RowChangedName="usuariodsk_perfilRowChanged" msprop:Generator_RowEvArgName="usuariodsk_perfilRowChangeEvent" msprop:Generator_RowClassName="usuariodsk_perfilRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

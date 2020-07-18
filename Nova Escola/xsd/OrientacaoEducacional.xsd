@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Boletim" targetNamespace="http://tempuri.org/Boletim.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/Boletim.xsd" xmlns:mstns="http://tempuri.org/Boletim.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="OrientacaoEducacional">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Ativos" type="xs:integer" />
+        <xs:element name="Transferidos" type="xs:integer" />
+        <xs:element name="Remanejados" type="xs:integer" />
+        <xs:element name="Aprovados" type="xs:integer" />
+        <xs:element name="Abandonos" type="xs:integer" />
+        <xs:element name="ReprovadoPorFrequencia" type="xs:integer" />
+        <xs:element name="ReprovadoPorNota" type="xs:integer" />
+		    <xs:element name="Ano" type="xs:integer" />
+		    <xs:element name="Bimestre" type="xs:string" />
+		    <xs:element name="Disciplina" type="xs:string" />
+		    <xs:element name="Turma" type="xs:string" />		
+        <xs:element name="Português" type="xs:string" />
+        <xs:element name="Matemática" type="xs:string" />
+      	<xs:element name="Avaliacao" type="xs:integer" />
+        <xs:element name="Faltas" type="xs:integer" />
+        <xs:element name="Periodo" type="xs:string" />
+        <xs:element name="Abandono_Manhã" type="xs:integer" />
+        <xs:element name="Abandono_Tarde" type="xs:integer" />
+        <xs:element name="Abandono_Noite" type="xs:integer" />      
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

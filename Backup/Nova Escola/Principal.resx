@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="MainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>119, 17</value>
+  </metadata>
+  <data name="mEstrutura.Text" xml:space="preserve">
+    <value>Estrutura</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mEstrutura.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mNF.Text" xml:space="preserve">
+    <value>Notas e Freqüências</value>
+  </data>
+  <data name="mNF.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MenuItem34.Text" xml:space="preserve">
+    <value>Ata do Conselho</value>
+  </data>
+  <data name="MenuItem31.Text" xml:space="preserve">
+    <value>Boletim</value>
+  </data>
+  <data name="MenuItem7.Text" xml:space="preserve">
+    <value>Código de Barras</value>
+  </data>
+  <data name="MenuItem69.Text" xml:space="preserve">
+    <value>Alunos Reprovados</value>
+  </data>
+  <data name="MenuItem55.Text" xml:space="preserve">
+    <value>Avaliação Final</value>
+  </data>
+  <data name="MenuItem54.Text" xml:space="preserve">
+    <value>Notas e Freqüências</value>
+  </data>
+  <data name="MenuItem2.Text" xml:space="preserve">
+    <value>Consolidado</value>
+  </data>
+  <data name="MenuItem44.Text" xml:space="preserve">
+    <value>Gráficos</value>
+  </data>
+  <data name="MenuItem41.Text" xml:space="preserve">
+    <value>Gerenciador</value>
+  </data>
+  <data name="mRelatorio.Text" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="mRelatorio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MenuItem52.Text" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="MenuItem66.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="MenuItem5.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="MenuItem14.Text" xml:space="preserve">
+    <value>Alunos</value>
+  </data>
+  <data name="MenuItem35.Text" xml:space="preserve">
+    <value>Importação</value>
+  </data>
+  <data name="MenuItem47.Text" xml:space="preserve">
+    <value>Nomes</value>
+  </data>
+  <data name="MenuItem48.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="MenuItem15.Text" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="MenuItem15.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MenuItem32.Text" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="MenuItem33.Text" xml:space="preserve">
+    <value>Manutenção</value>
+  </data>
+  <data name="MenuItem3.Text" xml:space="preserve">
+    <value>Disciplinas</value>
+  </data>
+  <data name="MenuItem16.Text" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="MenuItem17.Text" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="MenuItem18.Text" xml:space="preserve">
+    <value>Manutenção</value>
+  </data>
+  <data name="MenuItem36.Text" xml:space="preserve">
+    <value>Folha de Ponto</value>
+  </data>
+  <data name="MenuItem36.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MenuItem37.Text" xml:space="preserve">
+    <value>Funcionários</value>
+  </data>
+  <data name="MenuItem38.Text" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="MenuItem39.Text" xml:space="preserve">
+    <value>Manutenção</value>
+  </data>
+  <data name="MenuItem40.Text" xml:space="preserve">
+    <value>Livro Ponto</value>
+  </data>
+  <data name="MenuItem49.Text" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="MenuItem50.Text" xml:space="preserve">
+    <value>Códigos</value>
+  </data>
+  <data name="MenuItem51.Text" xml:space="preserve">
+    <value>Folha de Ponto</value>
+  </data>
+  <data name="MenuItem8.Text" xml:space="preserve">
+    <value>Notas e Frequências</value>
+  </data>
+  <data name="MenuItem19.Text" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="MenuItem20.Text" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="MenuItem24.Text" xml:space="preserve">
+    <value>Manutenção</value>
+  </data>
+  <data name="MenuItem21.Text" xml:space="preserve">
+    <value>Notas e Freqüências</value>
+  </data>
+  <data name="MenuItem26.Text" xml:space="preserve">
+    <value>Avaliação Final</value>
+  </data>
+  <data name="MenuItem1.Text" xml:space="preserve">
+    <value>Excluir Boletim</value>
+  </data>
+  <data name="MenuItem4.Text" xml:space="preserve">
+    <value>Turma</value>
+  </data>
+  <data name="MenuItem9.Text" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="MenuItem11.Text" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="MenuItem12.Text" xml:space="preserve">
+    <value>Manutenção</value>
+  </data>
+  <data name="MenuItem13.Text" xml:space="preserve">
+    <value>Usuários</value>
+  </data>
+  <data name="MenuItem23.Text" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="MenuItem6.Text" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="MenuItem25.Text" xml:space="preserve">
+    <value>Manutenção</value>
+  </data>
+  <data name="MenuItem28.Text" xml:space="preserve">
+    <value>Aulas Previstas</value>
+  </data>
+  <data name="MenuItem27.Text" xml:space="preserve">
+    <value>Avaliação Final</value>
+  </data>
+  <data name="MenuItem29.Text" xml:space="preserve">
+    <value>Notas e Freqüências</value>
+  </data>
+  <data name="MenuItem10.Text" xml:space="preserve">
+    <value>Navegador</value>
+  </data>
+  <data name="MenuItem42.Text" xml:space="preserve">
+    <value>Completo</value>
+  </data>
+  <data name="MenuItem43.Text" xml:space="preserve">
+    <value>Reunião de Pais e Mestres</value>
+  </data>
+  <data name="MenuItem45.Text" xml:space="preserve">
+    <value>Completo</value>
+  </data>
+  <data name="MenuItem46.Text" xml:space="preserve">
+    <value>Somente Notas</value>
+  </data>
+  <data name="MenuItem30.Text" xml:space="preserve">
+    <value>Avaliação Final</value>
+  </data>
+  <data name="MenuItem22.Text" xml:space="preserve">
+    <value>Notas e Freqüências</value>
+  </data>
+  <data name="MenuItem58.Text" xml:space="preserve">
+    <value>Escola em Geral</value>
+  </data>
+  <data name="MenuItem57.Text" xml:space="preserve">
+    <value>Turmas</value>
+  </data>
+  <data name="MenuItem59.Text" xml:space="preserve">
+    <value>Evasão Escolar</value>
+  </data>
+  <data name="MenuItem60.Text" xml:space="preserve">
+    <value>Abandono</value>
+  </data>
+  <data name="MenuItem61.Text" xml:space="preserve">
+    <value>Transferidos</value>
+  </data>
+  <data name="MenuItem62.Text" xml:space="preserve">
+    <value>Licença Gestante</value>
+  </data>
+  <data name="MenuItem63.Text" xml:space="preserve">
+    <value>Licença Saúde</value>
+  </data>
+  <data name="MenuItem64.Text" xml:space="preserve">
+    <value>Remanejados</value>
+  </data>
+  <data name="MenuItem65.Text" xml:space="preserve">
+    <value>Óbitos</value>
+  </data>
+  <data name="MenuItem53.Text" xml:space="preserve">
+    <value>Desenvolvedor</value>
+  </data>
+  <data name="MenuItem56.Text" xml:space="preserve">
+    <value>Licença</value>
+  </data>
+  <data name="MenuItem68.Text" xml:space="preserve">
+    <value>Manual Nova Escola</value>
+  </data>
+  <data name="MenuItem67.Text" xml:space="preserve">
+    <value>Suporte Online</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StatusBar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="StatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 401</value>
+  </data>
+  <data name="StatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>803, 25</value>
+  </data>
+  <data name="StatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Name" xml:space="preserve">
+    <value>StatusBar1</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;StatusBar1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="StatusBarPanel1.Name" xml:space="preserve">
+    <value>StatusBarPanel1</value>
+  </data>
+  <data name="StatusBarPanel1.Text" xml:space="preserve">
+    <value>StatusBarPanel1</value>
+  </data>
+  <data name="StatusBarPanel2.Name" xml:space="preserve">
+    <value>StatusBarPanel2</value>
+  </data>
+  <data name="StatusBarPanel2.Text" xml:space="preserve">
+    <value>StatusBarPanel2</value>
+  </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>227, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>49</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>803, 426</value>
+  </data>
+  <data name="ppropaganda2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="ppropaganda2.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/4QAWRXhpZgAASUkqAAgAAAAAAAAAAAD/2wBDAAgGBgcGBQgHBwcJ
+        CQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJ
+        CQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+        MjL/wAARCABkAu4DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAA
+        AgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRol
+        JicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZ
+        mqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QA
+        HwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+        BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RV
+        VldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPE
+        xcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+        oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/Z
+</value>
+  </data>
+  <data name="ppropaganda2.ImageLocation" xml:space="preserve">
+    <value>http://suporte.isolucao.com.br/nedown/anovaescola.gif</value>
+  </data>
+  <data name="ppropaganda2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ppropaganda2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 307</value>
+  </data>
+  <data name="ppropaganda2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>803, 94</value>
+  </data>
+  <data name="ppropaganda2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="ppropaganda2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ppropaganda2.Name" xml:space="preserve">
+    <value>ppropaganda2</value>
+  </data>
+  <data name="&gt;&gt;ppropaganda2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ppropaganda2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ppropaganda2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tProfe.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tProfe.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tProfe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 157</value>
+  </data>
+  <data name="tProfe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="tProfe.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tProfe.Text" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="tProfe.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tProfe.Name" xml:space="preserve">
+    <value>tProfe</value>
+  </data>
+  <data name="&gt;&gt;tProfe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tProfe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tProfe.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tTudo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tTudo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tTudo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 188</value>
+  </data>
+  <data name="tTudo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="tTudo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tTudo.Text" xml:space="preserve">
+    <value>usuario</value>
+  </data>
+  <data name="tTudo.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;tTudo.Name" xml:space="preserve">
+    <value>tTudo</value>
+  </data>
+  <data name="&gt;&gt;tTudo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tTudo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tTudo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAQAICACAAAAAAAwAQAARgAAABAQAgAAAAAAsAAAAHYBAAAgIAAAAAAAAKgIAAAmAgAAEBAAAAAA
+        AABoBQAAzgoAACgAAAAgAAAAQAAAAAEAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AP//
+        4H///9wf//+/B///t8H//3Xw//99fP/+x97//rnX//2+dv/9f57/+13t//rB7f/24Gv/5eDb/+nB1//O
+        ebf/552v//nnb58+eV+uv57fsb/kP96/+T/WwfKf0HvlT9gXyqfQb8EHoN/6v3y/+T8CoAK//bVVP/6q
+        qr//IAB/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAoAAAAEAAAACAAAAABAAEAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        /wDtdwAA6wcAANuxAADXuwAAtxcAALnmAADedgAA560AAPnFAAB2gwAABwEAALHHAAC7xwAAF8cAAOQH
+        AAD0DwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACgAAAAgAAAAQAAAAAEACAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACA
+        AAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYWFgAcHBwAIiIiACkp
+        KQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAAMwAAAGYAAACZAAAA
+        zAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm/wAAmQAAAJkzAACZ
+        ZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/zAAzAAAAMwAzADMA
+        ZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNmZgAzZpkAM2bMADNm
+        /wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM/wAz/zMAM/9mADP/
+        mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYzmQBmM8wAZjP/AGZm
+        AABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbMMwBmzJkAZszMAGbM
+        /wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkzMwCZAGYAmTPMAJkA
+        /wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnMAACZzDMAZsxmAJnM
+        mQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwAmQDMAMwAmTMAAMwz
+        MwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZMwDMmWYAzJmZAMyZ
+        zADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/zADM//8AzAAzAP8A
+        ZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9mzADMZv8A/5kAAP+Z
+        MwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/ZgD//5kA///MAGZm
+        /wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKysgDX19cA3d3dAOPj
+        4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8ACgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCuzs7AoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKvLy8Cgrs7OwKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCry8vLy8vAoK7OzsCgoKCgoKCgoKCgoKCgoKCgoKCgoKvLzsvLy8vLwKCuzs
+        rwoKCgoKCgoKCgoKCgoKCgoKCry8vOy87Ly8vLy8Cgrs7AoKCgoKCgoKCgoKCgoKCgoKvLy8vLzsvOy8
+        vLy8vArsCgoKCgoKCgoKCgoKCgoKCry87OzsvLy8vLzsvLy8vAoKCgoKCgoKCgoKCgoKCgoKvOyYmJjs
+        7Ly8vOy87Ly8vAoKCgoKCgoKCgoKCgoKCry87JiYmJiY7Oy8vLzsvLwKCgoKCgoKCgoKCgoKCgoKvOyY
+        mJiYmJiYmOzsvLy8vAoKCgoKCgoKCgoKCgoKCry87JgSmJiYEpiYmJjsvLwKCgoKCgoKCgoKCgoKCgoK
+        vOyYmBISEhISmJiYmOy8vAoKCgoKCgoKCgoKCgoKCry87JiYmBLY2BISEpiY7LwKCgoKCgoKCgoKCgoK
+        Cg4KvOyYmJiYEtjY2BKYmOy8vAoKCgoKCgoKCgoKCgoKCrzs7JiYmBISEtgSmJiY7LwKCgoKCgoKCgoK
+        CgoKCgoKvLy87OyYmJiYEhKYmOy8vAoKCgoKCgoKCgoKCgoKCgoKvLy8vOzsmJiYEpiY7LwKCgoKCgoK
+        CgoKCgoKCgoKCgoKCry8vLzs7JiYmOy8vA4KCgoKCq+vCgoKCgqvrwoKCgoKDg68vLy87OyY7LwKCgoK
+        CgoKr/GvCgoKr/GvCgoKCgoKCgoKvLy8vA68vAoKCgoKCgqv8fGvr6/x8a8KCgoKCgoKCgoKCrwOrw4K
+        CgoKCgoKCgqv8fHx8aXxrwoKCgoKCgoKCgoKDq+vrwoKCgoKCgoKCq/xpfHxpfHxr6+vr68KCgoKCg6v
+        r6+vrw4KCgoKCgoKr/GlpaWlpfHx8fGvCgoKCgoOr6+vr6+vrw4KCgoKCgqv8fGlpaWlpaXxrwoKCgoK
+        Dq+vr6+vr6+vrw4KCgoKCq/xpaWlpaXx8a8KCgoKCgqvr6+vr6+vr6+vrwoKCgqv8aWlpaWl8fGvCgoK
+        CgoKCgoKCryvr68SCgoKCgoKr/Hx8fHxpaXxrwoKCgoKCgoKCgoKvK+vrxIKCgoKCgqvr6+vr6/xpfGv
+        ChISEhISEhISEhKvr6+vEgoKCgoKCgoKCgoKCq/x8a8Kr6+vr6+vr6+vr6+vr68SCgoKCgoKCgoKCgoK
+        Cq/xrwqvr6+vr6+vr6+vr6+vrxIKCgoKCgoKCgoKCgoKCq+vCry8vLy8vLy8vLy8vLy8CgoKCgoKCv//
+        4H///8Af//+AB///gAH//wAA//8AAP/+AAD//gAA//wAAP/8AAD/+AAB//gAAf/wAAP/4AAD/+AAB//A
+        AAf/4AAP//gAD58+AB+OP4AfgD/gP8A/+D/AAfAfwAPgD8AHwAfAD8AHgB/4PwA/+D8AIAA//CAAP/4g
+        AD//IAB/KAAAABAAAAAgAAAAAQAIAAAAAABAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACA
+        gACAAAAAgACAAICAAADAwMAAwNzAAPDKpgAEBAQACAgIAAwMDAAREREAFhYWABwcHAAiIiIAKSkpAFVV
+        VQBNTU0AQkJCADk5OQCAfP8AUFD/AJMA1gD/7MwAxtbvANbn5wCQqa0AAAAzAAAAZgAAAJkAAADMAAAz
+        AAAAMzMAADNmAAAzmQAAM8wAADP/AABmAAAAZjMAAGZmAABmmQAAZswAAGb/AACZAAAAmTMAAJlmAACZ
+        mQAAmcwAAJn/AADMAAAAzDMAAMxmAADMmQAAzMwAAMz/AAD/ZgAA/5kAAP/MADMAAAAzADMAMwBmADMA
+        mQAzAMwAMwD/ADMzAAAzMzMAMzNmADMzmQAzM8wAMzP/ADNmAAAzZjMAM2ZmADNmmQAzZswAM2b/ADOZ
+        AAAzmTMAM5lmADOZmQAzmcwAM5n/ADPMAAAzzDMAM8xmADPMmQAzzMwAM8z/ADP/MwAz/2YAM/+ZADP/
+        zAAz//8AZgAAAGYAMwBmAGYAZgCZAGYAzABmAP8AZjMAAGYzMwBmM2YAZjOZAGYzzABmM/8AZmYAAGZm
+        MwBmZmYAZmaZAGZmzABmmQAAZpkzAGaZZgBmmZkAZpnMAGaZ/wBmzAAAZswzAGbMmQBmzMwAZsz/AGb/
+        AABm/zMAZv+ZAGb/zADMAP8A/wDMAJmZAACZM5kAmQCZAJkAzACZAAAAmTMzAJkAZgCZM8wAmQD/AJlm
+        AACZZjMAmTNmAJlmmQCZZswAmTP/AJmZMwCZmWYAmZmZAJmZzACZmf8AmcwAAJnMMwBmzGYAmcyZAJnM
+        zACZzP8Amf8AAJn/MwCZzGYAmf+ZAJn/zACZ//8AzAAAAJkAMwDMAGYAzACZAMwAzACZMwAAzDMzAMwz
+        ZgDMM5kAzDPMAMwz/wDMZgAAzGYzAJlmZgDMZpkAzGbMAJlm/wDMmQAAzJkzAMyZZgDMmZkAzJnMAMyZ
+        /wDMzAAAzMwzAMzMZgDMzJkAzMzMAMzM/wDM/wAAzP8zAJn/ZgDM/5kAzP/MAMz//wDMADMA/wBmAP8A
+        mQDMMwAA/zMzAP8zZgD/M5kA/zPMAP8z/wD/ZgAA/2YzAMxmZgD/ZpkA/2bMAMxm/wD/mQAA/5kzAP+Z
+        ZgD/mZkA/5nMAP+Z/wD/zAAA/8wzAP/MZgD/zJkA/8zMAP/M/wD//zMAzP9mAP//mQD//8wAZmb/AGb/
+        ZgBm//8A/2ZmAP9m/wD//2YAIQClAF9fXwB3d3cAhoaGAJaWlgDLy8sAsrKyANfX1wDd3d0A4+PjAOrq
+        6gDx8fEA+Pj4APD7/wCkoKAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAKCgoKvLzsmBKY
+        mJgSmJiYCgoKCrzsmJgSEhISEpiYmAoKCry87JiYmBLY2BISEpgKDgq87JiYmJgS2NjYEpiYCgq8vOyY
+        mJgSEhLYEpiYmAoKvLy87OyYmJiYEhKYmOwKCgq8vLy87OyYmJgSmJjsCgoKCgq8vLy87OwKmJjsvAoK
+        CgoKDw+8vLwKrwqY7LxtCgoKbQoKCgoKr6+vCgoKbW1tbW0KCgoKr6+vr68KCgpt2NhtbW0KCgqvrxMK
+        CgoKbdjY2G0KCgoKr68TCgoKbW1t2G0KExMTE6+vEwoKCgoKCm1tCq+vr6+vrxMKCgoKCgoKbQrw8PDw
+        8PDwCgoK4AAAAOAAAADAAAAAgAAAAIAAAACAAAAAgAAAAOAAAAD4AAAAd4MAAAcBAACBxwAAg8cAAAQH
+        AADkBwAA9AcAAA==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Nova Escola</value>
+  </data>
+  <data name="&gt;&gt;MainMenu1.Name" xml:space="preserve">
+    <value>MainMenu1</value>
+  </data>
+  <data name="&gt;&gt;MainMenu1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MainMenu, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mEstrutura.Name" xml:space="preserve">
+    <value>mEstrutura</value>
+  </data>
+  <data name="&gt;&gt;mEstrutura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem14.Name" xml:space="preserve">
+    <value>MenuItem14</value>
+  </data>
+  <data name="&gt;&gt;MenuItem14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem35.Name" xml:space="preserve">
+    <value>MenuItem35</value>
+  </data>
+  <data name="&gt;&gt;MenuItem35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem47.Name" xml:space="preserve">
+    <value>MenuItem47</value>
+  </data>
+  <data name="&gt;&gt;MenuItem47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem48.Name" xml:space="preserve">
+    <value>MenuItem48</value>
+  </data>
+  <data name="&gt;&gt;MenuItem48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem15.Name" xml:space="preserve">
+    <value>MenuItem15</value>
+  </data>
+  <data name="&gt;&gt;MenuItem15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem32.Name" xml:space="preserve">
+    <value>MenuItem32</value>
+  </data>
+  <data name="&gt;&gt;MenuItem32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem33.Name" xml:space="preserve">
+    <value>MenuItem33</value>
+  </data>
+  <data name="&gt;&gt;MenuItem33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem3.Name" xml:space="preserve">
+    <value>MenuItem3</value>
+  </data>
+  <data name="&gt;&gt;MenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem16.Name" xml:space="preserve">
+    <value>MenuItem16</value>
+  </data>
+  <data name="&gt;&gt;MenuItem16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem17.Name" xml:space="preserve">
+    <value>MenuItem17</value>
+  </data>
+  <data name="&gt;&gt;MenuItem17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem18.Name" xml:space="preserve">
+    <value>MenuItem18</value>
+  </data>
+  <data name="&gt;&gt;MenuItem18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem36.Name" xml:space="preserve">
+    <value>MenuItem36</value>
+  </data>
+  <data name="&gt;&gt;MenuItem36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem37.Name" xml:space="preserve">
+    <value>MenuItem37</value>
+  </data>
+  <data name="&gt;&gt;MenuItem37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem38.Name" xml:space="preserve">
+    <value>MenuItem38</value>
+  </data>
+  <data name="&gt;&gt;MenuItem38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem39.Name" xml:space="preserve">
+    <value>MenuItem39</value>
+  </data>
+  <data name="&gt;&gt;MenuItem39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem40.Name" xml:space="preserve">
+    <value>MenuItem40</value>
+  </data>
+  <data name="&gt;&gt;MenuItem40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem49.Name" xml:space="preserve">
+    <value>MenuItem49</value>
+  </data>
+  <data name="&gt;&gt;MenuItem49.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem50.Name" xml:space="preserve">
+    <value>MenuItem50</value>
+  </data>
+  <data name="&gt;&gt;MenuItem50.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem51.Name" xml:space="preserve">
+    <value>MenuItem51</value>
+  </data>
+  <data name="&gt;&gt;MenuItem51.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem8.Name" xml:space="preserve">
+    <value>MenuItem8</value>
+  </data>
+  <data name="&gt;&gt;MenuItem8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem19.Name" xml:space="preserve">
+    <value>MenuItem19</value>
+  </data>
+  <data name="&gt;&gt;MenuItem19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem20.Name" xml:space="preserve">
+    <value>MenuItem20</value>
+  </data>
+  <data name="&gt;&gt;MenuItem20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem24.Name" xml:space="preserve">
+    <value>MenuItem24</value>
+  </data>
+  <data name="&gt;&gt;MenuItem24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem21.Name" xml:space="preserve">
+    <value>MenuItem21</value>
+  </data>
+  <data name="&gt;&gt;MenuItem21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem26.Name" xml:space="preserve">
+    <value>MenuItem26</value>
+  </data>
+  <data name="&gt;&gt;MenuItem26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem1.Name" xml:space="preserve">
+    <value>MenuItem1</value>
+  </data>
+  <data name="&gt;&gt;MenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem4.Name" xml:space="preserve">
+    <value>MenuItem4</value>
+  </data>
+  <data name="&gt;&gt;MenuItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem9.Name" xml:space="preserve">
+    <value>MenuItem9</value>
+  </data>
+  <data name="&gt;&gt;MenuItem9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem11.Name" xml:space="preserve">
+    <value>MenuItem11</value>
+  </data>
+  <data name="&gt;&gt;MenuItem11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem12.Name" xml:space="preserve">
+    <value>MenuItem12</value>
+  </data>
+  <data name="&gt;&gt;MenuItem12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem13.Name" xml:space="preserve">
+    <value>MenuItem13</value>
+  </data>
+  <data name="&gt;&gt;MenuItem13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mNF.Name" xml:space="preserve">
+    <value>mNF</value>
+  </data>
+  <data name="&gt;&gt;mNF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem23.Name" xml:space="preserve">
+    <value>MenuItem23</value>
+  </data>
+  <data name="&gt;&gt;MenuItem23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem6.Name" xml:space="preserve">
+    <value>MenuItem6</value>
+  </data>
+  <data name="&gt;&gt;MenuItem6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem25.Name" xml:space="preserve">
+    <value>MenuItem25</value>
+  </data>
+  <data name="&gt;&gt;MenuItem25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem28.Name" xml:space="preserve">
+    <value>MenuItem28</value>
+  </data>
+  <data name="&gt;&gt;MenuItem28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem27.Name" xml:space="preserve">
+    <value>MenuItem27</value>
+  </data>
+  <data name="&gt;&gt;MenuItem27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem29.Name" xml:space="preserve">
+    <value>MenuItem29</value>
+  </data>
+  <data name="&gt;&gt;MenuItem29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem10.Name" xml:space="preserve">
+    <value>MenuItem10</value>
+  </data>
+  <data name="&gt;&gt;MenuItem10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mRelatorio.Name" xml:space="preserve">
+    <value>mRelatorio</value>
+  </data>
+  <data name="&gt;&gt;mRelatorio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem34.Name" xml:space="preserve">
+    <value>MenuItem34</value>
+  </data>
+  <data name="&gt;&gt;MenuItem34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem42.Name" xml:space="preserve">
+    <value>MenuItem42</value>
+  </data>
+  <data name="&gt;&gt;MenuItem42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem43.Name" xml:space="preserve">
+    <value>MenuItem43</value>
+  </data>
+  <data name="&gt;&gt;MenuItem43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem31.Name" xml:space="preserve">
+    <value>MenuItem31</value>
+  </data>
+  <data name="&gt;&gt;MenuItem31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem45.Name" xml:space="preserve">
+    <value>MenuItem45</value>
+  </data>
+  <data name="&gt;&gt;MenuItem45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem46.Name" xml:space="preserve">
+    <value>MenuItem46</value>
+  </data>
+  <data name="&gt;&gt;MenuItem46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem7.Name" xml:space="preserve">
+    <value>MenuItem7</value>
+  </data>
+  <data name="&gt;&gt;MenuItem7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem30.Name" xml:space="preserve">
+    <value>MenuItem30</value>
+  </data>
+  <data name="&gt;&gt;MenuItem30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem22.Name" xml:space="preserve">
+    <value>MenuItem22</value>
+  </data>
+  <data name="&gt;&gt;MenuItem22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem2.Name" xml:space="preserve">
+    <value>MenuItem2</value>
+  </data>
+  <data name="&gt;&gt;MenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem69.Name" xml:space="preserve">
+    <value>MenuItem69</value>
+  </data>
+  <data name="&gt;&gt;MenuItem69.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem55.Name" xml:space="preserve">
+    <value>MenuItem55</value>
+  </data>
+  <data name="&gt;&gt;MenuItem55.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem54.Name" xml:space="preserve">
+    <value>MenuItem54</value>
+  </data>
+  <data name="&gt;&gt;MenuItem54.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem44.Name" xml:space="preserve">
+    <value>MenuItem44</value>
+  </data>
+  <data name="&gt;&gt;MenuItem44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem58.Name" xml:space="preserve">
+    <value>MenuItem58</value>
+  </data>
+  <data name="&gt;&gt;MenuItem58.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem57.Name" xml:space="preserve">
+    <value>MenuItem57</value>
+  </data>
+  <data name="&gt;&gt;MenuItem57.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem59.Name" xml:space="preserve">
+    <value>MenuItem59</value>
+  </data>
+  <data name="&gt;&gt;MenuItem59.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem60.Name" xml:space="preserve">
+    <value>MenuItem60</value>
+  </data>
+  <data name="&gt;&gt;MenuItem60.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem61.Name" xml:space="preserve">
+    <value>MenuItem61</value>
+  </data>
+  <data name="&gt;&gt;MenuItem61.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem62.Name" xml:space="preserve">
+    <value>MenuItem62</value>
+  </data>
+  <data name="&gt;&gt;MenuItem62.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem63.Name" xml:space="preserve">
+    <value>MenuItem63</value>
+  </data>
+  <data name="&gt;&gt;MenuItem63.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem64.Name" xml:space="preserve">
+    <value>MenuItem64</value>
+  </data>
+  <data name="&gt;&gt;MenuItem64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem65.Name" xml:space="preserve">
+    <value>MenuItem65</value>
+  </data>
+  <data name="&gt;&gt;MenuItem65.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem41.Name" xml:space="preserve">
+    <value>MenuItem41</value>
+  </data>
+  <data name="&gt;&gt;MenuItem41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem52.Name" xml:space="preserve">
+    <value>MenuItem52</value>
+  </data>
+  <data name="&gt;&gt;MenuItem52.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem53.Name" xml:space="preserve">
+    <value>MenuItem53</value>
+  </data>
+  <data name="&gt;&gt;MenuItem53.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem56.Name" xml:space="preserve">
+    <value>MenuItem56</value>
+  </data>
+  <data name="&gt;&gt;MenuItem56.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem66.Name" xml:space="preserve">
+    <value>MenuItem66</value>
+  </data>
+  <data name="&gt;&gt;MenuItem66.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem68.Name" xml:space="preserve">
+    <value>MenuItem68</value>
+  </data>
+  <data name="&gt;&gt;MenuItem68.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem67.Name" xml:space="preserve">
+    <value>MenuItem67</value>
+  </data>
+  <data name="&gt;&gt;MenuItem67.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuItem5.Name" xml:space="preserve">
+    <value>MenuItem5</value>
+  </data>
+  <data name="&gt;&gt;MenuItem5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusBarPanel1.Name" xml:space="preserve">
+    <value>StatusBarPanel1</value>
+  </data>
+  <data name="&gt;&gt;StatusBarPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusBarPanel2.Name" xml:space="preserve">
+    <value>StatusBarPanel2</value>
+  </data>
+  <data name="&gt;&gt;StatusBarPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Name" xml:space="preserve">
+    <value>Timer1</value>
+  </data>
+  <data name="&gt;&gt;Timer1.Type" xml:space="preserve">
+    <value>System.Timers.Timer, System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmPrincipal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

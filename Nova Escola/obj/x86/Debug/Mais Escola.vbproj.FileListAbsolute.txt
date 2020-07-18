@@ -1,0 +1,2045 @@
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe.config
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.exe
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.xml
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.pdb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\chromedriver.exe
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Instalacao Morpheus.exe
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Professor!.exe
+T:\Mais Escola\Nova Escola\bin\x86\Debug\mysql.sql
+T:\Mais Escola\Nova Escola\bin\x86\Debug\mysqldump.exe
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Suporte Rápido.exe
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ABEvasaoEscolar.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicao.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicaoSala.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11B.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega1.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega2.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega3.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega4.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntregaAF.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status1.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status2.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status3.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status4.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_StatusAF.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencionalP.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Boletim.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimCN.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimSN.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletinsAtraso.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BolsaFamilia.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BolsaVariavelJovem.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudante.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudanteG.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Consolidado.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAF.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFConselho.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFdt.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoCompleto.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasao.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasaoCompl.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoProfessor.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoRendCompleto.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoRendCompleto2.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovados.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA2.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\DE.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Delib11.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FAEvasaoEscolar.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAluno.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAlunoP.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaCompletaS.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos2.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosDet.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodo.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodoDet.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmas.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmasDet.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\HistoricoAuxiliar.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LGEvasaoEscolar.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntrega.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntregaPS.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LSEvasaoEscolar.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencional.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos2.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos3.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos4.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos5.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ReciboProfessor.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\REEvasaoEscolar.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\TREvasaoEscolar.rpt
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ABEvasaoEscolar.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicao.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicaoSala.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11B.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega1.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega2.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega3.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega4.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntregaAF.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status1.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status2.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status3.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status4.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_StatusAF.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencionalP.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Boletim.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimCN.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimSN.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletinsAtraso.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BolsaFamilia.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BolsaVariavelJovem.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudante.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudanteG.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Consolidado.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAF.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFConselho.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFdt.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoCompleto.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasao.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasaoCompl.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoProfessor.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoRendCompleto.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoRendCompleto2.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovados.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA2.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\DE.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Delib11.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FAEvasaoEscolar.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAluno.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAlunoP.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaCompletaS.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos2.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosDet.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodo.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodoDet.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmas.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmasDet.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\HistoricoAuxiliar.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LGEvasaoEscolar.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntrega.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntregaPS.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LSEvasaoEscolar.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencional.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos2.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos3.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos4.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos5.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ReciboProfessor.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\REEvasaoEscolar.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\TREvasaoEscolar.vb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe.manifest
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.application
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.pdb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\cpCore.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.Shared.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.BonusSkins.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Charts.v12.2.Core.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.CodeParser.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Data.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DemoData.v12.2.Core.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DemoData.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Office.v12.2.Core.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Printing.v12.2.Core.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.RichEdit.v12.2.Core.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraBars.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraEditors.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGrid.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraLayout.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraNavBar.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPrinting.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraTreeList.v12.2.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Interop.SHDocVw.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.Build.Utilities.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Configuration.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Data.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Deployment.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Design.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Drawing.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.EnterpriseServices.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Management.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Messaging.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Runtime.Remoting.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Runtime.Serialization.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.ServiceModel.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.ServiceProcess.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Web.Services.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Windows.Forms.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\System.Xml.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\WindowsBase.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\stdole.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\cpCore.pdb
+T:\Mais Escola\Nova Escola\bin\x86\Debug\cpCore.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Data.v12.2.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Office.v12.2.Core.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Printing.v12.2.Core.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.RichEdit.v12.2.Core.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v12.2.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraBars.v12.2.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraEditors.v12.2.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGrid.v12.2.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraLayout.v12.2.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraNavBar.v12.2.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPrinting.v12.2.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraTreeList.v12.2.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Data.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Data.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Data.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Data.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Office.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Office.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Office.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Office.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Printing.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Printing.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Printing.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Printing.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.RichEdit.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.RichEdit.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.RichEdit.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.RichEdit.v12.2.Core.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Utils.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Utils.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Utils.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Utils.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraBars.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraBars.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraBars.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraBars.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraEditors.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraEditors.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraEditors.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraEditors.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraGrid.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraGrid.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraGrid.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraGrid.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraLayout.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraLayout.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraLayout.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraLayout.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraNavBar.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraNavBar.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraNavBar.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraNavBar.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraPrinting.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraPrinting.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraPrinting.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraPrinting.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraTreeList.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraTreeList.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraTreeList.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraTreeList.v12.2.resources.dll
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.vbprojResolveAssemblyReference.cache
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmBevAplicar.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.FrmAdmBolsas.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.FrmAdmDelib11.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmDelib11Ficha.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmDisciplinas.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmFerOpcoes.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmTurma.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmUsuarios.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAMControle.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAMGerenciar.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBMBoletim.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBMPreparar.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBWPublicar.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBWTrazer.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadAlunoFichaCompleta.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadAlunoFichaSimples.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadBoletim.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadBoletimTela.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmErro.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmGerencialBolAtraso.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmGerencialLogs.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmImpBoletins.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmImpListas.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmMaisEscola.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManAulasPrevistas.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManBoletim.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManBoletimTela.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_ATA.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Auxiliar.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptGrafico.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptRelatorio.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_CartEstudante.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Declaracao.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Historico.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmTRSEDOperador.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmLogin2.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobreEscola.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptRelatorioAlunos.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobre.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobre2.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmLogin.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.Resources.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmFerBackup.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSplash.resources
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.vbproj.GenerateResource.Cache
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.exe.licenses
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.TrustInfo.xml
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.exe.manifest
+T:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.application
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\FlashControlV71.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+T:\Mais Escola\Nova Escola\bin\x86\Debug\ShockwaveFlashObjects.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.vbprojResolveAssemblyReference.cache
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmBevAplicar.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.FrmAdmBolsas.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.FrmAdmDelib11.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmDelib11Ficha.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmDisciplinas.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmFerOpcoes.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmTurma.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmUsuarios.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAMControle.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAMGerenciar.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBMBoletim.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBMPreparar.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBWPublicar.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBWTrazer.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadAlunoFichaCompleta.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadAlunoFichaSimples.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadBoletim.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadBoletimTela.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmErro.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmGerencialBolAtraso.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmGerencialLogs.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmImpBoletins.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmImpListas.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmMaisEscola.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManAulasPrevistas.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManBoletim.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManBoletimTela.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptRelatorio.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_ATA.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Auxiliar.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptGrafico.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_CartEstudante.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Declaracao.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Historico.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmTRSEDOperador.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmLogin2.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobreEscola.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptRelatorioAlunos.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobre.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobre2.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmLogin.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.Resources.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmFerBackup.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSplash.resources
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.vbproj.GenerateResource.Cache
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.exe.licenses
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe.config
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\chromedriver.exe
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Instalacao Morpheus.exe
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Professor!.exe
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\mysql.sql
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\mysqldump.exe
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Suporte Rápido.exe
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ABEvasaoEscolar.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicao.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicaoSala.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11B.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega1.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega2.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega3.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega4.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntregaAF.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status1.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status2.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status3.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status4.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_StatusAF.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencionalP.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Boletim.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimCN.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimSN.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletinsAtraso.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BolsaFamilia.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BolsaVariavelJovem.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudante.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudanteG.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Consolidado.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAF.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFConselho.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFdt.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoCompleto.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasao.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasaoCompl.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoProfessor.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoRendCompleto.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoRendCompleto2.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovados.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA2.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\DE.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Delib11.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FAEvasaoEscolar.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAluno.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAlunoP.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaCompletaS.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos2.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosDet.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodo.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodoDet.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmas.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmasDet.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\HistoricoAuxiliar.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LGEvasaoEscolar.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntrega.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntregaPS.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LSEvasaoEscolar.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencional.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos2.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos3.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos4.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos5.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ReciboProfessor.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\REEvasaoEscolar.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\TREvasaoEscolar.rpt
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ABEvasaoEscolar.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicao.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicaoSala.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11B.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega1.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega2.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega3.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega4.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntregaAF.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status1.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status2.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status3.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status4.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_StatusAF.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencionalP.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Boletim.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimCN.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimSN.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletinsAtraso.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BolsaFamilia.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BolsaVariavelJovem.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudante.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudanteG.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Consolidado.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAF.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFConselho.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFdt.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoCompleto.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasao.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasaoCompl.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoProfessor.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoRendCompleto.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoRendCompleto2.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovados.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA2.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\DE.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Delib11.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FAEvasaoEscolar.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAluno.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAlunoP.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaCompletaS.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos2.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosDet.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodo.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodoDet.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmas.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmasDet.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\HistoricoAuxiliar.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LGEvasaoEscolar.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntrega.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntregaPS.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LSEvasaoEscolar.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencional.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos2.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos3.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos4.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RAlunos5.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ReciboProfessor.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\REEvasaoEscolar.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\TREvasaoEscolar.vb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe.manifest
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.application
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.pdb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Bytescout.PDFExtractor.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\cpCore.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.Shared.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevComponents.DotNetBar2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.BonusSkins.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Charts.v12.2.Core.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.CodeParser.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Data.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DemoData.v12.2.Core.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DemoData.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Office.v12.2.Core.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Printing.v12.2.Core.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.RichEdit.v12.2.Core.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraBars.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraEditors.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGrid.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraLayout.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraNavBar.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPrinting.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraTreeList.v12.2.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Interop.SHDocVw.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.Build.Utilities.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\MySql.Data.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Selenium.WebDriverBackedSelenium.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Configuration.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Data.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Deployment.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Design.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Drawing.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.EnterpriseServices.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Management.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Messaging.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Runtime.Remoting.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Runtime.Serialization.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.ServiceModel.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.ServiceProcess.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Web.Services.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Windows.Forms.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Xml.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ThoughtWorks.Selenium.Core.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.Support.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WindowsBase.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\FlashControlV71.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\stdole.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ShockwaveFlashObjects.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Bytescout.PDFExtractor.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\cpCore.pdb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\cpCore.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevComponents.DotNetBar2.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Data.v12.2.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Office.v12.2.Core.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Printing.v12.2.Core.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.RichEdit.v12.2.Core.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v12.2.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraBars.v12.2.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraEditors.v12.2.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGrid.v12.2.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraLayout.v12.2.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraNavBar.v12.2.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPrinting.v12.2.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraTreeList.v12.2.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Selenium.WebDriverBackedSelenium.pdb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Selenium.WebDriverBackedSelenium.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ThoughtWorks.Selenium.Core.pdb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ThoughtWorks.Selenium.Core.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.pdb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.Support.pdb
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.Support.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Data.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Data.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Data.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Data.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Office.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Office.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Office.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Office.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Printing.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Printing.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Printing.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Printing.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.RichEdit.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.RichEdit.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.RichEdit.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.RichEdit.v12.2.Core.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Utils.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Utils.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Utils.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Utils.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraBars.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraBars.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraBars.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraBars.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraEditors.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraEditors.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraEditors.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraEditors.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraGrid.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraGrid.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraGrid.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraGrid.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraLayout.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraLayout.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraLayout.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraLayout.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraNavBar.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraNavBar.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraNavBar.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraNavBar.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraPrinting.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraPrinting.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraPrinting.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraPrinting.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraTreeList.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraTreeList.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraTreeList.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraTreeList.v12.2.resources.dll
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.TrustInfo.xml
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.exe.manifest
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.application
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.exe
+S:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\chromedriver.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Instalacao Morpheus.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Professor!.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\mysql.sql
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\mysqldump.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Suporte Rápido.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ABEvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicao.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicaoSala.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11B.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega1.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega2.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega3.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega4.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntregaAF.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status1.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status2.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status3.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status4.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_StatusAF.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencionalP.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Boletim.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimCN.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletinsAtraso.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudante.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudanteG.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Consolidado.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFdt.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAF.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosReqCon.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoCompleto.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasao.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoCompleto.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoProfessor.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoNotas.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoFaltas.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovados.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA2.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\DE.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FAEvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAluno.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAlunoP.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCompleta.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos2.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosDet.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodo.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodoDet.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmas.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmasDet.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\HistoricoAuxiliar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LGEvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntrega.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntregaPS.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LSEvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencional.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosReuniao.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCIAula.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCIDiario.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosPiloto.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ReciboProfessor.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\REEvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\TREvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ABEvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicao.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicaoSala.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11B.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega1.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega2.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega3.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega4.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntregaAF.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status1.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status2.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status3.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status4.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_StatusAF.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencionalP.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Boletim.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimCN.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletinsAtraso.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudante.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudanteG.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Consolidado.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFdt.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAF.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosReqCon.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoCompleto.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasao.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoCompleto.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoProfessor.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoNotas.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoFaltas.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovados.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA2.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\DE.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FAEvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAluno.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAlunoP.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCompleta.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos2.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosDet.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodo.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodoDet.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmas.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmasDet.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\HistoricoAuxiliar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LGEvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntrega.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntregaPS.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LSEvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencional.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosReuniao.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCIAula.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCIDiario.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosPiloto.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ReciboProfessor.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\REEvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\rpts\TREvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe.config
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe.manifest
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.application
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.BonusSkins.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Charts.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.CodeParser.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Data.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DemoData.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DemoData.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Office.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.PivotGrid.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Printing.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.RichEdit.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Sparkline.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Spreadsheet.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v16.1.UI.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpf.Ribbon.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraBars.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraCharts.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Wizard.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraEditors.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGrid.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraLayout.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraNavBar.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPdfViewer.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPrinting.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraReports.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraReports.v16.1.Extensions.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraSpreadsheet.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraTreeList.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.Build.Utilities.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Configuration.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Data.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Deployment.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Design.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Drawing.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.EnterpriseServices.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Management.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Messaging.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Runtime.Remoting.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Runtime.Serialization.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.ServiceModel.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.ServiceProcess.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Web.Services.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Windows.Forms.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\System.Xml.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ThoughtWorks.Selenium.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.Support.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WindowsBase.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\FlashControlV71.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Pdf.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DataAccess.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpf.Core.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Mvvm.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraVerticalGrid.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DataAccess.v16.1.UI.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Extensions.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPivotGrid.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\stdole.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ShockwaveFlashObjects.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpo.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraDiagram.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Diagram.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Bytescout.PDFExtractor.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Data.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Office.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Printing.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.RichEdit.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Spreadsheet.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpf.Ribbon.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraBars.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraEditors.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGrid.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraLayout.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraNavBar.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPdfViewer.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPrinting.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Wizard.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraCharts.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.PivotGrid.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Sparkline.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v16.1.UI.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraReports.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraReports.v16.1.Extensions.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraSpreadsheet.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraTreeList.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Selenium.WebDriverBackedSelenium.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ThoughtWorks.Selenium.Core.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ThoughtWorks.Selenium.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.Support.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.Support.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Pdf.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DataAccess.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpf.Core.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Mvvm.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraVerticalGrid.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DataAccess.v16.1.UI.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPivotGrid.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpo.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraDiagram.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Diagram.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Data.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Data.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Data.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Data.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Utils.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Utils.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraPdfViewer.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraPdfViewer.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraPdfViewer.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraPdfViewer.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraCharts.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraCharts.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraCharts.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraCharts.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Utils.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Utils.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Utils.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Utils.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraReports.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraReports.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraReports.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraReports.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.DataAccess.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.DataAccess.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.DataAccess.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.DataAccess.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.DataAccess.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.DataAccess.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.DataAccess.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.DataAccess.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.vbprojResolveAssemblyReference.cache
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmBevAplicar.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.FrmAdmBolsas.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.FrmAdmDelib11.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmDelib11Ficha.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmDisciplinas.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmFerOpcoes.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmTurma.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmUsuarios.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAMControle.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAMGerenciar.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBMBoletim.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBMPreparar.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBWPublicar.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBWTrazer.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadAlunoFichaCompleta.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadAlunoFichaSimples.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadBoletim.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadBoletimTela.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmErro.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmGerencialBolAtraso.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Consolidado.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmGerencialLogs.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmImpListas.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmMaisEscola.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManAulasPrevistas.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManBoletim.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManBoletimTela.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptRelatorio.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_ATA.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Auxiliar.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptGrafico.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_BuscaAluno.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_CartEstudante.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Declaracao.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmTRSEDOperador.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmLogin2.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobreEscola.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobre.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobre2.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmLogin.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmUtilDiarioOficial.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmUtilPDF.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmUtilPlanilha.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmUtilRelatorios.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmUtilTexto.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.Resources.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmFerBackup.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSplash.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.PrintRibbonControllerResources.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.XRDesignRibbonControllerResources.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.vbproj.GenerateResource.Cache
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.exe.licenses
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.TrustInfo.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.exe.manifest
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.application
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\Bytescout.PDFExtractor.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.Shared.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Debug\MySql.Data.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\chromedriver.exe
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Instalacao Morpheus.exe
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Professor!.exe
+M:\Mais Escola\Nova Escola\bin\x86\Debug\mysql.sql
+M:\Mais Escola\Nova Escola\bin\x86\Debug\mysqldump.exe
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Suporte Rápido.exe
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ABEvasaoEscolar.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicao.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicaoSala.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11B.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega1.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega2.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega3.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega4.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntregaAF.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status1.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status2.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status3.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status4.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_StatusAF.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencionalP.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Boletim.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimCN.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletinsAtraso.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudante.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudanteG.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Consolidado.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFdt.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAF.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmasBimestre.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosReqCon.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoCompleto.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasao.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoCompleto.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoProfessor.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoNotas.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoFaltas.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovados.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA2.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\DE.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FAEvasaoEscolar.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAluno.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAlunoP.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCompleta.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos2.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosDet.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodo.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodoDet.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmas.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmasDet.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\HistoricoAuxiliar.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LGEvasaoEscolar.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntrega.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntregaPS.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LSEvasaoEscolar.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencional.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosReuniao.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCIAula.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCIDiario.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosPiloto.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ReciboProfessor.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\REEvasaoEscolar.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\TREvasaoEscolar.rpt
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ABEvasaoEscolar.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicao.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmAtribuicaoSala.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmDelib11B.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega1.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega2.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega3.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega4.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntregaAF.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status1.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status2.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status3.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_Status4.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\AdmStatusEntrega_StatusAF.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencionalP.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Boletim.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletimCN.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\BoletinsAtraso.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudante.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\CarteiraEstudanteG.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Consolidado.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAFdt.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoAF.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmasBimestre.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosReqCon.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoCompleto.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoEvasao.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoCompleto.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoProfessor.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoNotas.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\RendimentoFaltas.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovados.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ConsolidadoReprovadosATA2.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\DE.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FAEvasaoEscolar.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAluno.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\FichaAlunoP.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCompleta.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\Graficos2.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosDet.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodo.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGPeriodoDet.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmas.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\GraficosGTurmasDet.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\HistoricoAuxiliar.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LGEvasaoEscolar.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntrega.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaEntregaPS.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\LSEvasaoEscolar.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ataConvencional.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosReuniao.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCIAula.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosCIDiario.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ListaAlunosPiloto.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\ReciboProfessor.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\REEvasaoEscolar.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\rpts\TREvasaoEscolar.vb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\MaisEscola_LUS.pdf
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe.config
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe.manifest
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.application
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.exe
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.pdb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Mais Escola.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Bytescout.PDFExtractor.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\cpCore.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.CrystalReports.Engine.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportSource.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.Shared.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.Windows.Forms.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.BonusSkins.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Charts.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.CodeParser.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Data.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DemoData.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DemoData.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Office.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.PivotGrid.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Printing.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.RichEdit.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Sparkline.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Spreadsheet.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v16.1.UI.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpf.Ribbon.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraBars.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraCharts.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Wizard.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraEditors.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGrid.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraLayout.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraNavBar.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPdfViewer.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPrinting.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraReports.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraReports.v16.1.Extensions.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraSpreadsheet.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraTreeList.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.Build.Utilities.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\MySql.Data.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Selenium.WebDriverBackedSelenium.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Configuration.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Data.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Deployment.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Design.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Drawing.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.EnterpriseServices.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Management.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Messaging.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Runtime.Remoting.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Runtime.Serialization.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.ServiceModel.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.ServiceProcess.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Web.Services.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Windows.Forms.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\System.Xml.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ThoughtWorks.Selenium.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.Support.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\WindowsBase.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\FlashControlV71.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Pdf.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DataAccess.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpf.Core.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Mvvm.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraVerticalGrid.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DataAccess.v16.1.UI.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Extensions.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPivotGrid.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\stdole.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ShockwaveFlashObjects.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpo.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraDiagram.v16.1.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Diagram.v16.1.Core.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Bytescout.PDFExtractor.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\cpCore.pdb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\cpCore.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Data.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Office.v16.1.Core.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Printing.v16.1.Core.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.RichEdit.v16.1.Core.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Spreadsheet.v16.1.Core.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpf.Ribbon.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraBars.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraEditors.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGrid.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraLayout.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraNavBar.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPdfViewer.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPrinting.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraCharts.v16.1.Wizard.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraCharts.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.PivotGrid.v16.1.Core.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Sparkline.v16.1.Core.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Utils.v16.1.UI.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraReports.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraReports.v16.1.Extensions.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraSpreadsheet.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraTreeList.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Selenium.WebDriverBackedSelenium.pdb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\Selenium.WebDriverBackedSelenium.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ThoughtWorks.Selenium.Core.pdb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ThoughtWorks.Selenium.Core.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.pdb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.Support.pdb
+M:\Mais Escola\Nova Escola\bin\x86\Debug\WebDriver.Support.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Pdf.v16.1.Core.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DataAccess.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpf.Core.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Mvvm.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraVerticalGrid.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraGauges.v16.1.Core.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.DataAccess.v16.1.UI.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraPivotGrid.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Xpo.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.XtraDiagram.v16.1.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\DevExpress.Diagram.v16.1.Core.xml
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Data.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Data.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Data.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Data.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Data.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Office.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Printing.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.RichEdit.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Utils.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Utils.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Utils.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraBars.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraEditors.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraLayout.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraNavBar.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraPdfViewer.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraPdfViewer.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraPdfViewer.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraPdfViewer.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraPdfViewer.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraPrinting.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraCharts.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraCharts.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraCharts.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraCharts.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraCharts.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.PivotGrid.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.PivotGrid.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.PivotGrid.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.PivotGrid.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.PivotGrid.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Sparkline.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Utils.v16.1.UI.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Utils.v16.1.UI.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Utils.v16.1.UI.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Utils.v16.1.UI.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Utils.v16.1.UI.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraReports.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraReports.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraReports.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraReports.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraReports.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraRichEdit.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraRichEdit.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraRichEdit.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraRichEdit.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraRichEdit.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraTreeList.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Pdf.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.DataAccess.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.DataAccess.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.DataAccess.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.DataAccess.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.DataAccess.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Xpf.Core.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Xpf.Core.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Xpf.Core.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Xpf.Core.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Xpf.Core.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraGauges.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraGauges.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraGauges.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraGauges.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraGauges.v16.1.Core.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.DataAccess.v16.1.UI.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.DataAccess.v16.1.UI.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.DataAccess.v16.1.UI.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.DataAccess.v16.1.UI.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.DataAccess.v16.1.UI.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.XtraPivotGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.XtraPivotGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.XtraPivotGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.XtraPivotGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.XtraPivotGrid.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Xpo.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+M:\Mais Escola\Nova Escola\bin\x86\Debug\pt-BR\DevExpress.Diagram.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Mais Escola.exe.config
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\chromedriver.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Instalacao Morpheus.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Mais Professor!.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\mysql.sql
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\mysqldump.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Suporte Rápido.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ABEvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmAtribuicao.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmAtribuicaoSala.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmDelib11.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmDelib11B.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega1.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega2.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega3.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega4.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntregaAF.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_Status.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_Status1.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_Status2.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_Status3.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_Status4.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_StatusAF.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ataConvencionalP.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\Boletim.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\BoletimCN.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\BoletinsAtraso.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\CarteiraEstudante.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\CarteiraEstudanteG.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\Consolidado.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoAFdt.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoAF.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosGTurmasBimestre.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosReqCon.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoCompleto.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoEvasao.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\RendimentoCompleto.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoProfessor.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\RendimentoNotas.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\RendimentoFaltas.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoReprovados.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoReprovadosATA.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoReprovadosATA2.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\DE.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\FAEvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\FichaAluno.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\FichaAlunoP.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosCompleta.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\Graficos.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\Graficos2.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosDet.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosGPeriodo.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosGPeriodoDet.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosGTurmas.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosGTurmasDet.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\HistoricoAuxiliar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\LGEvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaEntrega.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaEntregaPS.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\LSEvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ataConvencional.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosReuniao.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosCIAula.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosCIDiario.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosPiloto.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ReciboProfessor.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\REEvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\TREvasaoEscolar.rpt
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ABEvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmAtribuicao.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmAtribuicaoSala.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmDelib11.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmDelib11B.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega1.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega2.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega3.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega4.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntregaAF.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_Status.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_Status1.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_Status2.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_Status3.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_Status4.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\AdmStatusEntrega_StatusAF.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ataConvencionalP.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\Boletim.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\BoletimCN.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\BoletinsAtraso.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\CarteiraEstudante.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\CarteiraEstudanteG.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\Consolidado.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoAFdt.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoAF.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosGTurmasBimestre.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosReqCon.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoCompleto.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoEvasao.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\RendimentoCompleto.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoProfessor.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\RendimentoNotas.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\RendimentoFaltas.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoReprovados.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoReprovadosATA.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ConsolidadoReprovadosATA2.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\DE.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\FAEvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\FichaAluno.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\FichaAlunoP.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosCompleta.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\Graficos.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\Graficos2.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosDet.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosGPeriodo.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosGPeriodoDet.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosGTurmas.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\GraficosGTurmasDet.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\HistoricoAuxiliar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\LGEvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaEntrega.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaEntregaPS.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\LSEvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ataConvencional.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosReuniao.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosCIAula.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosCIDiario.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ListaAlunosPiloto.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\ReciboProfessor.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\REEvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\rpts\TREvasaoEscolar.vb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\MaisEscola_LUS.pdf
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Mais Escola.exe.manifest
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Mais Escola.application
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Mais Escola.exe
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Mais Escola.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Mais Escola.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\cpCore.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.BonusSkins.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Charts.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.CodeParser.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Data.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.DemoData.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.DemoData.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Docs.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Office.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Pdf.v16.1.Drawing.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.PivotGrid.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Printing.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.RichEdit.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Sparkline.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Spreadsheet.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Utils.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Utils.v16.1.UI.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Xpf.Ribbon.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraBars.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraCharts.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraCharts.v16.1.Wizard.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraEditors.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraGrid.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraLayout.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraNavBar.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraPdfViewer.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraPrinting.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraReports.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraReports.v16.1.Extensions.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraRichEdit.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraSpreadsheet.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraTreeList.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Microsoft.Build.Utilities.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Configuration.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Data.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Deployment.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Design.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Drawing.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.EnterpriseServices.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Management.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Messaging.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Runtime.Remoting.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Runtime.Serialization.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.ServiceModel.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.ServiceProcess.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Web.Services.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Windows.Forms.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\System.Xml.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ThoughtWorks.Selenium.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\WebDriver.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\WebDriver.Support.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\WindowsBase.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Pdf.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Snap.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.DataAccess.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Xpf.Core.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Mvvm.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraVerticalGrid.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraGauges.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.DataAccess.v16.1.UI.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraCharts.v16.1.Extensions.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraPivotGrid.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\stdole.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Xpo.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraDiagram.v16.1.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Diagram.v16.1.Core.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Bytescout.PDFExtractor.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\cpCore.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\cpCore.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Data.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Docs.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Office.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Printing.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.RichEdit.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Spreadsheet.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Utils.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Xpf.Ribbon.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraBars.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraEditors.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraGrid.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraLayout.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraNavBar.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Pdf.v16.1.Drawing.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraPdfViewer.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraPrinting.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraCharts.v16.1.Wizard.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraCharts.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.PivotGrid.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Sparkline.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Utils.v16.1.UI.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraReports.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraReports.v16.1.Extensions.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraRichEdit.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraRichEdit.v16.1.Extensions.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraSpreadsheet.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraTreeList.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ThoughtWorks.Selenium.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\WebDriver.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\WebDriver.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\WebDriver.Support.pdb
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\WebDriver.Support.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Pdf.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Snap.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.DataAccess.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Xpf.Core.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Mvvm.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraVerticalGrid.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraGauges.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.DataAccess.v16.1.UI.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraPivotGrid.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Xpo.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.XtraDiagram.v16.1.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\DevExpress.Diagram.v16.1.Core.xml
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Data.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Data.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Data.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Data.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Office.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Office.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Printing.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.RichEdit.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Spreadsheet.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Utils.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Utils.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Utils.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Utils.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Xpf.Ribbon.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraBars.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraBars.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraBars.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraBars.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraEditors.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraEditors.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraEditors.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraEditors.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraLayout.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraLayout.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraLayout.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraLayout.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraNavBar.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraPdfViewer.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraPdfViewer.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraPdfViewer.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraPdfViewer.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraPrinting.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraCharts.v16.1.Wizard.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraCharts.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraCharts.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraCharts.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraCharts.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.PivotGrid.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Sparkline.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Utils.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Utils.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Utils.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Utils.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraReports.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraReports.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraReports.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraReports.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraReports.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraRichEdit.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraRichEdit.v16.1.Extensions.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraSpreadsheet.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraTreeList.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Pdf.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Snap.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Snap.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Snap.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Snap.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.DataAccess.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.DataAccess.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.DataAccess.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.DataAccess.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Xpf.Core.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraVerticalGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraGauges.v16.1.Core.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.DataAccess.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.DataAccess.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.DataAccess.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.DataAccess.v16.1.UI.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.XtraPivotGrid.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\de\DevExpress.Xpo.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\es\DevExpress.Xpo.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ja\DevExpress.Xpo.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ru\DevExpress.Xpo.v16.1.resources.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmImpMapao.resources
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\Bytescout.PDFExtractor.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.Shared.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\FlashControlV71.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Visual Studio Projects\Mais Escola\Nova Escola\bin\Debug\ShockwaveFlashObjects.dll
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Interop.SHDocVw.dll
+M:\Mais Escola\Nova Escola\obj\x86\Debug\AxInterop.SHDocVw.dll
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.vbproj.ResolveComReference.cache
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmBevAplicar.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.FrmAdmBolsas.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.FrmAdmDelib11.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmDelib11Ficha.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmDisciplinas.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmFerOpcoes.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmTurma.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmUsuarios.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAMControle.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAMGerenciar.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAtendimento.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBMBoletim.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBMPreparar.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBWPublicar.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmBWTrazer.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadAlunoFichaCompleta.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadAlunoFichaSimples.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadBoletim.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmCadBoletimTela.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmErro.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmGerencialBolAtraso.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmImpListas.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManGerarAF.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmOE_Ficha.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptGraficoNovo.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Consolidado.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmFerEventos.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmImpMapao.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmMaisEscola.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManAulasPrevistas.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManBoletim.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmManBoletimTela.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptRelatorio.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_ATA.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Auxiliar.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRptGrafico.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_BuscaAluno.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_CartEstudante.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmRpt_Declaracao.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmTRSEDOperador.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmLogin2.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobreEscola.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobre.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSobre2.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmLogin.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmUtilDiarioOficial.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmUtilPDF.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmUtilPlanilha.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmUtilRelatorios.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmUtilTexto.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.Resources.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmAdmFerBackup.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.frmSplash.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.PrintRibbonControllerResources.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais_Escola.XRDesignRibbonControllerResources.resources
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.vbproj.GenerateResource.Cache
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.exe.licenses
+M:\Mais Escola\Nova Escola\obj\x86\Debug\Mais Escola.vbproj.CoreCompileInputs.cache

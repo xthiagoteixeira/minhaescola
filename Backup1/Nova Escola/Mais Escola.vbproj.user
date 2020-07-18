@@ -1,0 +1,18 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ProjectFiles</ProjectView>
+    <ReferencePath>C:\Arquivos de programas\Business Objects\Common\2.8\managed\C:\Arquivos de programas\Arquivos comuns\Business Objects\2.7\Managed\C:\Program Files\Business Objects\Common\4.0\managed\dotnet2\</ReferencePath>
+    <PublishUrlHistory>ftp://downloads.isolucao.com.br/wwwroot/maisescola/|publish\</PublishUrlHistory>
+    <InstallUrlHistory>http://downloads.isolucao.com.br/maisescola/</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>
+    </UpdateUrlHistory>
+    <BootstrapperUrlHistory>
+    </BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ErrorReportUrlHistory>
+    </ErrorReportUrlHistory>
+  </PropertyGroup>
+</Project>

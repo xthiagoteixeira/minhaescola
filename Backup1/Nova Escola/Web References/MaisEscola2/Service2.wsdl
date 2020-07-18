@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="WS2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nome" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="responsavel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cnpj" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="maquina" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mes" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="WS2SoapIn">
+    <wsdl:part name="parameters" element="tns:WS2" />
+  </wsdl:message>
+  <wsdl:message name="WS2SoapOut">
+    <wsdl:part name="parameters" element="tns:WS2Response" />
+  </wsdl:message>
+  <wsdl:message name="WS2HttpGetIn">
+    <wsdl:part name="bd" type="s:string" />
+    <wsdl:part name="nome" type="s:string" />
+    <wsdl:part name="responsavel" type="s:string" />
+    <wsdl:part name="cnpj" type="s:string" />
+    <wsdl:part name="maquina" type="s:string" />
+    <wsdl:part name="mes" type="s:string" />
+    <wsdl:part name="data" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS2HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS2HttpPostIn">
+    <wsdl:part name="bd" type="s:string" />
+    <wsdl:part name="nome" type="s:string" />
+    <wsdl:part name="responsavel" type="s:string" />
+    <wsdl:part name="cnpj" type="s:string" />
+    <wsdl:part name="maquina" type="s:string" />
+    <wsdl:part name="mes" type="s:string" />
+    <wsdl:part name="data" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS2HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="Service2Soap">
+    <wsdl:operation name="WS2">
+      <wsdl:input message="tns:WS2SoapIn" />
+      <wsdl:output message="tns:WS2SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service2HttpGet">
+    <wsdl:operation name="WS2">
+      <wsdl:input message="tns:WS2HttpGetIn" />
+      <wsdl:output message="tns:WS2HttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service2HttpPost">
+    <wsdl:operation name="WS2">
+      <wsdl:input message="tns:WS2HttpPostIn" />
+      <wsdl:output message="tns:WS2HttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service2Soap" type="tns:Service2Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WS2">
+      <soap:operation soapAction="http://tempuri.org/WS2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service2Soap12" type="tns:Service2Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WS2">
+      <soap12:operation soapAction="http://tempuri.org/WS2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service2HttpGet" type="tns:Service2HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="WS2">
+      <http:operation location="/WS2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service2HttpPost" type="tns:Service2HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="WS2">
+      <http:operation location="/WS2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service2">
+    <wsdl:port name="Service2Soap" binding="tns:Service2Soap">
+      <soap:address location="http://ws.maisescola.com.br/Service2.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service2Soap12" binding="tns:Service2Soap12">
+      <soap12:address location="http://ws.maisescola.com.br/Service2.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service2HttpGet" binding="tns:Service2HttpGet">
+      <http:address location="http://ws.maisescola.com.br/Service2.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service2HttpPost" binding="tns:Service2HttpPost">
+      <http:address location="http://ws.maisescola.com.br/Service2.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

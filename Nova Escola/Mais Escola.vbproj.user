@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <ReferencePath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\</ReferencePath>
+    <PublishUrlHistory>T:\minhaescola\|M:\maisescola\|F:\maisescola\|H:\maisescola\|Y:\maisescola\</PublishUrlHistory>
+    <InstallUrlHistory>http://app.thiagoteixeira.com.br/minhaescola/|http://matrix.mercureti.com.br/maisescola/|http://matrix.thiagoteixeira.me/maisescola/|http://morpheus.isolucao.com.br/maisescola/|http://192.168.16.252:8080/maisescola/</InstallUrlHistory>
+    <SupportUrlHistory>http://www.thiagoteixeira.com.br|http://www.maisescola.com.br|http://www.maisescola.com</SupportUrlHistory>
+    <UpdateUrlHistory>http://app.thiagoteixeira.com.br/minhaescola/|http://matrix.mercureti.com.br/maisescola/|http://matrix.thiagoteixeira.me/maisescola/|http://morpheus.isolucao.com.br/maisescola/|http://192.168.8.100/maisescola/</UpdateUrlHistory>
+    <BootstrapperUrlHistory>http://matrix.mercureti.com.br/arquivos/frame472.zip|http://morpheus.isolucao.com.br/maisescola|http://localhost/maisescola|http://morpheus.isolucao.com.br/prerequisitos/|C:\inetpub\wwwroot\maisescola\</BootstrapperUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ErrorReportUrlHistory>http://www.thiagoteixeira.com.br|http://www.maisescola.com.br|http://www.maisescola.com</ErrorReportUrlHistory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DebugSecurityZoneURL>http://morpheus.isolucao.com.br/</DebugSecurityZoneURL>
+  </PropertyGroup>
+</Project>

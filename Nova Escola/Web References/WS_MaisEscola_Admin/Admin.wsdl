@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="WS1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="maquina" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cnpj" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS1Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="bd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nome" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="responsavel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cnpj" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="maquina" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mes" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="maquina" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS3Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS6">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="bd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mensagem" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS6Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS6Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS7">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Antigo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Novo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS7Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS7Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS4">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cnpj" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS4Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS4Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="WS1SoapIn">
+    <wsdl:part name="parameters" element="tns:WS1" />
+  </wsdl:message>
+  <wsdl:message name="WS1SoapOut">
+    <wsdl:part name="parameters" element="tns:WS1Response" />
+  </wsdl:message>
+  <wsdl:message name="WS2SoapIn">
+    <wsdl:part name="parameters" element="tns:WS2" />
+  </wsdl:message>
+  <wsdl:message name="WS2SoapOut">
+    <wsdl:part name="parameters" element="tns:WS2Response" />
+  </wsdl:message>
+  <wsdl:message name="WS3SoapIn">
+    <wsdl:part name="parameters" element="tns:WS3" />
+  </wsdl:message>
+  <wsdl:message name="WS3SoapOut">
+    <wsdl:part name="parameters" element="tns:WS3Response" />
+  </wsdl:message>
+  <wsdl:message name="WS6SoapIn">
+    <wsdl:part name="parameters" element="tns:WS6" />
+  </wsdl:message>
+  <wsdl:message name="WS6SoapOut">
+    <wsdl:part name="parameters" element="tns:WS6Response" />
+  </wsdl:message>
+  <wsdl:message name="WS7SoapIn">
+    <wsdl:part name="parameters" element="tns:WS7" />
+  </wsdl:message>
+  <wsdl:message name="WS7SoapOut">
+    <wsdl:part name="parameters" element="tns:WS7Response" />
+  </wsdl:message>
+  <wsdl:message name="WS4SoapIn">
+    <wsdl:part name="parameters" element="tns:WS4" />
+  </wsdl:message>
+  <wsdl:message name="WS4SoapOut">
+    <wsdl:part name="parameters" element="tns:WS4Response" />
+  </wsdl:message>
+  <wsdl:message name="WS1HttpGetIn">
+    <wsdl:part name="maquina" type="s:string" />
+    <wsdl:part name="cnpj" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS1HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS2HttpGetIn">
+    <wsdl:part name="bd" type="s:string" />
+    <wsdl:part name="nome" type="s:string" />
+    <wsdl:part name="responsavel" type="s:string" />
+    <wsdl:part name="cnpj" type="s:string" />
+    <wsdl:part name="maquina" type="s:string" />
+    <wsdl:part name="mes" type="s:string" />
+    <wsdl:part name="data" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS2HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS3HttpGetIn">
+    <wsdl:part name="maquina" type="s:string" />
+    <wsdl:part name="bd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS3HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS6HttpGetIn">
+    <wsdl:part name="Empresa" type="s:string" />
+    <wsdl:part name="bd" type="s:string" />
+    <wsdl:part name="mensagem" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS6HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS7HttpGetIn">
+    <wsdl:part name="Antigo" type="s:string" />
+    <wsdl:part name="Novo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS7HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS4HttpGetIn">
+    <wsdl:part name="cnpj" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS4HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS1HttpPostIn">
+    <wsdl:part name="maquina" type="s:string" />
+    <wsdl:part name="cnpj" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS1HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS2HttpPostIn">
+    <wsdl:part name="bd" type="s:string" />
+    <wsdl:part name="nome" type="s:string" />
+    <wsdl:part name="responsavel" type="s:string" />
+    <wsdl:part name="cnpj" type="s:string" />
+    <wsdl:part name="maquina" type="s:string" />
+    <wsdl:part name="mes" type="s:string" />
+    <wsdl:part name="data" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS2HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS3HttpPostIn">
+    <wsdl:part name="maquina" type="s:string" />
+    <wsdl:part name="bd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS3HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS6HttpPostIn">
+    <wsdl:part name="Empresa" type="s:string" />
+    <wsdl:part name="bd" type="s:string" />
+    <wsdl:part name="mensagem" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS6HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS7HttpPostIn">
+    <wsdl:part name="Antigo" type="s:string" />
+    <wsdl:part name="Novo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS7HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS4HttpPostIn">
+    <wsdl:part name="cnpj" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS4HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="AdminSoap">
+    <wsdl:operation name="WS1">
+      <wsdl:input message="tns:WS1SoapIn" />
+      <wsdl:output message="tns:WS1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS2">
+      <wsdl:input message="tns:WS2SoapIn" />
+      <wsdl:output message="tns:WS2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS3">
+      <wsdl:input message="tns:WS3SoapIn" />
+      <wsdl:output message="tns:WS3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS6">
+      <wsdl:input message="tns:WS6SoapIn" />
+      <wsdl:output message="tns:WS6SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS7">
+      <wsdl:input message="tns:WS7SoapIn" />
+      <wsdl:output message="tns:WS7SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS4">
+      <wsdl:input message="tns:WS4SoapIn" />
+      <wsdl:output message="tns:WS4SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AdminHttpGet">
+    <wsdl:operation name="WS1">
+      <wsdl:input message="tns:WS1HttpGetIn" />
+      <wsdl:output message="tns:WS1HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS2">
+      <wsdl:input message="tns:WS2HttpGetIn" />
+      <wsdl:output message="tns:WS2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS3">
+      <wsdl:input message="tns:WS3HttpGetIn" />
+      <wsdl:output message="tns:WS3HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS6">
+      <wsdl:input message="tns:WS6HttpGetIn" />
+      <wsdl:output message="tns:WS6HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS7">
+      <wsdl:input message="tns:WS7HttpGetIn" />
+      <wsdl:output message="tns:WS7HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS4">
+      <wsdl:input message="tns:WS4HttpGetIn" />
+      <wsdl:output message="tns:WS4HttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AdminHttpPost">
+    <wsdl:operation name="WS1">
+      <wsdl:input message="tns:WS1HttpPostIn" />
+      <wsdl:output message="tns:WS1HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS2">
+      <wsdl:input message="tns:WS2HttpPostIn" />
+      <wsdl:output message="tns:WS2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS3">
+      <wsdl:input message="tns:WS3HttpPostIn" />
+      <wsdl:output message="tns:WS3HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS6">
+      <wsdl:input message="tns:WS6HttpPostIn" />
+      <wsdl:output message="tns:WS6HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS7">
+      <wsdl:input message="tns:WS7HttpPostIn" />
+      <wsdl:output message="tns:WS7HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS4">
+      <wsdl:input message="tns:WS4HttpPostIn" />
+      <wsdl:output message="tns:WS4HttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AdminSoap" type="tns:AdminSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WS1">
+      <soap:operation soapAction="http://tempuri.org/WS1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS2">
+      <soap:operation soapAction="http://tempuri.org/WS2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS3">
+      <soap:operation soapAction="http://tempuri.org/WS3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS6">
+      <soap:operation soapAction="http://tempuri.org/WS6" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS7">
+      <soap:operation soapAction="http://tempuri.org/WS7" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS4">
+      <soap:operation soapAction="http://tempuri.org/WS4" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AdminSoap12" type="tns:AdminSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WS1">
+      <soap12:operation soapAction="http://tempuri.org/WS1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS2">
+      <soap12:operation soapAction="http://tempuri.org/WS2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS3">
+      <soap12:operation soapAction="http://tempuri.org/WS3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS6">
+      <soap12:operation soapAction="http://tempuri.org/WS6" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS7">
+      <soap12:operation soapAction="http://tempuri.org/WS7" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS4">
+      <soap12:operation soapAction="http://tempuri.org/WS4" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AdminHttpGet" type="tns:AdminHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="WS1">
+      <http:operation location="/WS1" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS2">
+      <http:operation location="/WS2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS3">
+      <http:operation location="/WS3" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS6">
+      <http:operation location="/WS6" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS7">
+      <http:operation location="/WS7" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS4">
+      <http:operation location="/WS4" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AdminHttpPost" type="tns:AdminHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="WS1">
+      <http:operation location="/WS1" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS2">
+      <http:operation location="/WS2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS3">
+      <http:operation location="/WS3" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS6">
+      <http:operation location="/WS6" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS7">
+      <http:operation location="/WS7" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS4">
+      <http:operation location="/WS4" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Admin">
+    <wsdl:port name="AdminSoap" binding="tns:AdminSoap">
+      <soap:address location="http://ws.escola.isolucao.com/Admin.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AdminSoap12" binding="tns:AdminSoap12">
+      <soap12:address location="http://ws.escola.isolucao.com/Admin.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AdminHttpGet" binding="tns:AdminHttpGet">
+      <http:address location="http://ws.escola.isolucao.com/Admin.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AdminHttpPost" binding="tns:AdminHttpPost">
+      <http:address location="http://ws.escola.isolucao.com/Admin.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

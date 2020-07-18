@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="WS4">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="senha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Origem01" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Origem02" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Operacao" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS4Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS4Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="WS4SoapIn">
+    <wsdl:part name="parameters" element="tns:WS4" />
+  </wsdl:message>
+  <wsdl:message name="WS4SoapOut">
+    <wsdl:part name="parameters" element="tns:WS4Response" />
+  </wsdl:message>
+  <wsdl:message name="WS4HttpGetIn">
+    <wsdl:part name="usuario" type="s:string" />
+    <wsdl:part name="senha" type="s:string" />
+    <wsdl:part name="Origem01" type="s:string" />
+    <wsdl:part name="Origem02" type="s:string" />
+    <wsdl:part name="Operacao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS4HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS4HttpPostIn">
+    <wsdl:part name="usuario" type="s:string" />
+    <wsdl:part name="senha" type="s:string" />
+    <wsdl:part name="Origem01" type="s:string" />
+    <wsdl:part name="Origem02" type="s:string" />
+    <wsdl:part name="Operacao" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS4HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="Service4Soap">
+    <wsdl:operation name="WS4">
+      <wsdl:input message="tns:WS4SoapIn" />
+      <wsdl:output message="tns:WS4SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service4HttpGet">
+    <wsdl:operation name="WS4">
+      <wsdl:input message="tns:WS4HttpGetIn" />
+      <wsdl:output message="tns:WS4HttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Service4HttpPost">
+    <wsdl:operation name="WS4">
+      <wsdl:input message="tns:WS4HttpPostIn" />
+      <wsdl:output message="tns:WS4HttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service4Soap" type="tns:Service4Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WS4">
+      <soap:operation soapAction="http://tempuri.org/WS4" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service4Soap12" type="tns:Service4Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WS4">
+      <soap12:operation soapAction="http://tempuri.org/WS4" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service4HttpGet" type="tns:Service4HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="WS4">
+      <http:operation location="/WS4" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service4HttpPost" type="tns:Service4HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="WS4">
+      <http:operation location="/WS4" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service4">
+    <wsdl:port name="Service4Soap" binding="tns:Service4Soap">
+      <soap:address location="http://ws.maisescola.com.br/ws/Service4.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service4Soap12" binding="tns:Service4Soap12">
+      <soap12:address location="http://ws.maisescola.com.br/ws/Service4.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service4HttpGet" binding="tns:Service4HttpGet">
+      <http:address location="http://ws.maisescola.com.br/ws/Service4.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service4HttpPost" binding="tns:Service4HttpPost">
+      <http:address location="http://ws.maisescola.com.br/ws/Service4.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

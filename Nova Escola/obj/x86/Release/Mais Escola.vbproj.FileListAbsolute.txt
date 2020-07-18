@@ -1,0 +1,70 @@
+C:\Visual Studio Projects\Mais Escola\Nova Escola\bin\x86\Release\Mais Escola.exe.config
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais Escola.vbprojResolveAssemblyReference.cache
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmAdmBEVAplicar.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmBWTrazer_Delib11.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmAdmDelib11Ficha.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmAdmDelib11.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmBWTrazer.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmCadBoletim234.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManBoletim234.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmRpt.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmRpt_CartEstudante.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmRptGrafico.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmRptRelatorio.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmRpt_Historico.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmSRTeamViewer.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmTRSEDOperador.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmWebCam.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmAdmDisciplinas.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmAtendimento.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmBMBoletim.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmErro.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmCadAlunoFicha.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmBWPublicar.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmGerencialLogs.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmRpt_AGerenciador.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmBMPreparar.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmImpListas.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmLogin2.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManAulasPrevistas2.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmGerencialBolMovel.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmRpt_Declaracao.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManGerarAF.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmAdmFerOpcoes.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmMaisEscola.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmMerDiario.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmMerEstoque.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmRpt_ATA.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmSobreEscola.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmTarjetaProfessor.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmRptRelatorioAlunos.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManAulasPrevistas.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManBoletimALT.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManBoletimAF.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManGrade.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManUltimoAluno.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmSobre.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmSobre2.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmImpCancelar.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmRptGrupos.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmConAlunos.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManBoletimExcluir.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManAC.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmAdmUsuarios.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmCadAluno.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmCadBoletimTela.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmConturma.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmGerencialBolAtraso.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmLogin.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmAdmTurma.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmAdmBolsas.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmManBoletimTela.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.Resources.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmAdmFerBackup.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais_Escola.frmSplash.resources
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais Escola.vbproj.GenerateResource.Cache
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais Escola.exe.licenses
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais Escola.TrustInfo.xml
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais Escola.exe
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais Escola.xml
+C:\Visual Studio Projects\Mais Escola\Nova Escola\obj\x86\Release\Mais Escola.XmlSerializers.dll

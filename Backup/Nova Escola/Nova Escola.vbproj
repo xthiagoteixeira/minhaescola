@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0EB063D-06BA-4704-8F79-49AFE41E4347}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Nova_Escola.My.MyApplication</StartupObject>
+    <RootNamespace>Nova_Escola</RootNamespace>
+    <AssemblyName>Nova Escola</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>Converter.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Nova Escola.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Nova Escola.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="cpInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\cpInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=5.1.2.2, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABEvasaoEscolar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ABEvasaoEscolar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AlunosReprovadosCP.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlunosReprovadosCP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Boletim.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Boletim.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoletimSN.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BoletimSN.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CBTurmas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CBTurmas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Consolidado.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Consolidado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AFConsolidado.vb">
+      <DependentUpon>AFConsolidado.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="FAEvasaoEscolar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FAEvasaoEscolar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmManAulasPrevistas.Designer.vb">
+      <DependentUpon>frmManAulasPrevistas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManAulasPrevistas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManBoletimALT.designer.vb">
+      <DependentUpon>frmManBoletimALT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManBoletimALT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManAlunosF.designer.vb">
+      <DependentUpon>frmManAlunosF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManAlunosF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFerNavegador.designer.vb">
+      <DependentUpon>frmFerNavegador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFerNavegador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGerencialRPT.designer.vb">
+      <DependentUpon>frmGerencialRPT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGerencialRPT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobre.Designer.vb">
+      <DependentUpon>frmSobre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobre2.Designer.vb">
+      <DependentUpon>frmSobre2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobre2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graficos2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Graficos2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Importacao2.Designer.vb">
+      <DependentUpon>Importacao2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Importacao2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManFundamental.designer.vb">
+      <DependentUpon>frmManFundamental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManFundamental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadFundamental.designer.vb">
+      <DependentUpon>frmCadFundamental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadFundamental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadFP.Designer.vb">
+      <DependentUpon>frmCadFP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadFP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManBoletim234.designer.vb">
+      <DependentUpon>frmManBoletim234.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManBoletim234.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCad234.designer.vb">
+      <DependentUpon>frmCad234.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCad234.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptNF.designer.vb">
+      <DependentUpon>frmRptNF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptNF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManNFsf.designer.vb">
+      <DependentUpon>frmManNFsf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManNFsf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManAlunos.designer.vb">
+      <DependentUpon>frmManAlunos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManAlunos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConAlunos.designer.vb">
+      <DependentUpon>frmConAlunos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConAlunos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManACP.designer.vb">
+      <DependentUpon>frmManACP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManACP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManAC.designer.vb">
+      <DependentUpon>frmManAC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManAC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGerencial2.designer.vb">
+      <DependentUpon>frmGerencial2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGerencial2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManBoletim.designer.vb">
+      <DependentUpon>frmManBoletim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManBoletim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadTurma.designer.vb">
+      <DependentUpon>frmCadTurma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadTurma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadDisciplinas.designer.vb">
+      <DependentUpon>frmCadDisciplinas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadDisciplinas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadProfessor.designer.vb">
+      <DependentUpon>frmCadProfessor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadProfessor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadNF.designer.vb">
+      <DependentUpon>frmCadNF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadNF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadBoletim.designer.vb">
+      <DependentUpon>frmCadBoletim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadBoletim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConTurma.designer.vb">
+      <DependentUpon>frmConTurma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConTurma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConDisciplinas.designer.vb">
+      <DependentUpon>frmConDisciplinas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConDisciplinas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConProfessor.designer.vb">
+      <DependentUpon>frmConProfessor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConProfessor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConBoletim.designer.vb">
+      <DependentUpon>frmConBoletim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConBoletim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin2.designer.vb">
+      <DependentUpon>frmLogin2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTurma.designer.vb">
+      <DependentUpon>frmManTurma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTurma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManDisciplinas.designer.vb">
+      <DependentUpon>frmManDisciplinas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManDisciplinas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManProfessor.designer.vb">
+      <DependentUpon>frmManProfessor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManProfessor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManNF.designer.vb">
+      <DependentUpon>frmManNF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManNF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRpt.designer.vb">
+      <DependentUpon>frmRpt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graficos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Graficos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Importacao.Designer.vb">
+      <DependentUpon>Importacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Importacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LGEvasaoEscolar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LGEvasaoEscolar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LSEvasaoEscolar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LSEvasaoEscolar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAlunos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RAlunos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RAlunos2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RAlunos2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REEvasaoEscolar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>REEvasaoEscolar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Registro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TREvasaoEscolar.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TREvasaoEscolar.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ABEvasaoEscolar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ABEvasaoEscolar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlunosReprovadosCP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AlunosReprovadosCP.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boletim.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Boletim.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoletimSN.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BoletimSN.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CBTurmas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CBTurmas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consolidado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Consolidado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AFConsolidado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AFConsolidado.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAEvasaoEscolar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FAEvasaoEscolar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManAulasPrevistas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmManAulasPrevistas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManBoletimALT.resx">
+      <DependentUpon>frmManBoletimALT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManAlunosF.resx">
+      <DependentUpon>frmManAlunosF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFerNavegador.resx">
+      <DependentUpon>frmFerNavegador.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGerencialRPT.resx">
+      <DependentUpon>frmGerencialRPT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobre.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSobre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobre2.resx">
+      <DependentUpon>frmSobre2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graficos2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Graficos2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Importacao2.resx">
+      <DependentUpon>Importacao2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManFundamental.resx">
+      <DependentUpon>frmManFundamental.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadFundamental.resx">
+      <DependentUpon>frmCadFundamental.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadFP.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCadFP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManBoletim234.resx">
+      <DependentUpon>frmManBoletim234.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCad234.resx">
+      <DependentUpon>frmCad234.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptNF.resx">
+      <DependentUpon>frmRptNF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManNFsf.resx">
+      <DependentUpon>frmManNFsf.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManAlunos.resx">
+      <DependentUpon>frmManAlunos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConAlunos.resx">
+      <DependentUpon>frmConAlunos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManACP.resx">
+      <DependentUpon>frmManACP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManAC.resx">
+      <DependentUpon>frmManAC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGerencial2.resx">
+      <DependentUpon>frmGerencial2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManBoletim.resx">
+      <DependentUpon>frmManBoletim.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadTurma.resx">
+      <DependentUpon>frmCadTurma.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadDisciplinas.resx">
+      <DependentUpon>frmCadDisciplinas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadProfessor.resx">
+      <DependentUpon>frmCadProfessor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadNF.resx">
+      <DependentUpon>frmCadNF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadBoletim.resx">
+      <DependentUpon>frmCadBoletim.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConTurma.resx">
+      <DependentUpon>frmConTurma.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConDisciplinas.resx">
+      <DependentUpon>frmConDisciplinas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConProfessor.resx">
+      <DependentUpon>frmConProfessor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConBoletim.resx">
+      <DependentUpon>frmConBoletim.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin2.resx">
+      <DependentUpon>frmLogin2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTurma.resx">
+      <DependentUpon>frmManTurma.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManDisciplinas.resx">
+      <DependentUpon>frmManDisciplinas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManProfessor.resx">
+      <DependentUpon>frmManProfessor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManNF.resx">
+      <DependentUpon>frmManNF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRpt.resx">
+      <DependentUpon>frmRpt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graficos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Graficos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Importacao.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Importacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LGEvasaoEscolar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LGEvasaoEscolar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LSEvasaoEscolar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LSEvasaoEscolar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.pt-BR.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAlunos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RAlunos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAlunos2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RAlunos2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REEvasaoEscolar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REEvasaoEscolar.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TREvasaoEscolar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TREvasaoEscolar.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Alunos.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Alunos.xsx">
+      <DependentUpon>Alunos.xsd</DependentUpon>
+    </None>
+    <None Include="Boletim.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Boletim.xsx">
+      <DependentUpon>Boletim.xsd</DependentUpon>
+    </None>
+    <None Include="cbTurmas.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cbTurmas.xsx">
+      <DependentUpon>cbTurmas.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Converter.ico" />
+    <Content Include="Resources\anovaescola.jpg" />
+    <Content Include="Resources\anovaescola1.jpg" />
+    <None Include="Resources\anovaescola21.gif" />
+    <None Include="Resources\anovaescola.gif" />
+    <None Include="Resources\anovaescola1.gif" />
+    <None Include="Resources\anovaescola2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

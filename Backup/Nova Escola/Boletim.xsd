@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Boletim" targetNamespace="http://tempuri.org/Boletim.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/Boletim.xsd" xmlns:mstns="http://tempuri.org/Boletim.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="boletim">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="anovigente" type="xs:integer" />
+        <xs:element name="cod_bimestre" type="xs:integer" />
+        <xs:element name="disciplina" type="xs:string" />
+        <xs:element name="classe" type="xs:string" />
+        <xs:element name="nro_aluno" type="xs:integer" />
+        <xs:element name="M" type="xs:integer" />
+        <xs:element name="F" type="xs:integer" />
+        <xs:element name="AC" type="xs:integer" />
+        <xs:element name="S" type="xs:string" />
+        <xs:element name="qtdadeaulas" type="xs:integer" />
+        <xs:element name="porcentagem" type="xs:integer" />
+        <xs:element name="nome" type="xs:string" />
+        <xs:element name="ra" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

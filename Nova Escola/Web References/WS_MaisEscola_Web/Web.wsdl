@@ -1,0 +1,2569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="BW_Consultar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_ConsultarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_ConsultarResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Publicar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Operacao" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TabelaRecebida">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_PublicarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_PublicarResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_PublicarCalendario">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="DataInicio" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="DataFim" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_PublicarCalendarioResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_PublicarCalendarioResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_Login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_LoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_LoginResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_Turmas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_TurmasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_TurmasResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_Disciplinas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Turma" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_DisciplinasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_DisciplinasResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_DisciplinasBOL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_DisciplinasBOLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_DisciplinasBOLResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_ConsultarNF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Turma" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Disciplina" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_ConsultarNFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_ConsultarNFResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_CadastrarNF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Turma" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Disciplina" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="qAulas" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pAulas" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_CadastrarNFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_CadastrarNFResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_CadastrarBol">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cod_boletim" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tabela_Cadastro" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="BW_Professor_CadastrarBolResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_CadastrarBolResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_ConsultarEV">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Turma" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_ConsultarEVResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_ConsultarEVResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_ConsultarBol">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Turma" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Disciplina" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_ConsultarBolResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_ConsultarBolResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_AlterarBol">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cod_nf" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nro_aluno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="M" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="F" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="S" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="porcentagem" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_AlterarBolResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_AlterarBolResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_ExcluirBol">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cod_nf" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_ExcluirBolResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_ExcluirBolResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_NF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_NFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_NFResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Delib11_Consulta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Turma" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Disciplina" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Delib11_ConsultaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Delib11_ConsultaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Delib11_CategoriaNRO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idDelib_cat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Delib_nro_aluno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Delib_notasfreq" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Delib11_CategoriaNROResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Delib11_CategoriaNROResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Delib11_CategoriaNOTA">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idDelib_cat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Delib_nro_aluno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Delib_notasfreq" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Delib11_CategoriaNOTAResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Delib11_CategoriaNOTAResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Delib11_CategoriaEXCLUIDO">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="idDelib_cat" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Delib_nro_aluno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Delib_notasfreq" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="escolhido" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Delib11_CategoriaEXCLUIDOResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Delib11_CategoriaEXCLUIDOResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_NF_Boletim">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="cod_boletim" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_NF_BoletimResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_NF_BoletimResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_NF_Boletim_Sync">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Turma" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Disciplina" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_NF_Boletim_SyncResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_NF_Boletim_SyncResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_Status">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_StatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_StatusResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Ativacao">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Senha" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_AtivacaoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_AtivacaoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_TrazerNotas_NroBoletins">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_TrazerNotas_NroBoletinsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_TrazerNotas_NroBoletinsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_AulasDP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Boletim" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AulasDadas" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AulasPrevistas" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_AulasDPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_AulasDPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_BoletinsDigitados">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_BoletinsDigitadosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_BoletinsDigitadosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_BoletinsStatus">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BW_Professor_BoletinsStatusResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BW_Professor_BoletinsStatusResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="BW_ConsultarSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Consultar" />
+  </wsdl:message>
+  <wsdl:message name="BW_ConsultarSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_ConsultarResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_PublicarSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Publicar" />
+  </wsdl:message>
+  <wsdl:message name="BW_PublicarSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_PublicarResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_PublicarCalendarioSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_PublicarCalendario" />
+  </wsdl:message>
+  <wsdl:message name="BW_PublicarCalendarioSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_PublicarCalendarioResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_LoginSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_Login" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_LoginSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_TurmasSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_Turmas" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_TurmasSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_TurmasResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_Disciplinas" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_DisciplinasResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasBOLSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_DisciplinasBOL" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasBOLSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_DisciplinasBOLResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarNFSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_ConsultarNF" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarNFSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_ConsultarNFResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_CadastrarNFSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_CadastrarNF" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_CadastrarNFSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_CadastrarNFResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_CadastrarBolSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_CadastrarBol" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_CadastrarBolSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_CadastrarBolResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarEVSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_ConsultarEV" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarEVSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_ConsultarEVResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarBolSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_ConsultarBol" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarBolSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_ConsultarBolResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AlterarBolSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_AlterarBol" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AlterarBolSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_AlterarBolResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ExcluirBolSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_ExcluirBol" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ExcluirBolSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_ExcluirBolResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NFSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_NF" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NFSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_NFResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_ConsultaSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Delib11_Consulta" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_ConsultaSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Delib11_ConsultaResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNROSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Delib11_CategoriaNRO" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNROSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Delib11_CategoriaNROResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNOTASoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Delib11_CategoriaNOTA" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNOTASoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Delib11_CategoriaNOTAResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaEXCLUIDOSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Delib11_CategoriaEXCLUIDO" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaEXCLUIDOSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Delib11_CategoriaEXCLUIDOResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_BoletimSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_NF_Boletim" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_BoletimSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_NF_BoletimResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_Boletim_SyncSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_NF_Boletim_Sync" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_Boletim_SyncSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_NF_Boletim_SyncResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_StatusSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_Status" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_StatusSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_StatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_AtivacaoSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Ativacao" />
+  </wsdl:message>
+  <wsdl:message name="BW_AtivacaoSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_AtivacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_TrazerNotas_NroBoletinsSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_TrazerNotas_NroBoletins" />
+  </wsdl:message>
+  <wsdl:message name="BW_TrazerNotas_NroBoletinsSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_TrazerNotas_NroBoletinsResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AulasDPSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_AulasDP" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AulasDPSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_AulasDPResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsDigitadosSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_BoletinsDigitados" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsDigitadosSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_BoletinsDigitadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsStatusSoapIn">
+    <wsdl:part name="parameters" element="tns:BW_Professor_BoletinsStatus" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsStatusSoapOut">
+    <wsdl:part name="parameters" element="tns:BW_Professor_BoletinsStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="BW_ConsultarHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_ConsultarHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_PublicarCalendarioHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="DataInicio" type="s:string" />
+    <wsdl:part name="DataFim" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_PublicarCalendarioHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_LoginHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_LoginHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_TurmasHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_TurmasHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasBOLHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasBOLHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarNFHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="Disciplina" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarNFHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_CadastrarNFHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="Disciplina" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="qAulas" type="s:string" />
+    <wsdl:part name="pAulas" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_CadastrarNFHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarEVHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarEVHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarBolHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="Disciplina" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarBolHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AlterarBolHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="cod_nf" type="s:string" />
+    <wsdl:part name="nro_aluno" type="s:string" />
+    <wsdl:part name="M" type="s:string" />
+    <wsdl:part name="F" type="s:string" />
+    <wsdl:part name="AC" type="s:string" />
+    <wsdl:part name="S" type="s:string" />
+    <wsdl:part name="porcentagem" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AlterarBolHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ExcluirBolHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="cod_nf" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ExcluirBolHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NFHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NFHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_ConsultaHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="Disciplina" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_ConsultaHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNROHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="idDelib_cat" type="s:string" />
+    <wsdl:part name="Delib_nro_aluno" type="s:string" />
+    <wsdl:part name="Delib_notasfreq" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNROHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNOTAHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="idDelib_cat" type="s:string" />
+    <wsdl:part name="Delib_nro_aluno" type="s:string" />
+    <wsdl:part name="Delib_notasfreq" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNOTAHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaEXCLUIDOHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="idDelib_cat" type="s:string" />
+    <wsdl:part name="Delib_nro_aluno" type="s:string" />
+    <wsdl:part name="Delib_notasfreq" type="s:string" />
+    <wsdl:part name="escolhido" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaEXCLUIDOHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_BoletimHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="cod_boletim" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_BoletimHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_Boletim_SyncHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="Disciplina" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_Boletim_SyncHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_StatusHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_StatusHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_AtivacaoHttpGetIn">
+    <wsdl:part name="Usuario" type="s:string" />
+    <wsdl:part name="Senha" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_AtivacaoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_TrazerNotas_NroBoletinsHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_TrazerNotas_NroBoletinsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AulasDPHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Boletim" type="s:string" />
+    <wsdl:part name="AulasDadas" type="s:string" />
+    <wsdl:part name="AulasPrevistas" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AulasDPHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsDigitadosHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsDigitadosHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsStatusHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsStatusHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_ConsultarHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_ConsultarHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_PublicarCalendarioHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="DataInicio" type="s:string" />
+    <wsdl:part name="DataFim" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_PublicarCalendarioHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_LoginHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_LoginHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_TurmasHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_TurmasHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasBOLHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_DisciplinasBOLHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarNFHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="Disciplina" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarNFHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_CadastrarNFHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="Disciplina" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="qAulas" type="s:string" />
+    <wsdl:part name="pAulas" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_CadastrarNFHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarEVHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarEVHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarBolHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="Disciplina" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ConsultarBolHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AlterarBolHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="cod_nf" type="s:string" />
+    <wsdl:part name="nro_aluno" type="s:string" />
+    <wsdl:part name="M" type="s:string" />
+    <wsdl:part name="F" type="s:string" />
+    <wsdl:part name="AC" type="s:string" />
+    <wsdl:part name="S" type="s:string" />
+    <wsdl:part name="porcentagem" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AlterarBolHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ExcluirBolHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="cod_nf" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_ExcluirBolHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NFHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NFHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_ConsultaHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="Disciplina" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_ConsultaHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNROHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="idDelib_cat" type="s:string" />
+    <wsdl:part name="Delib_nro_aluno" type="s:string" />
+    <wsdl:part name="Delib_notasfreq" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNROHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNOTAHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="idDelib_cat" type="s:string" />
+    <wsdl:part name="Delib_nro_aluno" type="s:string" />
+    <wsdl:part name="Delib_notasfreq" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaNOTAHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaEXCLUIDOHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="idDelib_cat" type="s:string" />
+    <wsdl:part name="Delib_nro_aluno" type="s:string" />
+    <wsdl:part name="Delib_notasfreq" type="s:string" />
+    <wsdl:part name="escolhido" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Delib11_CategoriaEXCLUIDOHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_BoletimHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="cod_boletim" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_BoletimHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_Boletim_SyncHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="Disciplina" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_NF_Boletim_SyncHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_StatusHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_StatusHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_AtivacaoHttpPostIn">
+    <wsdl:part name="Usuario" type="s:string" />
+    <wsdl:part name="Senha" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_AtivacaoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_TrazerNotas_NroBoletinsHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_TrazerNotas_NroBoletinsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AulasDPHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Boletim" type="s:string" />
+    <wsdl:part name="AulasDadas" type="s:string" />
+    <wsdl:part name="AulasPrevistas" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_AulasDPHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsDigitadosHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsDigitadosHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsStatusHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BW_Professor_BoletinsStatusHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="WebSoap">
+    <wsdl:operation name="BW_Consultar">
+      <wsdl:input message="tns:BW_ConsultarSoapIn" />
+      <wsdl:output message="tns:BW_ConsultarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Publicar">
+      <wsdl:input message="tns:BW_PublicarSoapIn" />
+      <wsdl:output message="tns:BW_PublicarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_PublicarCalendario">
+      <wsdl:input message="tns:BW_PublicarCalendarioSoapIn" />
+      <wsdl:output message="tns:BW_PublicarCalendarioSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Login">
+      <wsdl:input message="tns:BW_Professor_LoginSoapIn" />
+      <wsdl:output message="tns:BW_Professor_LoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Turmas">
+      <wsdl:input message="tns:BW_Professor_TurmasSoapIn" />
+      <wsdl:output message="tns:BW_Professor_TurmasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Disciplinas">
+      <wsdl:input message="tns:BW_Professor_DisciplinasSoapIn" />
+      <wsdl:output message="tns:BW_Professor_DisciplinasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_DisciplinasBOL">
+      <wsdl:input message="tns:BW_Professor_DisciplinasBOLSoapIn" />
+      <wsdl:output message="tns:BW_Professor_DisciplinasBOLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarNF">
+      <wsdl:input message="tns:BW_Professor_ConsultarNFSoapIn" />
+      <wsdl:output message="tns:BW_Professor_ConsultarNFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_CadastrarNF">
+      <wsdl:input message="tns:BW_Professor_CadastrarNFSoapIn" />
+      <wsdl:output message="tns:BW_Professor_CadastrarNFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_CadastrarBol">
+      <wsdl:input message="tns:BW_Professor_CadastrarBolSoapIn" />
+      <wsdl:output message="tns:BW_Professor_CadastrarBolSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarEV">
+      <wsdl:input message="tns:BW_Professor_ConsultarEVSoapIn" />
+      <wsdl:output message="tns:BW_Professor_ConsultarEVSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarBol">
+      <wsdl:input message="tns:BW_Professor_ConsultarBolSoapIn" />
+      <wsdl:output message="tns:BW_Professor_ConsultarBolSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AlterarBol">
+      <wsdl:input message="tns:BW_Professor_AlterarBolSoapIn" />
+      <wsdl:output message="tns:BW_Professor_AlterarBolSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ExcluirBol">
+      <wsdl:input message="tns:BW_Professor_ExcluirBolSoapIn" />
+      <wsdl:output message="tns:BW_Professor_ExcluirBolSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF">
+      <wsdl:input message="tns:BW_Professor_NFSoapIn" />
+      <wsdl:output message="tns:BW_Professor_NFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_Consulta">
+      <wsdl:input message="tns:BW_Delib11_ConsultaSoapIn" />
+      <wsdl:output message="tns:BW_Delib11_ConsultaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNRO">
+      <wsdl:input message="tns:BW_Delib11_CategoriaNROSoapIn" />
+      <wsdl:output message="tns:BW_Delib11_CategoriaNROSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNOTA">
+      <wsdl:input message="tns:BW_Delib11_CategoriaNOTASoapIn" />
+      <wsdl:output message="tns:BW_Delib11_CategoriaNOTASoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaEXCLUIDO">
+      <wsdl:input message="tns:BW_Delib11_CategoriaEXCLUIDOSoapIn" />
+      <wsdl:output message="tns:BW_Delib11_CategoriaEXCLUIDOSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim">
+      <wsdl:input message="tns:BW_Professor_NF_BoletimSoapIn" />
+      <wsdl:output message="tns:BW_Professor_NF_BoletimSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim_Sync">
+      <wsdl:input message="tns:BW_Professor_NF_Boletim_SyncSoapIn" />
+      <wsdl:output message="tns:BW_Professor_NF_Boletim_SyncSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Status">
+      <wsdl:input message="tns:BW_Professor_StatusSoapIn" />
+      <wsdl:output message="tns:BW_Professor_StatusSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Ativacao">
+      <wsdl:input message="tns:BW_AtivacaoSoapIn" />
+      <wsdl:output message="tns:BW_AtivacaoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_TrazerNotas_NroBoletins">
+      <wsdl:input message="tns:BW_TrazerNotas_NroBoletinsSoapIn" />
+      <wsdl:output message="tns:BW_TrazerNotas_NroBoletinsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AulasDP">
+      <wsdl:input message="tns:BW_Professor_AulasDPSoapIn" />
+      <wsdl:output message="tns:BW_Professor_AulasDPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsDigitados">
+      <wsdl:input message="tns:BW_Professor_BoletinsDigitadosSoapIn" />
+      <wsdl:output message="tns:BW_Professor_BoletinsDigitadosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsStatus">
+      <wsdl:input message="tns:BW_Professor_BoletinsStatusSoapIn" />
+      <wsdl:output message="tns:BW_Professor_BoletinsStatusSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebHttpGet">
+    <wsdl:operation name="BW_Consultar">
+      <wsdl:input message="tns:BW_ConsultarHttpGetIn" />
+      <wsdl:output message="tns:BW_ConsultarHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_PublicarCalendario">
+      <wsdl:input message="tns:BW_PublicarCalendarioHttpGetIn" />
+      <wsdl:output message="tns:BW_PublicarCalendarioHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Login">
+      <wsdl:input message="tns:BW_Professor_LoginHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_LoginHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Turmas">
+      <wsdl:input message="tns:BW_Professor_TurmasHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_TurmasHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Disciplinas">
+      <wsdl:input message="tns:BW_Professor_DisciplinasHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_DisciplinasHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_DisciplinasBOL">
+      <wsdl:input message="tns:BW_Professor_DisciplinasBOLHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_DisciplinasBOLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarNF">
+      <wsdl:input message="tns:BW_Professor_ConsultarNFHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_ConsultarNFHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_CadastrarNF">
+      <wsdl:input message="tns:BW_Professor_CadastrarNFHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_CadastrarNFHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarEV">
+      <wsdl:input message="tns:BW_Professor_ConsultarEVHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_ConsultarEVHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarBol">
+      <wsdl:input message="tns:BW_Professor_ConsultarBolHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_ConsultarBolHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AlterarBol">
+      <wsdl:input message="tns:BW_Professor_AlterarBolHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_AlterarBolHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ExcluirBol">
+      <wsdl:input message="tns:BW_Professor_ExcluirBolHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_ExcluirBolHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF">
+      <wsdl:input message="tns:BW_Professor_NFHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_NFHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_Consulta">
+      <wsdl:input message="tns:BW_Delib11_ConsultaHttpGetIn" />
+      <wsdl:output message="tns:BW_Delib11_ConsultaHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNRO">
+      <wsdl:input message="tns:BW_Delib11_CategoriaNROHttpGetIn" />
+      <wsdl:output message="tns:BW_Delib11_CategoriaNROHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNOTA">
+      <wsdl:input message="tns:BW_Delib11_CategoriaNOTAHttpGetIn" />
+      <wsdl:output message="tns:BW_Delib11_CategoriaNOTAHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaEXCLUIDO">
+      <wsdl:input message="tns:BW_Delib11_CategoriaEXCLUIDOHttpGetIn" />
+      <wsdl:output message="tns:BW_Delib11_CategoriaEXCLUIDOHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim">
+      <wsdl:input message="tns:BW_Professor_NF_BoletimHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_NF_BoletimHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim_Sync">
+      <wsdl:input message="tns:BW_Professor_NF_Boletim_SyncHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_NF_Boletim_SyncHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Status">
+      <wsdl:input message="tns:BW_Professor_StatusHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_StatusHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Ativacao">
+      <wsdl:input message="tns:BW_AtivacaoHttpGetIn" />
+      <wsdl:output message="tns:BW_AtivacaoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_TrazerNotas_NroBoletins">
+      <wsdl:input message="tns:BW_TrazerNotas_NroBoletinsHttpGetIn" />
+      <wsdl:output message="tns:BW_TrazerNotas_NroBoletinsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AulasDP">
+      <wsdl:input message="tns:BW_Professor_AulasDPHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_AulasDPHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsDigitados">
+      <wsdl:input message="tns:BW_Professor_BoletinsDigitadosHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_BoletinsDigitadosHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsStatus">
+      <wsdl:input message="tns:BW_Professor_BoletinsStatusHttpGetIn" />
+      <wsdl:output message="tns:BW_Professor_BoletinsStatusHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebHttpPost">
+    <wsdl:operation name="BW_Consultar">
+      <wsdl:input message="tns:BW_ConsultarHttpPostIn" />
+      <wsdl:output message="tns:BW_ConsultarHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_PublicarCalendario">
+      <wsdl:input message="tns:BW_PublicarCalendarioHttpPostIn" />
+      <wsdl:output message="tns:BW_PublicarCalendarioHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Login">
+      <wsdl:input message="tns:BW_Professor_LoginHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_LoginHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Turmas">
+      <wsdl:input message="tns:BW_Professor_TurmasHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_TurmasHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Disciplinas">
+      <wsdl:input message="tns:BW_Professor_DisciplinasHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_DisciplinasHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_DisciplinasBOL">
+      <wsdl:input message="tns:BW_Professor_DisciplinasBOLHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_DisciplinasBOLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarNF">
+      <wsdl:input message="tns:BW_Professor_ConsultarNFHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_ConsultarNFHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_CadastrarNF">
+      <wsdl:input message="tns:BW_Professor_CadastrarNFHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_CadastrarNFHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarEV">
+      <wsdl:input message="tns:BW_Professor_ConsultarEVHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_ConsultarEVHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarBol">
+      <wsdl:input message="tns:BW_Professor_ConsultarBolHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_ConsultarBolHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AlterarBol">
+      <wsdl:input message="tns:BW_Professor_AlterarBolHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_AlterarBolHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ExcluirBol">
+      <wsdl:input message="tns:BW_Professor_ExcluirBolHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_ExcluirBolHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF">
+      <wsdl:input message="tns:BW_Professor_NFHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_NFHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_Consulta">
+      <wsdl:input message="tns:BW_Delib11_ConsultaHttpPostIn" />
+      <wsdl:output message="tns:BW_Delib11_ConsultaHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNRO">
+      <wsdl:input message="tns:BW_Delib11_CategoriaNROHttpPostIn" />
+      <wsdl:output message="tns:BW_Delib11_CategoriaNROHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNOTA">
+      <wsdl:input message="tns:BW_Delib11_CategoriaNOTAHttpPostIn" />
+      <wsdl:output message="tns:BW_Delib11_CategoriaNOTAHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaEXCLUIDO">
+      <wsdl:input message="tns:BW_Delib11_CategoriaEXCLUIDOHttpPostIn" />
+      <wsdl:output message="tns:BW_Delib11_CategoriaEXCLUIDOHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim">
+      <wsdl:input message="tns:BW_Professor_NF_BoletimHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_NF_BoletimHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim_Sync">
+      <wsdl:input message="tns:BW_Professor_NF_Boletim_SyncHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_NF_Boletim_SyncHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Status">
+      <wsdl:input message="tns:BW_Professor_StatusHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_StatusHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Ativacao">
+      <wsdl:input message="tns:BW_AtivacaoHttpPostIn" />
+      <wsdl:output message="tns:BW_AtivacaoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_TrazerNotas_NroBoletins">
+      <wsdl:input message="tns:BW_TrazerNotas_NroBoletinsHttpPostIn" />
+      <wsdl:output message="tns:BW_TrazerNotas_NroBoletinsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AulasDP">
+      <wsdl:input message="tns:BW_Professor_AulasDPHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_AulasDPHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsDigitados">
+      <wsdl:input message="tns:BW_Professor_BoletinsDigitadosHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_BoletinsDigitadosHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsStatus">
+      <wsdl:input message="tns:BW_Professor_BoletinsStatusHttpPostIn" />
+      <wsdl:output message="tns:BW_Professor_BoletinsStatusHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebSoap" type="tns:WebSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="BW_Consultar">
+      <soap:operation soapAction="http://tempuri.org/BW_Consultar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Publicar">
+      <soap:operation soapAction="http://tempuri.org/BW_Publicar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_PublicarCalendario">
+      <soap:operation soapAction="http://tempuri.org/BW_PublicarCalendario" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Login">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Turmas">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_Turmas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Disciplinas">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_Disciplinas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_DisciplinasBOL">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_DisciplinasBOL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarNF">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_ConsultarNF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_CadastrarNF">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_CadastrarNF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_CadastrarBol">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_CadastrarBol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarEV">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_ConsultarEV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarBol">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_ConsultarBol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AlterarBol">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_AlterarBol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ExcluirBol">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_ExcluirBol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_NF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_Consulta">
+      <soap:operation soapAction="http://tempuri.org/BW_Delib11_Consulta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNRO">
+      <soap:operation soapAction="http://tempuri.org/BW_Delib11_CategoriaNRO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNOTA">
+      <soap:operation soapAction="http://tempuri.org/BW_Delib11_CategoriaNOTA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaEXCLUIDO">
+      <soap:operation soapAction="http://tempuri.org/BW_Delib11_CategoriaEXCLUIDO" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_NF_Boletim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim_Sync">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_NF_Boletim_Sync" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Status">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_Status" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Ativacao">
+      <soap:operation soapAction="http://tempuri.org/BW_Ativacao" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_TrazerNotas_NroBoletins">
+      <soap:operation soapAction="http://tempuri.org/BW_TrazerNotas_NroBoletins" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AulasDP">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_AulasDP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsDigitados">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_BoletinsDigitados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsStatus">
+      <soap:operation soapAction="http://tempuri.org/BW_Professor_BoletinsStatus" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebSoap12" type="tns:WebSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="BW_Consultar">
+      <soap12:operation soapAction="http://tempuri.org/BW_Consultar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Publicar">
+      <soap12:operation soapAction="http://tempuri.org/BW_Publicar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_PublicarCalendario">
+      <soap12:operation soapAction="http://tempuri.org/BW_PublicarCalendario" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Login">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_Login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Turmas">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_Turmas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Disciplinas">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_Disciplinas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_DisciplinasBOL">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_DisciplinasBOL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarNF">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_ConsultarNF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_CadastrarNF">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_CadastrarNF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_CadastrarBol">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_CadastrarBol" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarEV">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_ConsultarEV" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarBol">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_ConsultarBol" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AlterarBol">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_AlterarBol" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ExcluirBol">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_ExcluirBol" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_NF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_Consulta">
+      <soap12:operation soapAction="http://tempuri.org/BW_Delib11_Consulta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNRO">
+      <soap12:operation soapAction="http://tempuri.org/BW_Delib11_CategoriaNRO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNOTA">
+      <soap12:operation soapAction="http://tempuri.org/BW_Delib11_CategoriaNOTA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaEXCLUIDO">
+      <soap12:operation soapAction="http://tempuri.org/BW_Delib11_CategoriaEXCLUIDO" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_NF_Boletim" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim_Sync">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_NF_Boletim_Sync" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Status">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_Status" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Ativacao">
+      <soap12:operation soapAction="http://tempuri.org/BW_Ativacao" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_TrazerNotas_NroBoletins">
+      <soap12:operation soapAction="http://tempuri.org/BW_TrazerNotas_NroBoletins" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AulasDP">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_AulasDP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsDigitados">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_BoletinsDigitados" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsStatus">
+      <soap12:operation soapAction="http://tempuri.org/BW_Professor_BoletinsStatus" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebHttpGet" type="tns:WebHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="BW_Consultar">
+      <http:operation location="/BW_Consultar" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_PublicarCalendario">
+      <http:operation location="/BW_PublicarCalendario" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Login">
+      <http:operation location="/BW_Professor_Login" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Turmas">
+      <http:operation location="/BW_Professor_Turmas" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Disciplinas">
+      <http:operation location="/BW_Professor_Disciplinas" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_DisciplinasBOL">
+      <http:operation location="/BW_Professor_DisciplinasBOL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarNF">
+      <http:operation location="/BW_Professor_ConsultarNF" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_CadastrarNF">
+      <http:operation location="/BW_Professor_CadastrarNF" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarEV">
+      <http:operation location="/BW_Professor_ConsultarEV" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarBol">
+      <http:operation location="/BW_Professor_ConsultarBol" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AlterarBol">
+      <http:operation location="/BW_Professor_AlterarBol" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ExcluirBol">
+      <http:operation location="/BW_Professor_ExcluirBol" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF">
+      <http:operation location="/BW_Professor_NF" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_Consulta">
+      <http:operation location="/BW_Delib11_Consulta" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNRO">
+      <http:operation location="/BW_Delib11_CategoriaNRO" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNOTA">
+      <http:operation location="/BW_Delib11_CategoriaNOTA" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaEXCLUIDO">
+      <http:operation location="/BW_Delib11_CategoriaEXCLUIDO" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim">
+      <http:operation location="/BW_Professor_NF_Boletim" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim_Sync">
+      <http:operation location="/BW_Professor_NF_Boletim_Sync" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Status">
+      <http:operation location="/BW_Professor_Status" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Ativacao">
+      <http:operation location="/BW_Ativacao" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_TrazerNotas_NroBoletins">
+      <http:operation location="/BW_TrazerNotas_NroBoletins" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AulasDP">
+      <http:operation location="/BW_Professor_AulasDP" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsDigitados">
+      <http:operation location="/BW_Professor_BoletinsDigitados" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsStatus">
+      <http:operation location="/BW_Professor_BoletinsStatus" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebHttpPost" type="tns:WebHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="BW_Consultar">
+      <http:operation location="/BW_Consultar" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_PublicarCalendario">
+      <http:operation location="/BW_PublicarCalendario" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Login">
+      <http:operation location="/BW_Professor_Login" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Turmas">
+      <http:operation location="/BW_Professor_Turmas" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Disciplinas">
+      <http:operation location="/BW_Professor_Disciplinas" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_DisciplinasBOL">
+      <http:operation location="/BW_Professor_DisciplinasBOL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarNF">
+      <http:operation location="/BW_Professor_ConsultarNF" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_CadastrarNF">
+      <http:operation location="/BW_Professor_CadastrarNF" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarEV">
+      <http:operation location="/BW_Professor_ConsultarEV" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ConsultarBol">
+      <http:operation location="/BW_Professor_ConsultarBol" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AlterarBol">
+      <http:operation location="/BW_Professor_AlterarBol" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_ExcluirBol">
+      <http:operation location="/BW_Professor_ExcluirBol" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF">
+      <http:operation location="/BW_Professor_NF" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_Consulta">
+      <http:operation location="/BW_Delib11_Consulta" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNRO">
+      <http:operation location="/BW_Delib11_CategoriaNRO" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaNOTA">
+      <http:operation location="/BW_Delib11_CategoriaNOTA" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Delib11_CategoriaEXCLUIDO">
+      <http:operation location="/BW_Delib11_CategoriaEXCLUIDO" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim">
+      <http:operation location="/BW_Professor_NF_Boletim" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_NF_Boletim_Sync">
+      <http:operation location="/BW_Professor_NF_Boletim_Sync" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_Status">
+      <http:operation location="/BW_Professor_Status" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Ativacao">
+      <http:operation location="/BW_Ativacao" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_TrazerNotas_NroBoletins">
+      <http:operation location="/BW_TrazerNotas_NroBoletins" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_AulasDP">
+      <http:operation location="/BW_Professor_AulasDP" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsDigitados">
+      <http:operation location="/BW_Professor_BoletinsDigitados" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BW_Professor_BoletinsStatus">
+      <http:operation location="/BW_Professor_BoletinsStatus" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Web">
+    <wsdl:port name="WebSoap" binding="tns:WebSoap">
+      <soap:address location="http://ws.escola.isolucao.com/Web.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebSoap12" binding="tns:WebSoap12">
+      <soap12:address location="http://ws.escola.isolucao.com/Web.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebHttpGet" binding="tns:WebHttpGet">
+      <http:address location="http://ws.escola.isolucao.com/Web.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebHttpPost" binding="tns:WebHttpPost">
+      <http:address location="http://ws.escola.isolucao.com/Web.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

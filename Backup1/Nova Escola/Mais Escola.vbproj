@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0EB063D-06BA-4704-8F79-49AFE41E4347}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Mais_Escola.My.MyApplication</StartupObject>
+    <RootNamespace>Mais_Escola</RootNamespace>
+    <AssemblyName>Mais Escola</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>maisescola.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ManifestCertificateThumbprint>B5E50CEA2AE5D3CD8943BE42EBF4993F3419E221</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Mais Escola_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <PublishUrl>ftp://downloads.isolucao.com.br/wwwroot/maisescola/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://downloads.isolucao.com.br/maisescola/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Mais Escola.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Mais Escola.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.SHDocVw, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLs\AxInterop.SHDocVw.dll</HintPath>
+    </Reference>
+    <Reference Include="cpInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ME - cpInfo\cpInfo\cpInfo\bin\Release\cpInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC\CrystalDecisions.Enterprise.Framework\12.0.1100.0__692fbea5521e1304\CrystalDecisions.Enterprise.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=12.0.1100.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC\CrystalDecisions.Enterprise.InfoStore\12.0.1100.0__692fbea5521e1304\CrystalDecisions.Enterprise.InfoStore.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.ReportSource\12.0.2000.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\CrystalDecisions.Shared\12.0.2000.0__692fbea5521e1304\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=12.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2, Version=7.9.0.0, Culture=neutral, PublicKeyToken=5fd520d36328f741, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Microsoft Visual Studio 9.0\Visual Studio Tools for Office\PIA\Office12\Microsoft.mshtml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="MySql.Data, Version=6.1.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="frmBoletimWeb.Designer.vb">
+      <DependentUpon>frmBoletimWeb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBoletimWeb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBolsas.Designer.vb">
+      <DependentUpon>frmBolsas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBolsas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadAlunoFicha.Designer.vb">
+      <DependentUpon>frmCadAlunoFicha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadAlunoFicha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManDisciplinas.Designer.vb">
+      <DependentUpon>frmManDisciplinas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManDisciplinas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGerencialBolMovel.Designer.vb">
+      <DependentUpon>frmGerencialBolMovel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGerencialBolMovel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGerencialDCL.Designer.vb">
+      <DependentUpon>frmGerencialDCL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGerencialDCL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManGerarAF.Designer.vb">
+      <DependentUpon>frmManGerarAF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManGerarAF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFerOpcoes.Designer.vb">
+      <DependentUpon>frmFerOpcoes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFerOpcoes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobreEscola.designer.vb">
+      <DependentUpon>frmSobreEscola.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobreEscola.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGDAELogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGDAEMenu.Designer.vb">
+      <DependentUpon>frmGDAEMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGDAEMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGDAEOperador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGerencialNOME.Designer.vb">
+      <DependentUpon>frmGerencialNOME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGerencialNOME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManFundamental2.designer.vb">
+      <DependentUpon>frmManFundamental2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManFundamental2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImpBoletim2.Designer.vb">
+      <DependentUpon>frmImpBoletim2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImpBoletim2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManAulasPrevistas.Designer.vb">
+      <DependentUpon>frmManAulasPrevistas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManAulasPrevistas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManBoletimALT.designer.vb">
+      <DependentUpon>frmManBoletimALT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManBoletimALT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManAlunosF.designer.vb">
+      <DependentUpon>frmManAlunosF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManAlunosF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGerencialRPT.designer.vb">
+      <DependentUpon>frmGerencialRPT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGerencialRPT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManGrade.Designer.vb">
+      <DependentUpon>frmManGrade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManGrade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManUltimoAluno.Designer.vb">
+      <DependentUpon>frmManUltimoAluno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManUltimoAluno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobre.Designer.vb">
+      <DependentUpon>frmSobre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobre2.Designer.vb">
+      <DependentUpon>frmSobre2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobre2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Importacao2.Designer.vb">
+      <DependentUpon>Importacao2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Importacao2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadFundamental.designer.vb">
+      <DependentUpon>frmCadFundamental.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadFundamental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManBoletim234.designer.vb">
+      <DependentUpon>frmManBoletim234.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManBoletim234.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCad234.designer.vb">
+      <DependentUpon>frmCad234.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCad234.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptNF.designer.vb">
+      <DependentUpon>frmRptNF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptNF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManAF.designer.vb">
+      <DependentUpon>frmManAF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManAF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConAlunos.designer.vb">
+      <DependentUpon>frmConAlunos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConAlunos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManACP.designer.vb">
+      <DependentUpon>frmManACP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManACP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManAC.designer.vb">
+      <DependentUpon>frmManAC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManAC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGerencial2.designer.vb">
+      <DependentUpon>frmGerencial2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGerencial2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManBoletim.designer.vb">
+      <DependentUpon>frmManBoletim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManBoletim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadAluno.designer.vb">
+      <DependentUpon>frmCadAluno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadAluno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadNF.designer.vb">
+      <DependentUpon>frmCadNF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadNF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadBoletim.designer.vb">
+      <DependentUpon>frmCadBoletim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadBoletim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConTurma.designer.vb">
+      <DependentUpon>frmConTurma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConTurma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConDisciplinas.designer.vb">
+      <DependentUpon>frmConDisciplinas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConDisciplinas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConProfessor.designer.vb">
+      <DependentUpon>frmConProfessor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConProfessor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConBoletim.designer.vb">
+      <DependentUpon>frmConBoletim.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConBoletim.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin2.designer.vb">
+      <DependentUpon>frmLogin2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManTurma.designer.vb">
+      <DependentUpon>frmManTurma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManTurma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManAluno.designer.vb">
+      <DependentUpon>frmManAluno.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManAluno.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManNF.designer.vb">
+      <DependentUpon>frmManNF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmManNF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRpt.designer.vb">
+      <DependentUpon>frmRpt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRpt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Importacao.Designer.vb">
+      <DependentUpon>Importacao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Importacao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MaisEscola.vb" />
+    <Compile Include="Registro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Web References\MaisEscola1\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\MaisEscola2\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\MaisEscolaAdm\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\MaisEscolaWeb\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmBoletimWeb.resx">
+      <DependentUpon>frmBoletimWeb.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBolsas.resx">
+      <DependentUpon>frmBolsas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadAlunoFicha.resx">
+      <DependentUpon>frmCadAlunoFicha.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManDisciplinas.resx">
+      <DependentUpon>frmManDisciplinas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGerencialBolMovel.resx">
+      <DependentUpon>frmGerencialBolMovel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGerencialDCL.resx">
+      <DependentUpon>frmGerencialDCL.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManGerarAF.resx">
+      <DependentUpon>frmManGerarAF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFerOpcoes.resx">
+      <DependentUpon>frmFerOpcoes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobreEscola.resx">
+      <DependentUpon>frmSobreEscola.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGDAELogin.resx">
+      <DependentUpon>frmGDAELogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGDAEMenu.resx">
+      <DependentUpon>frmGDAEMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGDAEOperador.resx">
+      <DependentUpon>frmGDAEOperador.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGerencialNOME.resx">
+      <DependentUpon>frmGerencialNOME.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManFundamental2.resx">
+      <DependentUpon>frmManFundamental2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImpBoletim2.resx">
+      <DependentUpon>frmImpBoletim2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManAulasPrevistas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmManAulasPrevistas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManBoletimALT.resx">
+      <DependentUpon>frmManBoletimALT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManAlunosF.resx">
+      <DependentUpon>frmManAlunosF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGerencialRPT.resx">
+      <DependentUpon>frmGerencialRPT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManGrade.resx">
+      <DependentUpon>frmManGrade.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManUltimoAluno.resx">
+      <DependentUpon>frmManUltimoAluno.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobre.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSobre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobre2.resx">
+      <DependentUpon>frmSobre2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Importacao2.resx">
+      <DependentUpon>Importacao2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadFundamental.resx">
+      <DependentUpon>frmCadFundamental.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManBoletim234.resx">
+      <DependentUpon>frmManBoletim234.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCad234.resx">
+      <DependentUpon>frmCad234.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptNF.resx">
+      <DependentUpon>frmRptNF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManAF.resx">
+      <DependentUpon>frmManAF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConAlunos.resx">
+      <DependentUpon>frmConAlunos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManACP.resx">
+      <DependentUpon>frmManACP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManAC.resx">
+      <DependentUpon>frmManAC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGerencial2.resx">
+      <DependentUpon>frmGerencial2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManBoletim.resx">
+      <DependentUpon>frmManBoletim.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadAluno.resx">
+      <DependentUpon>frmCadAluno.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadNF.resx">
+      <DependentUpon>frmCadNF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadBoletim.resx">
+      <DependentUpon>frmCadBoletim.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConTurma.resx">
+      <DependentUpon>frmConTurma.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConDisciplinas.resx">
+      <DependentUpon>frmConDisciplinas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConProfessor.resx">
+      <DependentUpon>frmConProfessor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConBoletim.resx">
+      <DependentUpon>frmConBoletim.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin2.resx">
+      <DependentUpon>frmLogin2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManTurma.resx">
+      <DependentUpon>frmManTurma.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManAluno.resx">
+      <DependentUpon>frmManAluno.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManNF.resx">
+      <DependentUpon>frmManNF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRpt.resx">
+      <DependentUpon>frmRpt.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Importacao.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Importacao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <DependentUpon>Registro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Alunos.xsd">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Alunos.xsx">
+      <DependentUpon>Alunos.xsd</DependentUpon>
+    </None>
+    <None Include="Boletim.xsd">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Boletim.xsx">
+      <DependentUpon>Boletim.xsd</DependentUpon>
+    </None>
+    <None Include="FichaAluno.xsd">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="FichaAluno.xsx">
+      <DependentUpon>FichaAluno.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Cabecalho.xsd" />
+    <None Include="Cabecalho.xsx">
+      <DependentUpon>Cabecalho.xsd</DependentUpon>
+    </None>
+    <None Include="Declaracao.xsd" />
+    <None Include="My Project\app.manifest" />
+    <Content Include="maisescola.ico" />
+    <None Include="Web References\MaisEscolaAdm\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\MaisEscolaAdm\Service4.disco" />
+    <None Include="Web References\MaisEscolaAdm\Service4.wsdl" />
+    <None Include="Web References\MaisEscolaWeb\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\MaisEscolaWeb\Service5.disco" />
+    <None Include="Resources\OK.png" />
+    <None Include="Resources\nOK.png" />
+    <None Include="Web References\MaisEscola2\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\MaisEscola2\Service2.disco" />
+    <None Include="Web References\MaisEscola1\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\MaisEscola1\Service1.disco" />
+    <None Include="Resources\fundo1.jpg" />
+    <None Include="Resources\maisescola.PNG" />
+    <None Include="Resources\mais.PNG" />
+    <None Include="Resources\lupa_melhor.gif" />
+    <None Include="Resources\calendar2.gif" />
+    <None Include="Resources\calendar.gif" />
+    <None Include="Web References\MaisEscola1\Service1.wsdl" />
+    <None Include="Web References\MaisEscola2\Service2.wsdl" />
+    <None Include="Web References\MaisEscolaWeb\Service5.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3924545A-F8E2-475A-B1A4-05175BC41E50}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://ws.maisescola.com.br/Service1.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\MaisEscola1\</RelPath>
+      <UpdateFromURL>http://ws.maisescola.com.br/Service1.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Mais_Escola_MaisEscola1_Service1</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://ws.maisescola.com.br/Service2.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\MaisEscola2\</RelPath>
+      <UpdateFromURL>http://ws.maisescola.com.br/Service2.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Mais_Escola_MaisEscola2_Service2</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://ws.maisescola.com.br/Service4.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\MaisEscolaAdm\</RelPath>
+      <UpdateFromURL>http://ws.maisescola.com.br/Service4.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Mais_Escola_MaisEscolaAdm_Service4</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://ws.maisescola.com.br/Service5.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\MaisEscolaWeb\</RelPath>
+      <UpdateFromURL>http://ws.maisescola.com.br/Service5.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Mais_Escola_MaisEscolaWeb_Service5</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

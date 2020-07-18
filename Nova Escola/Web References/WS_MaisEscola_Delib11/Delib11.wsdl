@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="trazerFicha">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CodigoTurma" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="trazerFichaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="trazerFichaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="trazerFicha2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CodigoTurma" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NroAluno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="trazerFicha2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="trazerFicha2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="trazerNro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="trazerNroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="trazerNroResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GradeTurma">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Bimestre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Turma" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GradeTurmaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GradeTurmaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="idDelibNF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnoVigente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Turma" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NroAluno" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="idDelibNFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idDelibNFResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultaOpcoes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Categoria" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultaOpcoesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="consultaOpcoesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultaFicha">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idDelib_cat" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="idDelib_des" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="notasfreq" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nro_aluno" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultaFichaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="consultaFichaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="preencherFicha">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idDelib_cat" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="idDelib_des" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="notasfreq" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="nro_aluno" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Opcao_Exclusiva" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="preencherFichaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="preencherFichaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultaCategoria">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UsuarioWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SenhaWeb" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Escola" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="consultaCategoriaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="consultaCategoriaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="trazerFichaSoapIn">
+    <wsdl:part name="parameters" element="tns:trazerFicha" />
+  </wsdl:message>
+  <wsdl:message name="trazerFichaSoapOut">
+    <wsdl:part name="parameters" element="tns:trazerFichaResponse" />
+  </wsdl:message>
+  <wsdl:message name="trazerFicha2SoapIn">
+    <wsdl:part name="parameters" element="tns:trazerFicha2" />
+  </wsdl:message>
+  <wsdl:message name="trazerFicha2SoapOut">
+    <wsdl:part name="parameters" element="tns:trazerFicha2Response" />
+  </wsdl:message>
+  <wsdl:message name="trazerNroSoapIn">
+    <wsdl:part name="parameters" element="tns:trazerNro" />
+  </wsdl:message>
+  <wsdl:message name="trazerNroSoapOut">
+    <wsdl:part name="parameters" element="tns:trazerNroResponse" />
+  </wsdl:message>
+  <wsdl:message name="GradeTurmaSoapIn">
+    <wsdl:part name="parameters" element="tns:GradeTurma" />
+  </wsdl:message>
+  <wsdl:message name="GradeTurmaSoapOut">
+    <wsdl:part name="parameters" element="tns:GradeTurmaResponse" />
+  </wsdl:message>
+  <wsdl:message name="idDelibNFSoapIn">
+    <wsdl:part name="parameters" element="tns:idDelibNF" />
+  </wsdl:message>
+  <wsdl:message name="idDelibNFSoapOut">
+    <wsdl:part name="parameters" element="tns:idDelibNFResponse" />
+  </wsdl:message>
+  <wsdl:message name="consultaOpcoesSoapIn">
+    <wsdl:part name="parameters" element="tns:consultaOpcoes" />
+  </wsdl:message>
+  <wsdl:message name="consultaOpcoesSoapOut">
+    <wsdl:part name="parameters" element="tns:consultaOpcoesResponse" />
+  </wsdl:message>
+  <wsdl:message name="consultaFichaSoapIn">
+    <wsdl:part name="parameters" element="tns:consultaFicha" />
+  </wsdl:message>
+  <wsdl:message name="consultaFichaSoapOut">
+    <wsdl:part name="parameters" element="tns:consultaFichaResponse" />
+  </wsdl:message>
+  <wsdl:message name="preencherFichaSoapIn">
+    <wsdl:part name="parameters" element="tns:preencherFicha" />
+  </wsdl:message>
+  <wsdl:message name="preencherFichaSoapOut">
+    <wsdl:part name="parameters" element="tns:preencherFichaResponse" />
+  </wsdl:message>
+  <wsdl:message name="consultaCategoriaSoapIn">
+    <wsdl:part name="parameters" element="tns:consultaCategoria" />
+  </wsdl:message>
+  <wsdl:message name="consultaCategoriaSoapOut">
+    <wsdl:part name="parameters" element="tns:consultaCategoriaResponse" />
+  </wsdl:message>
+  <wsdl:message name="trazerFichaHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="CodigoTurma" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="trazerFichaHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="trazerFicha2HttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="CodigoTurma" type="s:string" />
+    <wsdl:part name="NroAluno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="trazerFicha2HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="trazerNroHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="trazerNroHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GradeTurmaHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GradeTurmaHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="idDelibNFHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="NroAluno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="idDelibNFHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaOpcoesHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Categoria" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaOpcoesHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="consultaFichaHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="idDelib_cat" type="s:string" />
+    <wsdl:part name="idDelib_des" type="s:string" />
+    <wsdl:part name="notasfreq" type="s:string" />
+    <wsdl:part name="nro_aluno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaFichaHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="preencherFichaHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="idDelib_cat" type="s:string" />
+    <wsdl:part name="idDelib_des" type="s:string" />
+    <wsdl:part name="notasfreq" type="s:string" />
+    <wsdl:part name="nro_aluno" type="s:string" />
+    <wsdl:part name="Opcao_Exclusiva" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="preencherFichaHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaCategoriaHttpGetIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaCategoriaHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="trazerFichaHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="CodigoTurma" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="trazerFichaHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="trazerFicha2HttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="CodigoTurma" type="s:string" />
+    <wsdl:part name="NroAluno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="trazerFicha2HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="trazerNroHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="trazerNroHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GradeTurmaHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Bimestre" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GradeTurmaHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="idDelibNFHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="AnoVigente" type="s:string" />
+    <wsdl:part name="Turma" type="s:string" />
+    <wsdl:part name="NroAluno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="idDelibNFHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaOpcoesHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="Categoria" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaOpcoesHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="consultaFichaHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="idDelib_cat" type="s:string" />
+    <wsdl:part name="idDelib_des" type="s:string" />
+    <wsdl:part name="notasfreq" type="s:string" />
+    <wsdl:part name="nro_aluno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaFichaHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="preencherFichaHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+    <wsdl:part name="idDelib_cat" type="s:string" />
+    <wsdl:part name="idDelib_des" type="s:string" />
+    <wsdl:part name="notasfreq" type="s:string" />
+    <wsdl:part name="nro_aluno" type="s:string" />
+    <wsdl:part name="Opcao_Exclusiva" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="preencherFichaHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaCategoriaHttpPostIn">
+    <wsdl:part name="UsuarioWeb" type="s:string" />
+    <wsdl:part name="SenhaWeb" type="s:string" />
+    <wsdl:part name="Escola" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="consultaCategoriaHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="Delib11Soap">
+    <wsdl:operation name="trazerFicha">
+      <wsdl:input message="tns:trazerFichaSoapIn" />
+      <wsdl:output message="tns:trazerFichaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="trazerFicha2">
+      <wsdl:input message="tns:trazerFicha2SoapIn" />
+      <wsdl:output message="tns:trazerFicha2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="trazerNro">
+      <wsdl:input message="tns:trazerNroSoapIn" />
+      <wsdl:output message="tns:trazerNroSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GradeTurma">
+      <wsdl:input message="tns:GradeTurmaSoapIn" />
+      <wsdl:output message="tns:GradeTurmaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="idDelibNF">
+      <wsdl:input message="tns:idDelibNFSoapIn" />
+      <wsdl:output message="tns:idDelibNFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultaOpcoes">
+      <wsdl:input message="tns:consultaOpcoesSoapIn" />
+      <wsdl:output message="tns:consultaOpcoesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultaFicha">
+      <wsdl:input message="tns:consultaFichaSoapIn" />
+      <wsdl:output message="tns:consultaFichaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="preencherFicha">
+      <wsdl:input message="tns:preencherFichaSoapIn" />
+      <wsdl:output message="tns:preencherFichaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultaCategoria">
+      <wsdl:input message="tns:consultaCategoriaSoapIn" />
+      <wsdl:output message="tns:consultaCategoriaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Delib11HttpGet">
+    <wsdl:operation name="trazerFicha">
+      <wsdl:input message="tns:trazerFichaHttpGetIn" />
+      <wsdl:output message="tns:trazerFichaHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="trazerFicha2">
+      <wsdl:input message="tns:trazerFicha2HttpGetIn" />
+      <wsdl:output message="tns:trazerFicha2HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="trazerNro">
+      <wsdl:input message="tns:trazerNroHttpGetIn" />
+      <wsdl:output message="tns:trazerNroHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GradeTurma">
+      <wsdl:input message="tns:GradeTurmaHttpGetIn" />
+      <wsdl:output message="tns:GradeTurmaHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="idDelibNF">
+      <wsdl:input message="tns:idDelibNFHttpGetIn" />
+      <wsdl:output message="tns:idDelibNFHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultaOpcoes">
+      <wsdl:input message="tns:consultaOpcoesHttpGetIn" />
+      <wsdl:output message="tns:consultaOpcoesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultaFicha">
+      <wsdl:input message="tns:consultaFichaHttpGetIn" />
+      <wsdl:output message="tns:consultaFichaHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="preencherFicha">
+      <wsdl:input message="tns:preencherFichaHttpGetIn" />
+      <wsdl:output message="tns:preencherFichaHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultaCategoria">
+      <wsdl:input message="tns:consultaCategoriaHttpGetIn" />
+      <wsdl:output message="tns:consultaCategoriaHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="Delib11HttpPost">
+    <wsdl:operation name="trazerFicha">
+      <wsdl:input message="tns:trazerFichaHttpPostIn" />
+      <wsdl:output message="tns:trazerFichaHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="trazerFicha2">
+      <wsdl:input message="tns:trazerFicha2HttpPostIn" />
+      <wsdl:output message="tns:trazerFicha2HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="trazerNro">
+      <wsdl:input message="tns:trazerNroHttpPostIn" />
+      <wsdl:output message="tns:trazerNroHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GradeTurma">
+      <wsdl:input message="tns:GradeTurmaHttpPostIn" />
+      <wsdl:output message="tns:GradeTurmaHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="idDelibNF">
+      <wsdl:input message="tns:idDelibNFHttpPostIn" />
+      <wsdl:output message="tns:idDelibNFHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultaOpcoes">
+      <wsdl:input message="tns:consultaOpcoesHttpPostIn" />
+      <wsdl:output message="tns:consultaOpcoesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultaFicha">
+      <wsdl:input message="tns:consultaFichaHttpPostIn" />
+      <wsdl:output message="tns:consultaFichaHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="preencherFicha">
+      <wsdl:input message="tns:preencherFichaHttpPostIn" />
+      <wsdl:output message="tns:preencherFichaHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="consultaCategoria">
+      <wsdl:input message="tns:consultaCategoriaHttpPostIn" />
+      <wsdl:output message="tns:consultaCategoriaHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Delib11Soap" type="tns:Delib11Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="trazerFicha">
+      <soap:operation soapAction="http://tempuri.org/trazerFicha" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="trazerFicha2">
+      <soap:operation soapAction="http://tempuri.org/trazerFicha2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="trazerNro">
+      <soap:operation soapAction="http://tempuri.org/trazerNro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GradeTurma">
+      <soap:operation soapAction="http://tempuri.org/GradeTurma" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="idDelibNF">
+      <soap:operation soapAction="http://tempuri.org/idDelibNF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaOpcoes">
+      <soap:operation soapAction="http://tempuri.org/consultaOpcoes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaFicha">
+      <soap:operation soapAction="http://tempuri.org/consultaFicha" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="preencherFicha">
+      <soap:operation soapAction="http://tempuri.org/preencherFicha" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaCategoria">
+      <soap:operation soapAction="http://tempuri.org/consultaCategoria" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Delib11Soap12" type="tns:Delib11Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="trazerFicha">
+      <soap12:operation soapAction="http://tempuri.org/trazerFicha" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="trazerFicha2">
+      <soap12:operation soapAction="http://tempuri.org/trazerFicha2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="trazerNro">
+      <soap12:operation soapAction="http://tempuri.org/trazerNro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GradeTurma">
+      <soap12:operation soapAction="http://tempuri.org/GradeTurma" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="idDelibNF">
+      <soap12:operation soapAction="http://tempuri.org/idDelibNF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaOpcoes">
+      <soap12:operation soapAction="http://tempuri.org/consultaOpcoes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaFicha">
+      <soap12:operation soapAction="http://tempuri.org/consultaFicha" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="preencherFicha">
+      <soap12:operation soapAction="http://tempuri.org/preencherFicha" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaCategoria">
+      <soap12:operation soapAction="http://tempuri.org/consultaCategoria" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Delib11HttpGet" type="tns:Delib11HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="trazerFicha">
+      <http:operation location="/trazerFicha" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="trazerFicha2">
+      <http:operation location="/trazerFicha2" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="trazerNro">
+      <http:operation location="/trazerNro" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GradeTurma">
+      <http:operation location="/GradeTurma" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="idDelibNF">
+      <http:operation location="/idDelibNF" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaOpcoes">
+      <http:operation location="/consultaOpcoes" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaFicha">
+      <http:operation location="/consultaFicha" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="preencherFicha">
+      <http:operation location="/preencherFicha" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaCategoria">
+      <http:operation location="/consultaCategoria" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Delib11HttpPost" type="tns:Delib11HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="trazerFicha">
+      <http:operation location="/trazerFicha" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="trazerFicha2">
+      <http:operation location="/trazerFicha2" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="trazerNro">
+      <http:operation location="/trazerNro" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GradeTurma">
+      <http:operation location="/GradeTurma" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="idDelibNF">
+      <http:operation location="/idDelibNF" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaOpcoes">
+      <http:operation location="/consultaOpcoes" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaFicha">
+      <http:operation location="/consultaFicha" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="preencherFicha">
+      <http:operation location="/preencherFicha" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="consultaCategoria">
+      <http:operation location="/consultaCategoria" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Delib11">
+    <wsdl:port name="Delib11Soap" binding="tns:Delib11Soap">
+      <soap:address location="http://ws.escola.isolucao.com/Delib11.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Delib11Soap12" binding="tns:Delib11Soap12">
+      <soap12:address location="http://ws.escola.isolucao.com/Delib11.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Delib11HttpGet" binding="tns:Delib11HttpGet">
+      <http:address location="http://ws.escola.isolucao.com/Delib11.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Delib11HttpPost" binding="tns:Delib11HttpPost">
+      <http:address location="http://ws.escola.isolucao.com/Delib11.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>CONTRATO PARTICULAR DE LOCAÇÃO E MANUTENÇÃO
+
+Pelo presente instrumento particular e na melhor forma de direito, de um lado, 
+
+CONTRATADO: iSolução Informática - Desenvolvimento de Sistemas, com sede no município de Ribeirão Preto, na Avenida Saudade, nº. 1210, sala 313, bairro Campos Elíseos, CEP: 14085-000, no Estado de São Paulo, inscrita no CNPJ sob o nº. 09.041.102/0001-20, por seu representante legal Thiago Silva Teixeira, ora denominada somente iSOLUÇÃO, ajustam a celebração deste Contrato, que se regerá pelas seguintes cláusulas e condições:
+
+CONTRATANTE: Usuário do Sistema ( Mais Escola ) a seguir denominada como CONTRATANTE;
+
+1.	Objeto e Condições Gerais da Prestação do Serviço
+
+1.1.	O presente instrumento define as condições para a prestação do serviço de   locação do software Mais Escola (Sistema Administrativo Escolar), que se compreende a sua instalação e uso nas dependências do CONTRATANTE, prevendo as licenças ilimitadas;
+
+1.2.	O CONTRATADO é produtor e detentor dos direitos autorais do software que é objeto do presente contrato;
+
+1.3.	O serviço do software é personalíssimo e intransferível. O serviço estará à disposição do CONTRATANTE 24 (vinte e quatro) horas por dia, podendo eventualmente sofrer interrupções devido a manutenções técnicas e/ou operacionais, casos fortuitos, ações de terceiros e falta de energia elétrica.
+
+1.4.	O objeto do presente contrato é a locação do software e manutenção do mesmo pelo CONTRATANTE.
+
+1.5.	Se for de interesse do CONTRATANTE, a implantação do suporte remoto. Requer acesso à internet ADSL (banda larga) e abrir uma porta de acesso no modem.
+
+
+2.	Responsabilidades do Contratado
+
+2.1	      Manter o software atualizado tecnicamente e de acordo com a legislação em vigor, de âmbito federal, estadual ou municipal, fornecendo prontamente as novas versões liberadas, corrigir os erros de concepção e produção do software em suas evoluções, sempre que solicitado pelo CONTRATANTE.;
+
+2.2	      Fornecer suporte técnico para dirimir dúvidas ou solucionar problemas quanto ao software objeto do presente contrato, por telefone, e-mail (correio eletrônico), acesso remoto via internet, nos dias úteis e horários comerciais;
+
+2.3	      Atender as solicitações de mudanças e implementações no software, mediante acordo a ser detalhado em novos aditivos ao presente contrato.
+
+2.4	      Por acesso remoto treinar e prestar esclarecimentos ao CONTRATANTE e seus funcionários, envolvidos com a operação dos módulos contratados.
+
+2.5	      Manter total sigilo sobre as informações confidenciais do CONTRATANTE a que tiver acesso, inerentes do trabalho de desenvolvimento e manutenção do software.
+
+
+3.	Responsabilidades do Contratante
+
+3.1.	O CONTRATANTE deve prover, sempre que ocorra qualquer problema com o software, toda a documentação, relatórios de erros e demais informações que relatem as circunstâncias em que o problema ocorreu, sob pena de impossibilitar o CONTRATADO de solucionar o(s) problema(s) ou erro(s);
+
+3.2.	O CONTRATANTE deverá fornecer nome, cargo/função e outros dados necessários dos responsáveis pelo uso do sistema ora contratado;
+
+3.3.	Sempre que necessário o CONTRATANTE obriga-se a ceder suas instalações, equipamentos e pessoal a fim de facilitar de forma geral o acesso e os trabalhos a serem executados pelo CONTRATADO;
+
+3.4.	Não efetuar qualquer alteração no software objeto do presente contrato sem autorização expressa do CONTRATADO.
+
+3.5.	A má utilização do produto pelo CONTRATANTE exclui qualquer responsabilidade do CONTRATADO;
+
+
+4.	Valores e Forma de Pagamento do Serviço
+
+4.1.	Pela locação do software e suporte de manutenção, o CONTRATANTE pagará ao CONTRATADO a quantia de R$ (em contrato assinado) , até o dia (em contrato assinado) do mês vincendo, através de boleto bancário, encaminhado via e-mail.
+
+4.2.	Pela implantação e treinamento do software, o CONTRATANTE pagará ao CONTRATADO a quantia de R$ (em contrato assinado). 
+
+4.3.	O não pagamento da(s) mensalidade(s), nos prazos e pelos valores ora ajustado importará na incidência de juros de mora de 1% (um por cento) ao mês, correção monetária pela variação IGP-M e multa de 2% (dois por cento) sobre os valores devidos e não pagos;
+
+4.4.	Verificando-se o atraso no pagamento da mensalidade, o CONTRATANTE será contatado pela área de cobrança do CONTRATADO para que proceda ao pagamento.  Em persistindo a pendência após 60 dias (sessenta) dias do vencimento, o serviço de locação do software será suspenso até o adimplemento da obrigação.
+
+4.5.	O não pagamento da mensalidade, depois de transcorridos 60 (sessenta) dias da data de seu vencimento, poderá implicar na rescisão do presente contrato.
+
+5. Prazo de vigência - Rescisão
+
+5.1     O presente contrato vigorará por prazo de 12 (doze) meses, com início nesta data e término no decorrer dos doze meses seguintes, prorrogáveis por prazo indeterminado, período no qual será facultadas sua denúncia e conseqüente resilição mediante comunicação escrita com 30 (trinta) dias de antecedência;
+
+5.2.    O contrato poderá ser rescindido na medida em que se verificar a ocorrência de uma das seguintes hipóteses:
+Falência, liquidação ou insolvência de uma das partes;
+Não cumprimento das regras e condições estabelecidas no presente instrumento;
+Inobservância dos princípios norteados dos contratos em geral.
+
+
+6.	FORO
+
+6.1 Para dirimir eventuais e não esperadas demandas emergentes do presente instrumento elegem as partes o Foro desta Comarca de Ribeirão Preto - SP.
+
+E, por estarem justos e contratados, firmam o presente instrumento particular de prestação de serviço em 2 (duas) vias de igual teor e forma.
+
+Ribeirão Preto, 29 de junho de 2009.
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAQAAEABADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAQAIAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA9f37AJwkWgAAy5wAvGyQAPf9/ACX6tcArkx4AL3y5QCxVH4ApjprAPfu8wBe3sAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAMwAAAAAAAAAA
+        AAAAAAAAADMAAAAAAAAAAAAAAAAAAAAzAAAAAAAAAAAAAAAAAAAAMwAAAAAAAAAAAAAAAAAAADMAAAAA
+        AAAAAAAAAAAAAAAzAAAAAAAAAAAAAAAAAAAMMzAAAAAAAAAAAAAAAAAAAzMwAAAAAAAAAAAAAAAAAAMz
+        MAAAAAIAAAAAAAAAAAMzMzAAAAIgAAAAAAAAAAAzMzMwAAAiAAAAAAAAAAAjMzMzMAAiAAAAAAAAAAIi
+        IiIjMzsiICAAAAAAAAIiIiIiMCIiICAAAAAAAAIiIiIiIiIiIJoAAAAAAAAiIiAAIiIiIyIAAAAAAAAC
+        IgAAIiIiIiMwAAAAAAAAIgAAciICIjAIMAAAAAAAAgAAAAAiQDNQAGAAAAAAAAAAAAACAAAzAAAAAAAA
+        AAAAAAACAAAAMwAAAAAAAAAAAAAAIAAAADMAAAAAAAAAAAAAAgAAAAADAAAAAAAAAAAAAAAAAAAAAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////
+        3////8/////P////z////8/////P////z////4f///+H////h/v//gfn//wHz//wBz//gABf/gBBf/gA
+        BP/wcAP/48AH/88IZ/+/xHf//7z///78///9/P//+/7////+/////////////w==
+</value>
+  </data>
+</root>

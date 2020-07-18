@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>IDENTIFICAÇÃO DAS PARTES
+
+
+Pelo presente instrumento particular e na melhor forma de direito, de um lado, 
+
+CONTRATANTE: Escolas Estaduais do Estado de São Paulo (PESSOA FÍSICA)
+
+CONTRATANTE: Escolas Estaduais do Estado de São Paulo (PESSOA JURÍDICA)
+        
+CONTRATADO: iSolução Informática, com sede no município de Ribeirão Preto, na Avenida Saudade, nº. 1210, sala 313, bairro Campos Elíseos, Cep 14085-000, no Estado de São Paulo, inscrita no CPF sob o nº. 302.563.038-86, por seu representante legal Thiago Silva Teixeira, ora denominada somente iSOLUÇÃO, ajustam a celebração deste Contrato, que se regerá pelas seguintes cláusulas e condições:
+ 
+      
+
+CONSIDERANDO que, em 03 de setembro de 2007, a iSOLUÇÃO foi contratada pela CONTRATANTE para prestar serviços descritas na tabela no item DO OBJETO DO CONTRATO, processo este cujo tecnologia são de exclusiva propriedade da iSOLUÇÃO;
+
+CONSIDERANDO que, a CONTRATANTE, contrata a iSOLUÇÃO com o objetivo de incorporar a tecnologia descrita no parágrafo anterior e ainda para adaptá-la à estrutura e costumes da CONTRATANTE;
+
+CONSIDERANDO a iSOLUÇÃO prestará serviços à CONTRATANTE com ampla, total, irrestrita autonomia, sem qualquer tipo de subordinação jurídica.
+
+CONSIDERANDO, ainda que a CONTRATANTE, ciente de que as tecnologias de processo, dados e implementação às quais se refere o presente instrumento são de propriedade exclusiva da iSOLUÇÃO, se compromete a cumprir integralmente com as limitações impostas pela iSOLUÇÃO através do presente Contrato de Prestação de Serviços,
+
+CONSIDERANDO, que, a CONTRATANTE, se responsabiliza na entrega e/ou envio de textos, artigos e demais materiais relacionados à iSOLUÇÃO.
+
+CONSIDERANDO, finalmente, que a CONTRATANTE, reserva-se o direito de alterar a tecnologia somente pela iSOLUÇÃO, deixando vetado a alteração e manutenção por terceiros.
+
+
+As partes ora contratantes convencionam o seguinte:
+
+
+DO OBJETO DO CONTRATO
+
+Cláusula 1ª: O presente contrato tem por objeto a prestação de serviços profissionais de consultoria a ser desenvolvido de acordo com as especificações constantes deste contrato, doravante designado simplesmente "Processo".
+
+Cláusula 2ª: Como parte integrante do objeto da presente contratação, a iSOLUÇÃO, disponibiliza tabela abaixo nos serviços vinculados a este CONTRATO;
+
+Consultoria e Suporte:
+
+Descrição da Consultoria:
+                                  Visitas: 2 (duas) com hora marcada;
+                                  Suporte: Site/Telefônico/e-mail;
+                                  Equipamentos: - ;
+                                  Sistema: Suporte ao software.
+                                  Vencimento: 90 dias à partir da instalação
+
+Desenvolvimento:
+
+Descrição do Desenvolvimento:
+                                 Softwares: Nova Escola.
+                                 Web: -
+                                 Palm/OS: -
+                                 Banco de Dados: MySQL
+
+
+
+OBRIGAÇÕES DO CONTRATANTE
+
+Cláusula 3ª: O CONTRATANTE deverá fornecer ao CONTRATADO todas as informações necessárias à realização do serviço, devendo especificar os detalhes necessários à perfeita consecução do mesmo, e a forma de como ele deve ser entregue.
+
+Cláusula 4ª: Elaborar todos os documentos como textos, artigos, vídeos, entre outros, e transmitir a iSOLUÇÃO, através de CD-ROM; as quais passarão a fazer parte integrante do presente instrumento como Anexos, a cada emissão;
+
+
+Cláusula 5ª: Em caso de surgimento de qualquer dúvida quanto à interpretação das normas de procedimento e tecnologia específicos do Processo, dirigir-se-á iSOLUÇÃO, para os esclarecimentos que se façam necessários.
+
+Cláusula 6ª: Caso acha alguma despesa de viagem, estadia e alimentação, quando autorizadas e, que se tornarem necessárias por força do desempenho dos serviços contratados, correrão por conta da CONTRATANTE.
+
+Cláusula 7ª: O CONTRATANTE deverá efetuar o pagamento na forma e condições estabelecidas na cláusula 18ª.
+
+Cláusula 8ª: Cumprir diligentemente as suas obrigações decorrentes deste contrato;
+
+
+
+
+OBRIGAÇÕES DO CONTRATADO
+
+Cláusula 9ª: É dever do CONTRATADO oferecer ao contratante a cópia do presente instrumento, contendo todas as especificidades da prestação de serviço contratada.
+
+Cláusula 10ª: A iSOLUÇÃO cumprirá rigorosamente seus deveres de observância de sigilo e da ética profissional, fazendo as recomendações oportunas e desenvolvendo todos os demais atos e funções, necessárias ou convenientes ao bom cumprimento das atribuições contratadas, se compromete ainda, a manter o caráter sigiloso das informações às quais poderá ter acesso em função deste contrato, tomando todas as medidas cabíveis para que tais informações somente sejam divulgadas àquelas pessoas que delas dependam para a execução dos serviços objeto deste contrato
+
+Cláusula 11ª: Cumprir diligentemente as suas obrigações decorrentes deste contrato descritos na proposta de serviços anexa, datada de 03 de setembro de 2007 e, em particular, empregar sua experiência e competência para o sucesso do processo;
+
+Cláusula 12ª: As obrigações de que trata o sub-item anterior são as que seguem, nas cláusulas seguintes.
+
+Cláusula 13ª: Executar os trabalhos inerentes à execução do processo, estritamente de acordo com as datas e períodos determinados no CONTRATO, sendo previsto para entrega de trabalho 60 dias após entrega dos textos, artigos e documentos, pela CONTRATANTE;
+
+Cláusula 14ª: Esclarecer dúvidas sobre assuntos relacionados ao processo, dúvidas estas que possam ser suscitadas pela CONTRATANTE;
+
+
+
+
+
+DA PROPRIEDADE DOS RESULTADOS
+
+Cláusula 15ª: Os resultados, parciais e finais que decorrem dos serviços ora contratados serão de propriedade da CONTRATANTE e da iSOLUÇÃO, no que lhe concerne.
+
+Cláusula 16ª: Em decorrência do referido no item acima, fica terminantemente vedado, pelo prazo de 5 anos do término do presente contrato, à CONTRATANTE utilizar-se, sem prévio consentimento por escrito da iSOLUÇÃO, dos resultados e materiais oriundos deste serviço dentro e fora do ramo de serviços, a qualquer título, ou por qualquer meio, para proveito próprio ou de terceiros, sob pena de incorrer em infração contratual, independentemente de se sujeitar às sanções cíveis e criminais cabíveis.
+
+Cláusula 17ª: A iSOLUÇÃO fica vedada pelo mesmo prazo descrito no subitem anterior a utilização de materiais oriundo a este processo, sob pena de incorrer em infração contratual, independentemente de se sujeitar às sanções cíveis e criminais cabíveis. 
+
+
+DO PREÇO E DAS CONDIÇÕES DE PAGAMENTO
+
+Cláusula 18ª: Pelos serviços ora contratados, a CONTRATANTE pagará a iSOLUÇÃO a importância fixa determinada pelo Departamento Comercial da CONTRATADA.
+
+Cláusula 19ª: O preço acima convencionado não representa a integralidade do montante a ser pago à iSOLUÇÃO, nele estão incluídos os tributos que incidem ou venham a incidir, na prestação de serviços ora contratada.
+
+Cláusula 20ª: O preço acima mencionado encontra vinculados serviços acima citados a ser pago após termino de contrato, reajustada a tabela INPC, podendo ser substituída pela IPCA.
+
+Cláusula 21ª: Na hipótese de ocorrer atraso por parte da iSOLUÇÃO na entrega total ou parcial, dos serviços contratados, sem culpa da CONTRATANTE, conforme prazos definidos conforme instruções emitidas pela CONTRATANTE por escrito, as quais passarão a fazer parte integrante do presente instrumento como Anexos, a cada emissão, os pagamentos só ocorrerão após a efetiva prestação de serviços, ficando claro que o valor a ser pago não será objeto de correção monetária.
+
+Cláusula 22ª: Caso o atraso ocorrer por parte da CONTRATANTE ou de terceiros ou de outros eventos não controláveis pela iSOLUÇÃO, e tais eventos venham a prorrogar o período contratado, a CONTRATANTE pagará mensalmente, enquanto durar o período de paralisação do processo, um valor mensal adicional ao preço aqui estipulado, adicional este de R$ 150,00 (cento e cinqüenta reais).
+
+
+
+Cláusula 23ª: Caso o cronograma de execução do Processo seja reduzido por determinação da CONTRATANTE, esta poderá cancelar o presente contrato mediante aviso prévio de 90 (sessenta) dias, com todos os pagamentos devidos no período de aviso prévio, e seja estipulado a entrega do processo e a multa de 10% do contrato, a ser pago a iSOLUÇÃO.
+
+Cláusula 24ª: Caso o prazo de execução dos serviços ora avençados tenha que ser estendido por determinação da CONTRATANTE, os termos e condições ora avençados entre as partes serão extensivos à duração da continuidade dos serviços e serão devidos à iSOLUÇÃO pagamentos mensais calculados de acordo com os serviços e despesas a serem incorridos no período em que os serviços serão estendidos. Caso o processo seja pago antes do prazo estipulado, caso ocorra, não será devido nenhum desconto ao preço a CONTRATANTE.
+ 
+Cláusula 25ª: Despesas de viagens, alimentação, locomoção, entre outras incorridas na condução dos eventos de consultoria e/ou coleta de dados realizadas exclusivamente fora do Município de Ribeirão Preto serão cobertos integralmente pela CONTRATANTE, obedecendo aos seguintes critérios:
+
+As despesas com locomoção por via rodoviária em ônibus, as despesas com locomoção por via aérea, as despesas com alimentação e as despesas com hospedagens serão pagas diretamente pela CONTRATANTE em estabelecimentos conveniados por esta ou a preço de custo - conforme comprovantes. As despesas com locomoção por via rodoviária em veículo da  iSOLUÇÃO, serão pagas pela CONTRATANTE tomando-se por base o equivalente a 40% (quarenta porcento) do valor do litro da gasolina, multiplicado pela quantidade de quilômetros percorridos.
+
+
+DA VIGÊNCIA 
+
+Cláusula 26ª: Este contrato terá vigência de setembro de 2007 e se encerrará em dezembro de 2008.
+
+
+DO INADIMPLEMENTO, DO DESCUMPRIMENTO E DA MULTA
+
+Cláusula 27ª: A parte que cometer ato de infração a qualquer uma das cláusulas deste contrato, pagará a parte penalizada a título de multa a importância correspondente a 30% (trinta porcento) do valor total deste contrato.
+
+
+DA RESCISÃO 
+        
+Cláusula 28ª: Poderá o presente instrumento ser rescindido por qualquer uma das partes, a qualquer momento, com ônus de 10% do contrato, com antecedência de 90 dias, por conveniência das partes, perdurando, entretanto, os direitos e obrigações contratuais até o final do aviso prévio e entregado de todo o processo tendo a iSOLUÇÃO o 
+
+direito de receber da CONTRATANTE o justo valor representativo dos trabalhos já iniciados e dos serviços até então prestados e ainda não pagos.
+
+Cláusula 29ª: Será resolvido nos seguintes casos:
+
+Inadimplemento, por qualquer das partes, das cláusulas e condições aqui previstas.
+Legítimo protesto de título da CONTRATANTE, requerimento da falência ou concordata da CONTRATANTE ou da iSOLUÇÃO.
+
+
+
+DA QUITAÇÃO
+
+Cláusula 30ª: Quando do recebimento do saldo do preço ajustado, ou da última parcela, se considerarão automaticamente quitadas, de forma plena, incondicional e irrevogável, todas as obrigações contratuais da CONTRATANTE, podendo a iSOLUÇÃO continuar a prestar os serviços de permanência do processo.
+
+
+DAS CONDIÇÕES GERAIS
+
+        Cláusula 31ª: Fica compactuado entre as partes a total inexistência de vínculo trabalhista entre as partes contratantes, excluindo as obrigações previdenciárias e os encargos sociais, não havendo entre CONTRATADO e CONTRATANTE qualquer tipo de relação de subordinação.
+       
+        Cláusula 32ª: Salvo com a expressa autorização do CONTRATANTE, não pode o CONTRATADO transferir ou subcontratar os serviços previstos neste instrumento, sob o risco de ocorrer à rescisão imediata. 
+
+        Cláusula 33ª: Este contrato deverá ser registrado no Cartório de Registro de Títulos e Documentos. 
+ 
+
+
+DO FORO
+
+        Cláusula 34ª: Para dirimir quaisquer controvérsias oriundas do presente contrato, as partes elegem o foro da Comarca de Ribeirão Preto, Estado de São Paulo, com expressa renúncia a qualquer outro, por mais privilegiado que se apresente. 
+
+
+E, por estarem de acordo, celebram o presente contrato em via eletrônica de igual teor e forma.
+
+
+
+Ribeirão Preto (SP), 03 de setembro de 2007.</value>
+  </data>
+</root>

@@ -1,0 +1,2842 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Minha Escola
+</name>
+</assembly>
+<members>
+<member name="T:Mais_Escola.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources._007">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Certo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.DataColorWave">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.editar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.file_edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Fundo9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.lupa_melhor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.magnifieddoc_300x241">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.maisescola">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.maisescola_foto">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.MaisEscola_Splash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.maisescola1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.maisescola2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.nOK">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.novoEditorPDF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.novoEditorPlanilha">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.novoEditorTexto">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.OK">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.Splash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.My.Resources.Resources.trash_empty">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.alunoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.aluno_fichaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.aluno_ficha_telefoneDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomortoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_corredorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_estanteDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_movimentacaoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_prateleiraDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_tipoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.boletimDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.boletimwebDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.bolsasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.cidadeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_boletimDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_categoriaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_descricaoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_nfDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_notasfreqDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.disciplinasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.empresaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.escolaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.fileDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.funcionarioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.logsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.logs_categoriasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.notasfreqDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.notasfreq_profDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.preferenciasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.professor_gruposDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.rpt_atacomplDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.rpt_bolatrasoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.rpt_reciboDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.tempdeclaracaoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.turmaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.usuariodskDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.usuariodsk_perfilDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.alunoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.aluno_fichaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.aluno_ficha_telefoneRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomortoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_corredorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_estanteRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_movimentacaoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_prateleiraRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_tipoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.boletimRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.boletimwebRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.bolsasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.cidadeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_boletimRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_categoriaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_descricaoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_nfRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_notasfreqRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.disciplinasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.empresaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.escolaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.fileRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.funcionarioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.logsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.logs_categoriasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.notasfreqRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.notasfreq_profRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.preferenciasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.professor_gruposRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.rpt_atacomplRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.rpt_bolatrasoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.rpt_reciboRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.tempdeclaracaoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.turmaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.usuariodskRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.usuariodsk_perfilRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.alunoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.aluno_fichaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.aluno_ficha_telefoneRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomortoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_corredorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_estanteRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_movimentacaoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_prateleiraRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.arquivomorto_tipoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.boletimRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.boletimwebRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.bolsasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.cidadeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_boletimRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_categoriaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_descricaoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_nfRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.delib11_notasfreqRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.disciplinasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.empresaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.escolaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.fileRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.funcionarioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.logsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.logs_categoriasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.notasfreqRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.notasfreq_profRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.preferenciasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.professor_gruposRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.rpt_atacomplRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.rpt_bolatrasoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.rpt_reciboRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.tempdeclaracaoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.turmaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.usuariodskRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSet.usuariodsk_perfilRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.alunoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.aluno_fichaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.aluno_ficha_telefoneTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.arquivomortoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.arquivomorto_corredorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.arquivomorto_estanteTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.arquivomorto_movimentacaoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.arquivomorto_prateleiraTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.arquivomorto_tipoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.boletimTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.boletimwebTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.bolsasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.cidadeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.delib11_boletimTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.delib11_categoriaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.delib11_descricaoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.delib11_nfTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.delib11_notasfreqTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.disciplinasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.empresaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.escolaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.fileTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.funcionarioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.logsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.logs_categoriasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.notasfreqTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.notasfreq_profTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.preferenciasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.professor_gruposTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.rpt_atacomplTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.rpt_bolatrasoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.rpt_reciboTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.tempdeclaracaoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.turmaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.usuariodskTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.usuariodsk_perfilTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Mais_Escola.maisescolaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Mais_Escola.maisescolaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Mais_Escola.maisescolaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Mais_Escola.maisescolaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Mais_Escola.maisescolaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Mais_Escola.maisescolaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Mais_Escola.maisescolaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Mais_Escola.maisescolaDataSetTableAdapters.TableAdapterManager.UpdateAll(Mais_Escola.maisescolaDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Mais_Escola.maisescolaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Mais_Escola.PrintRibbonControllerResources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ClosePreviewLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Customize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_CustomizeLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Document">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMap">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_DocumentMapLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_EditPageHFLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportCsvLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportFileLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportGraphicLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportHtmLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportMht">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportMhtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportPdfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportRtfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportTxtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportXls">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsx">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ExportXlsxLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_FillBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_FillBackgroundLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Find">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_FindLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_HandTool">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Magnifier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePages">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_MultiplePagesLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Open">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_OpenLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageMargins">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsModerate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsNarrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsNormal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageMarginsWide">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLandscape">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageOrientationPortrait">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PageSetupDialog">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_A6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Executive">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Legal">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Letter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PaperKind_Tabloid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PaperSize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PaperSizeLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Parameters">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ParametersLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Pointer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirect">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PrintDirectLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PrintLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PrintSetup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_PrintSetupLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SaveLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Scale">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ScaleLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendCsv">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendCsvLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendFileLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendGraphicLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendMht">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendMhtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendPdf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendPdfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendRtf">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendRtfLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendTxt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendTxtLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendXls">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsx">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_SendXlsxLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ShowFirstPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ShowLastPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ShowNextPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ShowPrevPageLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Watermark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_WatermarkLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_Zoom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ZoomIn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ZoomInLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ZoomLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.PrintRibbonControllerResources.RibbonPrintPreview_ZoomOutLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Mais_Escola.XRDesignRibbonControllerResources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignBottom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignHorizontalCenters">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignLeft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignRight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignToGrid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignTop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_AlignVerticalCenters">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_BackColor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_BringToFront">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_CenterHorizontally">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_CenterVertically">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_CopyLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Cut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_CutLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Exit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_ExitLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Font">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_FontBold">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_FontItalic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_FontUnderline">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_ForeColor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HorizSpaceConcatenate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HorizSpaceDecrease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HorizSpaceIncrease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HorizSpaceMakeEqual">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlBackward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlBackwardLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlFind">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlFindLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlForward">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlForwardLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlHome">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlHomeLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlRefresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlRefreshLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlStop">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_HtmlStopLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_JustifyCenter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_JustifyJustify">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_JustifyLeft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_JustifyRight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_NewReport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_NewReportLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_NewReportWizard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_NewReportWizardLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_OpenFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_OpenFileLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Paste">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_PasteLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Redo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_RedoLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Report">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveAll">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveAllLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveFile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveFileAs">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveFileAsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SaveFileLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Scripts">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_ScriptsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SendToBack">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SizeToControl">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SizeToControlHeight">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SizeToControlWidth">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_SizeToGrid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Undo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_UndoLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_VertSpaceConcatenate">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_VertSpaceDecrease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_VertSpaceIncrease">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_VertSpaceMakeEqual">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Windows">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_WindowsLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_Zoom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_ZoomIn">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_ZoomInLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_ZoomLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_ZoomOut">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Mais_Escola.XRDesignRibbonControllerResources.RibbonUserDesigner_ZoomOutLarge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.Admin">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.#ctor">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Admin.Admin.WS1Completed">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Admin.Admin.WS2Completed">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Admin.Admin.WS3Completed">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Admin.Admin.WS6Completed">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Admin.Admin.WS7Completed">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Admin.Admin.WS4Completed">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS1(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS1Async(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS1Async(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS2(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS2Async(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS2Async(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS3(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS3Async(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS3Async(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS6(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS6Async(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS6Async(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS7(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS7Async(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS7Async(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS4(System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS4Async(System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.WS4Async(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Admin.Admin.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS1CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS1CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Admin.WS1CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Admin.WS2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS3CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS3CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Admin.WS3CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS6CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS6CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Admin.WS6CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS7CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS7CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Admin.WS7CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS4CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Admin.WS4CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Admin.WS4CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.Delib11">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.#ctor">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerFichaCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerFicha2Completed">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerNroCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Delib11.Delib11.GradeTurmaCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Delib11.Delib11.idDelibNFCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaOpcoesCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaFichaCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Delib11.Delib11.preencherFichaCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaCategoriaCompleted">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerFicha(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerFichaAsync(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerFichaAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerFicha2(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerFicha2Async(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerFicha2Async(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerNro(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerNroAsync(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.trazerNroAsync(System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.GradeTurma(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.GradeTurmaAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.GradeTurmaAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.idDelibNF(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.idDelibNFAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.idDelibNFAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaOpcoes(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaOpcoesAsync(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaOpcoesAsync(System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaFicha(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaFichaAsync(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaFichaAsync(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.preencherFicha(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.preencherFichaAsync(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.preencherFichaAsync(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaCategoria(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaCategoriaAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.consultaCategoriaAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Delib11.Delib11.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.trazerFichaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.trazerFichaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Delib11.trazerFichaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.trazerFicha2CompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.trazerFicha2CompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Delib11.trazerFicha2CompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.trazerNroCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.trazerNroCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Delib11.trazerNroCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.GradeTurmaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.GradeTurmaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Delib11.GradeTurmaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.idDelibNFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.idDelibNFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Delib11.idDelibNFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.consultaOpcoesCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.consultaOpcoesCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Delib11.consultaOpcoesCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.consultaFichaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.consultaFichaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Delib11.consultaFichaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.preencherFichaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.preencherFichaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Delib11.preencherFichaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.consultaCategoriaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Delib11.consultaCategoriaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Delib11.consultaCategoriaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.Web">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.#ctor">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_ConsultarCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_PublicarCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_PublicarCalendarioCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_LoginCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_TurmasCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_DisciplinasCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_DisciplinasBOLCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarNFCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_CadastrarNFCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_CadastrarBolCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarEVCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarBolCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_AlterarBolCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ExcluirBolCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NFCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_ConsultaCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaNROCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaNOTACompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaEXCLUIDOCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NF_BoletimCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NF_Boletim_SyncCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_StatusCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_AtivacaoCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_TrazerNotas_NroBoletinsCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_AulasDPCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_BoletinsDigitadosCompleted">
+<remarks/>
+</member>
+<member name="E:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_BoletinsStatusCompleted">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Consultar(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_ConsultarAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_ConsultarAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Publicar(System.String,System.String,System.String,System.Data.DataSet)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_PublicarAsync(System.String,System.String,System.String,System.Data.DataSet)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_PublicarAsync(System.String,System.String,System.String,System.Data.DataSet,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_PublicarCalendario(System.String,System.String,System.DateTime,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_PublicarCalendarioAsync(System.String,System.String,System.DateTime,System.DateTime)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_PublicarCalendarioAsync(System.String,System.String,System.DateTime,System.DateTime,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_Login(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_LoginAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_LoginAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_Turmas(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_TurmasAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_TurmasAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_Disciplinas(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_DisciplinasAsync(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_DisciplinasAsync(System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_DisciplinasBOL(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_DisciplinasBOLAsync(System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_DisciplinasBOLAsync(System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarNF(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarNFAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarNFAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_CadastrarNF(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_CadastrarNFAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_CadastrarNFAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_CadastrarBol(System.String,System.String,System.String,System.String,System.Object[])">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_CadastrarBolAsync(System.String,System.String,System.String,System.String,System.Object[])">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_CadastrarBolAsync(System.String,System.String,System.String,System.String,System.Object[],System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarEV(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarEVAsync(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarEVAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarBol(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarBolAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ConsultarBolAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_AlterarBol(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_AlterarBolAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_AlterarBolAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ExcluirBol(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ExcluirBolAsync(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_ExcluirBolAsync(System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NF(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NFAsync(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NFAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_Consulta(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_ConsultaAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_ConsultaAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaNRO(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaNROAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaNROAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaNOTA(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaNOTAAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaNOTAAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaEXCLUIDO(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaEXCLUIDOAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Delib11_CategoriaEXCLUIDOAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NF_Boletim(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NF_BoletimAsync(System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NF_BoletimAsync(System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NF_Boletim_Sync(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NF_Boletim_SyncAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_NF_Boletim_SyncAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_Status(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_StatusAsync(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_StatusAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Ativacao(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_AtivacaoAsync(System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_AtivacaoAsync(System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_TrazerNotas_NroBoletins(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_TrazerNotas_NroBoletinsAsync(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_TrazerNotas_NroBoletinsAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_AulasDP(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_AulasDPAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_AulasDPAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_BoletinsDigitados(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_BoletinsDigitadosAsync(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_BoletinsDigitadosAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_BoletinsStatus(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_BoletinsStatusAsync(System.String,System.String,System.String,System.String,System.String)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.BW_Professor_BoletinsStatusAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Mais_Escola.WS_MaisEscola_Web.Web.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_ConsultarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_ConsultarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_ConsultarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_PublicarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_PublicarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_PublicarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_PublicarCalendarioCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_PublicarCalendarioCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_PublicarCalendarioCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_LoginCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_LoginCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_LoginCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_TurmasCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_TurmasCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_TurmasCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_DisciplinasCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_DisciplinasCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_DisciplinasCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_DisciplinasBOLCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_DisciplinasBOLCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_DisciplinasBOLCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ConsultarNFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ConsultarNFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ConsultarNFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_CadastrarNFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_CadastrarNFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_CadastrarNFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_CadastrarBolCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_CadastrarBolCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_CadastrarBolCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ConsultarEVCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ConsultarEVCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ConsultarEVCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ConsultarBolCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ConsultarBolCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ConsultarBolCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_AlterarBolCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_AlterarBolCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_AlterarBolCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ExcluirBolCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ExcluirBolCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_ExcluirBolCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_NFCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_NFCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_NFCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_ConsultaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_ConsultaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_ConsultaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_CategoriaNROCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_CategoriaNROCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_CategoriaNROCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_CategoriaNOTACompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_CategoriaNOTACompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_CategoriaNOTACompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_CategoriaEXCLUIDOCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_CategoriaEXCLUIDOCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Delib11_CategoriaEXCLUIDOCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_NF_BoletimCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_NF_BoletimCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_NF_BoletimCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_NF_Boletim_SyncCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_NF_Boletim_SyncCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_NF_Boletim_SyncCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_StatusCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_StatusCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_StatusCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_AtivacaoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_AtivacaoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_AtivacaoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_TrazerNotas_NroBoletinsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_TrazerNotas_NroBoletinsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_TrazerNotas_NroBoletinsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_AulasDPCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_AulasDPCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_AulasDPCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_BoletinsDigitadosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_BoletinsDigitadosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_BoletinsDigitadosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_BoletinsStatusCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Mais_Escola.WS_MaisEscola_Web.BW_Professor_BoletinsStatusCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Mais_Escola.WS_MaisEscola_Web.BW_Professor_BoletinsStatusCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

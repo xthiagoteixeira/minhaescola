@@ -1,0 +1,282 @@
+Imports MySql.Data.MySqlClient
+Imports System.DBNull
+Imports System.Data.DataTable
+Imports System.Data
+Imports System.IO
+Imports System
+Imports System.net
+Imports System.text
+Imports System.Security.Cryptography.X509Certificates
+
+
+
+
+Public Class Importacao
+
+    Inherits System.Windows.Forms.Form
+
+    Dim myCommand As New MySqlCommand()
+    Dim myAdapter As New MySqlDataAdapter()
+    Dim myData As New DataTable()
+    Dim r As DataRow
+    Dim rc As Integer
+    Dim SQL As String
+
+    Dim myCommand2 As New MySqlCommand()
+    Dim myAdapter2 As New MySqlDataAdapter()
+    Dim myData2 As New DataTable()
+    Dim r2 As DataRow
+    Dim rc2 As Integer
+    Dim SQL2 As String
+
+    Dim myCommand3 As New MySqlCommand()
+    Dim myAdapter3 As New MySqlDataAdapter()
+    Dim myData3 As New DataTable()
+
+    Dim r3 As DataRow
+    Dim rc3 As Integer
+
+    Dim SQL3 As String
+
+    Dim myCommand4 As New MySqlCommand()
+    Dim myAdapter4 As New MySqlDataAdapter()
+    Dim myData4 As New DataTable()
+
+    Dim r4 As DataRow
+    Dim rc4 As Integer
+
+    Dim SQL4 As String
+
+    Dim myCommand5 As New MySqlCommand()
+    Dim myAdapter5 As New MySqlDataAdapter()
+    Dim myData5 As New DataTable()
+
+    Dim r5 As DataRow
+    Dim rc5 As Integer
+    Dim BD_OK, IP_OK, imagem_OK
+
+    Dim SQL5 As String
+    Dim estadono, discno
+    Private Sub Importacao_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+        'Dim drivers() As String = Directory.GetLogicalDrives
+        'Dim driver As String
+        'Dim tvwNode As TreeNode
+
+        'For Each driver In drivers
+        '    tvwNode = TreeView1.Nodes.Add(driver)
+        '    tvwNode.Nodes.Add("teste")
+        'Next
+
+        Try
+            Dim myRegKey2 As Microsoft.Win32.RegistryKey = Microsoft.Win32.Registry.ClassesRoot.OpenSubKey("System.Windows.Net.Conexao")
+            myRegKey2 = myRegKey2.OpenSubKey("Classe")
+            Dim BD As Object = myRegKey2.GetValue("bd")
+            Dim IP As Object = myRegKey2.GetValue("ip")
+            Dim Imagem As Object = myRegKey2.GetValue("x")
+
+
+            BD_OK = BD
+            IP_OK = IP
+            imagem_OK = Imagem
+
+
+        Catch ex As Exception
+        End Try
+
+        'busca disciplina
+        '''''''''''''CARREGA INICIALMENTE''''''''''''
+        Dim conn As MySqlConnection
+        conn = New MySqlConnection()
+        conn.ConnectionString = "server=" & IP_OK & ";user id=admsuporte;password=admauxcli;database=" & BD_OK
+
+        Try
+            conn.Open()
+            Try
+                SQL3 = "SELECT * FROM " & BD_OK & ".turma ORDER BY classe"
+                myCommand3.Connection = conn
+                myCommand3.CommandText = SQL3
+                myAdapter3.SelectCommand = myCommand3
+                myAdapter3.Fill(myData3)
+
+
+            Catch myerro As MySqlException
+                MsgBox("Erro de leitura no banco de dados : " & myerro.Message)
+            End Try
+            'MessageBox.Show("Conexão aberta com sucesso")
+            conn.Close()
+        Catch myerro As MySqlException
+            MessageBox.Show("Erro ao conectar com o Banco de dados : " & myerro.Message)
+        Finally
+            conn.Dispose()
+        End Try
+
+        r3 = myData3.Rows(0)
+
+        'Puxa a cidade
+        For Each r3 In myData3.Rows
+            cbTurma.Items.Add(r3("classe"))
+        Next
+
+    End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        openFD.InitialDirectory = "c:\"
+        openFD.Title = "Abrir arquivo"
+        openFD.Filter = "Arquivos de texto|*.txt"
+        openFD.ShowDialog()
+
+        MsgBox(openFD.FileName)
+        lbarquivo.Text = openFD.FileName
+
+
+    End Sub
+
+    Private Sub cbTurma_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cbTurma.SelectedIndexChanged
+
+
+        myData.Clear()
+
+
+        '''' ESTADO CAPTURA NUMERO ''''
+        '''''''''''''CARREGA INICIALMENTE''''''''''''
+        Dim conn As MySqlConnection
+        conn = New MySqlConnection()
+        conn.ConnectionString = "server=" & IP_OK & ";user id=admsuporte;password=admauxcli;database=" & BD_OK
+
+        SQL = "SELECT * FROM " & BD_OK & ".turma WHERE classe='" & cbTurma.Text & "'"
+
+        Try
+            conn.Open()
+            Try
+                myCommand.Connection = conn
+                myCommand.CommandText = SQL
+                myAdapter.SelectCommand = myCommand
+                myAdapter.Fill(myData)
+            Catch myerro As MySqlException
+                MsgBox("Erro de leitura no banco de dados : " & myerro.Message)
+            End Try
+            '           MessageBox.Show("Conexão aberta com sucesso")
+            conn.Close()
+        Catch myerro As MySqlException
+            MessageBox.Show("Erro ao conectar com o Banco de dados : " & myerro.Message)
+        Finally
+            conn.Dispose()
+        End Try
+
+
+        r = myData.Rows(0)
+        discno = r("codigo_trma")
+    End Sub
+
+    Private Sub btAdicionar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btAdicionar.Click
+        Dim cidadeno = 0
+        If cbTurma.Text = "" Or lbarquivo.Text = "" Then
+
+            MsgBox("Antes de importar, é necessário escolher o arquivo e a classe!", MsgBoxStyle.Critical, "Atenção!")
+
+        Else
+
+            Dim cidade
+            Dim trava = 1
+
+            Dim SacarData As DateTime = DateTime.Now
+            Dim data
+
+            data = Format(SacarData, "yyyy-MM-dd hh:mm:ss")
+
+            myData.Clear()
+            myData2.Clear()
+            myData3.Clear()
+            myData4.Clear()
+
+            cidade = cbTurma.Text
+
+            Dim conn As MySqlConnection
+            conn = New MySqlConnection()
+            conn.ConnectionString = "server=" & IP_OK & ";user id=admsuporte;password=admauxcli;database=" & BD_OK
+
+            'SQL = "SELECT * FROM " & BD_OK & ".aluno WHERE nome='" & cidade & "'"
+            'SQL2 = "SELECT * FROM " & BD_OK & ".aluno ORDER BY codigo_aluno DESC"
+            SQL4 = "SELECT * FROM " & BD_OK & ".aluno WHERE turma=" & discno & " AND anovigente=" & tAnoVigente.Value & ";"
+
+            Try
+                conn.Open()
+                Try
+                    'myCommand.Connection = conn
+                    'myCommand.CommandText = SQL
+                    'myAdapter.SelectCommand = myCommand
+                    'myAdapter.Fill(myData)
+
+                    'myCommand2.Connection = conn
+                    'myCommand2.CommandText = SQL2
+                    'myAdapter2.SelectCommand = myCommand2
+                    'myAdapter2.Fill(myData2)
+
+                    myCommand4.Connection = conn
+                    myCommand4.CommandText = SQL4
+                    myAdapter4.SelectCommand = myCommand4
+                    myAdapter4.Fill(myData4)
+
+                    Try
+                        r4 = myData4.Rows(0)
+                    Catch r4 As IndexOutOfRangeException
+                        trava = 0
+                    End Try
+
+                    If trava = 0 Then
+
+                        If IO.File.Exists(lbarquivo.Text) Then
+
+                            Dim codigo, ra, ra2
+                            Dim nome As String
+                            Dim fluxoTexto As New System.IO.StreamReader(lbarquivo.Text)
+                            Dim linhaTexto As String
+
+                            linhaTexto = fluxoTexto.ReadLine
+
+                            'While linhaTexto <> "--  ---------------------------------------- ------------ -- -- ---------- ----"
+                            'While linhaTexto <> Nothing
+                            While linhaTexto <> Nothing
+
+                                codigo = Mid(linhaTexto, 1, 2)
+                                nome = Mid(linhaTexto, 5, 40)
+                                ra = Mid(linhaTexto, 46, 14)
+                                ra2 = Mid(linhaTexto, 65, 10)
+
+                                SQL3 = "INSERT INTO " & BD_OK & ".aluno (nome, turma, nro, anovigente, ra, data) values('" & nome & "', " & discno & ", " & codigo & ", " & tAnoVigente.Value & ", '" & ra & "', '" & ra2 & "');"
+                                myCommand3.Connection = conn
+                                myCommand3.CommandText = SQL3
+                                myAdapter3.SelectCommand = myCommand3
+                                myAdapter3.Fill(myData3)
+
+                                linhaTexto = fluxoTexto.ReadLine
+
+                            End While
+                            ' End While
+                            ' End While
+
+                            fluxoTexto.Close()
+                        Else
+                            MessageBox.Show("Arquivo não existe")
+                        End If
+
+                        MsgBox("" & cbTurma.Text & " foi importada com sucesso!", MsgBoxStyle.Information, "Cadastrado")
+
+                    Else
+                        MsgBox("Já existe uma turma cadastrada, e não é permitida a duplicação", MsgBoxStyle.Critical, "Atenção!")
+                    End If
+                Catch myerro As MySqlException
+                    '  MsgBox("Erro de leitura no banco de dados : " & myerro.Message)
+                End Try
+                '           MessageBox.Show("Conexão aberta com sucesso")
+                conn.Close()
+            Catch myerro As MySqlException
+                ' MessageBox.Show("Erro ao conectar com o Banco de dados : " & myerro.Message)
+            Finally
+                conn.Dispose()
+            End Try
+            ' FIM DA CONEXAO
+        End If
+    End Sub
+End Class

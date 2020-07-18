@@ -1,0 +1,6 @@
+﻿Public Class frmUtilPDF
+
+    Private Sub frmUtilPDF_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+End Class
