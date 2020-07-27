@@ -3,7 +3,6 @@ Imports Mais_Escola.WS_MaisEscola_Web
 Imports System.Reflection
 
 Public Class frmFerramentas
-    ReadOnly Morpheus_Web As New Web
 
     Dim ImagemAtual = 1
     Dim IdentificaEscolha As String
@@ -56,16 +55,6 @@ Public Class frmFerramentas
                             "UPDATE preferencias SET ferramenta3='{0}', ferramenta4='{1}' WHERE idPreferencias='1';",
                             txtUsuarioWeb.EditValue, txtSenhaWeb.EditValue)
                 MySQL_atualiza(SQL)
-
-                Dim Ativacao = Morpheus_Web.BW_Ativacao(txtUsuarioWeb.Text, txtSenhaWeb.Text)
-                If Ativacao = "0" Then
-                    MsgBox("Entre em contato com o suporte!", MsgBoxStyle.Information, "Ativação")
-                Else
-                    MsgBox("Salvo com sucesso!", MsgBoxStyle.Information, "Ferramentas")
-                    UsuarioWeb = txtUsuarioWeb.EditValue
-                    SenhaWeb = txtSenhaWeb.EditValue
-
-                End If
                 Carrega_Fundo()
 
             End If

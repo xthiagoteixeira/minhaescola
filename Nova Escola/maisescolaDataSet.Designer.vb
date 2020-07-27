@@ -12109,7 +12109,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '  Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -12278,7 +12278,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '  Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -12450,7 +12450,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '  Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -12618,7 +12618,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '   Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -12786,7 +12786,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            ' Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -12954,7 +12954,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '  Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -13122,7 +13122,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '  Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -13291,7 +13291,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -13459,7 +13459,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '         Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -13627,7 +13627,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -13795,7 +13795,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '           Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -13964,7 +13964,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '           Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -14132,7 +14132,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -14300,7 +14300,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -14469,7 +14469,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -14637,7 +14637,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -14805,7 +14805,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '         Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -14973,7 +14973,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -15142,7 +15142,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -15310,7 +15310,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -15478,7 +15478,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -15646,7 +15646,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -15814,7 +15814,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -15984,7 +15984,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -16152,7 +16152,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -16320,7 +16320,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '           Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -16490,7 +16490,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -16658,7 +16658,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -16827,7 +16827,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '         Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -16996,7 +16996,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '         Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -17165,7 +17165,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -17334,7 +17334,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -17502,7 +17502,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -17672,7 +17672,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '         Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -17840,7 +17840,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '          Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -18008,7 +18008,7 @@ Namespace maisescolaDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Private Sub InitConnection()
             Me._connection = New Global.MySql.Data.MySqlClient.MySqlConnection()
-            Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
+            '         Me._connection.ConnectionString = Global.Mais_Escola.My.MySettings.Default.maisescolaConnectionString
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _

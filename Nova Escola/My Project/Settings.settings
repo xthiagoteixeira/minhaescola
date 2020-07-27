@@ -2,8 +2,8 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
   <Profiles />
   <Settings>
-    <Setting Name="maisescolaConnectionString" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+    <Setting Name="Minha_Escola_MeusProjetos_MeusProjetos" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ws1.thiagoteixeira.com.br/MeusProjetos.asmx</Value>
     </Setting>
   </Settings>
 </SettingsFile>

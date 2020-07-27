@@ -163,7 +163,7 @@ Public Class frmCadBoletimTela
                                 ManNF_Global_qtaulasprevistas = pQtdade.Value
 
                                 ' Abre a manutenção...
-                                Dim fMan234 As New frmManBoletim() With {.MdiParent = frmMaisEscola_Novo}
+                                Dim fMan234 As New frmManBoletim() With {.MdiParent = frmPrincipal}
                                 fMan234.Show()
                                 Exit Sub
 
@@ -210,7 +210,7 @@ Public Class frmCadBoletimTela
 
                 Me.Close()
 
-                Dim fCad234 As New frmCadBoletim() With {.MdiParent = frmMaisEscola_Novo}
+                Dim fCad234 As New frmCadBoletim() With {.MdiParent = frmPrincipal}
                 fCad234.Show()
 
             End If

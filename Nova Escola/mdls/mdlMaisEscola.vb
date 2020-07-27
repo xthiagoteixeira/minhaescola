@@ -99,13 +99,13 @@ Module mdlMaisEscola
             '***Carrega Fundo de Tela
             Dim MeuFundo As String = LeArquivoINI(nome_arquivo_ini, "Ferramentas", "Fundo", MeuFundo)
             If MeuFundo = "0" Or MeuFundo = String.Empty Or MeuFundo = Nothing Then
-                frmMaisEscola_Novo.BackgroundImage = CType(My.Resources.ResourceManager.GetObject("Fundo1"), Image)
+                frmPrincipal.BackgroundImage = CType(My.Resources.ResourceManager.GetObject("Fundo1"), Image)
             ElseIf MeuFundo.Length <= 2 Then
                 ' ... Acessa o Resource
-                frmMaisEscola_Novo.BackgroundImage = CType(My.Resources.ResourceManager.GetObject("Fundo" & MeuFundo), Image)
+                frmPrincipal.BackgroundImage = CType(My.Resources.ResourceManager.GetObject("Fundo" & MeuFundo), Image)
             Else
                 ' ... Acessa o caminho da imagem
-                frmMaisEscola_Novo.BackgroundImage = Image.FromFile(MeuFundo)
+                frmPrincipal.BackgroundImage = Image.FromFile(MeuFundo)
             End If
 
         Catch ex As Exception
@@ -733,7 +733,7 @@ Module mdlMaisEscola
 
         If ErroGeral = True Then
             Erro_Enviar = True
-            frmMaisEscola_Novo.WindowState = FormWindowState.Minimized
+            frmPrincipal.WindowState = FormWindowState.Minimized
         Else
             Erro_Enviar = False
         End If
@@ -1099,7 +1099,7 @@ Module mdlMaisEscola
             End Using
         Catch ex As Exception
             Erro_Mensagem = ex.Message
-            Dim fErro As New frmErro() With {.MdiParent = frmMaisEscola_Novo}
+            Dim fErro As New frmErro() With {.MdiParent = frmPrincipal}
             fErro.Show()
         End Try
         Return myData

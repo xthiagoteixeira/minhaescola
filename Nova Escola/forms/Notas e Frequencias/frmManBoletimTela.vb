@@ -56,7 +56,7 @@ Public Class frmManBoletimTela
 
         Refresh_DataGrid(False)
 
-        Dim fManBoletim As New frmManBoletim() With {.MdiParent = frmMaisEscola_Novo}
+        Dim fManBoletim As New frmManBoletim() With {.MdiParent = frmPrincipal}
         fManBoletim.Show()
 
 

@@ -11,7 +11,7 @@
     <RootNamespace>Mais_Escola</RootNamespace>
     <AssemblyName>Minha Escola</AssemblyName>
     <MyType>WindowsForms</MyType>
-    <ApplicationIcon>Address Book.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\Address Book.ico</ApplicationIcon>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -48,11 +48,11 @@
     <ProductName>Minha Escola</ProductName>
     <PublisherName>Thiago Teixeira</PublisherName>
     <SuiteName>Minha Escola</SuiteName>
-    <MinimumRequiredVersion>20.6.1.1</MinimumRequiredVersion>
+    <MinimumRequiredVersion>20.7.26.1</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
     <ApplicationRevision>2</ApplicationRevision>
-    <ApplicationVersion>20.6.1.%2a</ApplicationVersion>
+    <ApplicationVersion>20.7.26.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -197,18 +197,12 @@
     </ManifestTimestampUrl>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CrystalDecisions.CrystalReports.Engine">
-      <HintPath>c:\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
-    </Reference>
-    <Reference Include="CrystalDecisions.ReportSource">
-      <HintPath>c:\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.ReportSource.dll</HintPath>
-    </Reference>
-    <Reference Include="CrystalDecisions.Shared">
-      <HintPath>c:\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.Shared.dll</HintPath>
-    </Reference>
-    <Reference Include="CrystalDecisions.Windows.Forms">
-      <HintPath>c:\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.Windows.Forms.dll</HintPath>
-    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.BonusSkins.v18.1, Version=18.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Charts.v18.1.Core, Version=18.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v18.1, Version=18.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
@@ -389,12 +383,6 @@
     <Compile Include="forms\Utilitarios\frmUtilPDF.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRegistro.designer.vb">
-      <DependentUpon>frmRegistro.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmRegistro.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmFerramentas.designer.vb">
       <DependentUpon>frmFerramentas.vb</DependentUpon>
     </Compile>
@@ -435,18 +423,6 @@
       <DependentUpon>frmBMPreparar.vb</DependentUpon>
     </Compile>
     <Compile Include="forms\MaisProfessor\frmBMPreparar.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="forms\MaisProfessor\frmBWPublicar.designer.vb">
-      <DependentUpon>frmBWPublicar.vb</DependentUpon>
-    </Compile>
-    <Compile Include="forms\MaisProfessor\frmBWPublicar.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="forms\MaisProfessor\frmBWTrazer.designer.vb">
-      <DependentUpon>frmBWTrazer.vb</DependentUpon>
-    </Compile>
-    <Compile Include="forms\MaisProfessor\frmBWTrazer.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="forms\Administrativo\frmCadAlunoFichaCompleta.designer.vb">
@@ -575,16 +551,10 @@
     <Compile Include="forms\Relatorios\frmRpt_Declaracao.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMaisEscola_Novo.Designer.vb">
-      <DependentUpon>frmMaisEscola_Novo.vb</DependentUpon>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmMaisEscola_Novo.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTeamviewer.designer.vb">
-      <DependentUpon>frmTeamviewer.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmTeamviewer.vb">
+    <Compile Include="frmPrincipal.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmLogin2.designer.vb">
@@ -1121,17 +1091,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Settings.vb" />
-    <Compile Include="Web References\WS_MaisEscola_Admin\Reference.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\WS_MaisEscola_Delib11\Reference.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\WS_MaisEscola_Web\Reference.vb">
+    <Compile Include="Web References\MeusProjetos\Reference.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
@@ -1166,9 +1126,6 @@
     <EmbeddedResource Include="forms\Utilitarios\frmUtilPDF.resx">
       <DependentUpon>frmUtilPDF.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRegistro.resx">
-      <DependentUpon>frmRegistro.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmFerramentas.resx">
       <DependentUpon>frmFerramentas.vb</DependentUpon>
     </EmbeddedResource>
@@ -1189,12 +1146,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\MaisProfessor\frmBMPreparar.resx">
       <DependentUpon>frmBMPreparar.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="forms\MaisProfessor\frmBWPublicar.resx">
-      <DependentUpon>frmBWPublicar.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="forms\MaisProfessor\frmBWTrazer.resx">
-      <DependentUpon>frmBWTrazer.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\Administrativo\frmCadAlunoFichaCompleta.resx">
       <DependentUpon>frmCadAlunoFichaCompleta.vb</DependentUpon>
@@ -1259,11 +1210,8 @@
     <EmbeddedResource Include="forms\Relatorios\frmRpt_Declaracao.resx">
       <DependentUpon>frmRpt_Declaracao.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMaisEscola_Novo.resx">
-      <DependentUpon>frmMaisEscola_Novo.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmTeamviewer.resx">
-      <DependentUpon>frmTeamviewer.vb</DependentUpon>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin2.resx">
       <DependentUpon>frmLogin2.vb</DependentUpon>
@@ -1642,25 +1590,12 @@
     <None Include="maisescolaDataSet.xss">
       <DependentUpon>maisescolaDataSet.xsd</DependentUpon>
     </None>
-    <None Include="MaisEscola_LUS.pdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="packages.config" />
-    <None Include="Web References\WS_MaisEscola_Admin\Admin.wsdl" />
-    <None Include="Web References\WS_MaisEscola_Admin\Reference.map">
+    <None Include="Web References\MeusProjetos\MeusProjetos.wsdl" />
+    <None Include="Web References\MeusProjetos\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.vb</LastGenOutput>
     </None>
-    <None Include="Web References\WS_MaisEscola_Delib11\Delib11.wsdl" />
-    <None Include="Web References\WS_MaisEscola_Delib11\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.vb</LastGenOutput>
-    </None>
-    <None Include="Web References\WS_MaisEscola_Web\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.vb</LastGenOutput>
-    </None>
-    <None Include="Web References\WS_MaisEscola_Web\Web.wsdl" />
     <None Include="xsd\Alunos.xsd">
       <SubType>
       </SubType>
@@ -1703,14 +1638,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Address Book.ico" />
+    <Content Include="Resources\Address Book.ico" />
     <Content Include="chromedriver.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="geckodriver.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Mais Professor!.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="mysql.sql">
@@ -1720,12 +1652,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Resources\favicon.ico" />
-    <Content Include="Suporte Rápido.exe">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <None Include="Web References\WS_MaisEscola_Web\Web.disco" />
-    <None Include="Web References\WS_MaisEscola_Delib11\Delib11.disco" />
-    <None Include="Web References\WS_MaisEscola_Admin\Admin.disco" />
+    <None Include="Web References\MeusProjetos\MeusProjetos.disco" />
     <None Include="Resources\MaisEscola_Splash.jpg" />
     <None Include="Resources\Login.jpg" />
     <Content Include="Resources\maisescola.tif" />
@@ -1820,26 +1747,6 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <PublishFile Include="chromedriver.exe">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>File</FileType>
-    </PublishFile>
-    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
     <PublishFile Include="CrystalDecisions.ReportAppServer.ClientDoc">
       <Visible>False</Visible>
       <Group>
@@ -1960,37 +1867,7 @@
       <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
-    <PublishFile Include="CrystalDecisions.ReportSource">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="CrystalDecisions.Shared">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
     <PublishFile Include="CrystalDecisions.Web">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="CrystalDecisions.Windows.Forms">
       <Visible>False</Visible>
       <Group>
       </Group>
@@ -2169,16 +2046,6 @@
       <PublishState>Include</PublishState>
       <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
-    </PublishFile>
-    <PublishFile Include="Mais Professor!.exe">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>File</FileType>
     </PublishFile>
     <PublishFile Include="Microsoft.VisualBasic.PowerPacks.Vs">
       <Visible>False</Visible>
@@ -2670,16 +2537,6 @@
       <IncludeHash>True</IncludeHash>
       <FileType>Assembly</FileType>
     </PublishFile>
-    <PublishFile Include="Suporte Rápido.exe">
-      <Visible>False</Visible>
-      <Group>
-      </Group>
-      <TargetPath>
-      </TargetPath>
-      <PublishState>Include</PublishState>
-      <IncludeHash>True</IncludeHash>
-      <FileType>File</FileType>
-    </PublishFile>
     <PublishFile Include="System">
       <Visible>False</Visible>
       <Group>
@@ -2845,41 +2702,6 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="http://ws.escola.isolucao.com/Admin.asmx">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\WS_MaisEscola_Admin\</RelPath>
-      <UpdateFromURL>http://ws.escola.isolucao.com/Admin.asmx</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>Mais_Escola_WS_MaisEscola_Admin_Admin</CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="http://ws.escola.isolucao.com/Delib11.asmx">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\WS_MaisEscola_Delib11\</RelPath>
-      <UpdateFromURL>http://ws.escola.isolucao.com/Delib11.asmx</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>Mais_Escola_WS_MaisEscola_Delib11_Delib11</CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="http://ws.escola.isolucao.com/Web.asmx">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\WS_MaisEscola_Web\</RelPath>
-      <UpdateFromURL>http://ws.escola.isolucao.com/Web.asmx</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>Mais_Escola_WS_MaisEscola_Web_Web</CachedSettingsPropName>
-    </WebReferenceUrl>
-  </ItemGroup>
-  <ItemGroup>
     <COMReference Include="SHDocVw">
       <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -2890,7 +2712,19 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WebReferenceUrl Include="http://ws1.thiagoteixeira.com.br/MeusProjetos.asmx%3fop=Validar">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\MeusProjetos\</RelPath>
+      <UpdateFromURL>http://ws1.thiagoteixeira.com.br/MeusProjetos.asmx%3fop=Validar</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Minha_Escola_MeusProjetos_MeusProjetos</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

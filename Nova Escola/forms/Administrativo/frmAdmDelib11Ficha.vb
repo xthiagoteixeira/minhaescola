@@ -528,7 +528,7 @@ Public Class frmAdmDelib11Ficha
 
     Private Sub botaoConfiguracao_Click(sender As Object, e As EventArgs) Handles botaoConfiguracao.Click
 
-        Dim fAdmDelib11 As New FrmAdmDelib11() With {.MdiParent = frmMaisEscola_Novo}
+        Dim fAdmDelib11 As New FrmAdmDelib11() With {.MdiParent = frmPrincipal}
         fAdmDelib11.Show()
 
     End Sub

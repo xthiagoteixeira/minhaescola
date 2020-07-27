@@ -391,7 +391,7 @@ Public Class frmAMControle
 
         fCadAlunoFichaCompleta_RM = RM
 
-        Dim fCadAlunoFichaCompleta As New frmCadAlunoFichaCompleta(RM) With {.MdiParent = frmMaisEscola_Novo}
+        Dim fCadAlunoFichaCompleta As New frmCadAlunoFichaCompleta(RM) With {.MdiParent = frmPrincipal}
         fCadAlunoFichaCompleta.Show()
     End Sub
 

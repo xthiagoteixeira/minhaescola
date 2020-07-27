@@ -157,12 +157,12 @@ Public Class frmRptGrafico
             If MsgBox("Deseja cancelar a consulta?", MsgBoxStyle.YesNo, "Consulta em andamento...") = MsgBoxResult.Yes Then
 
                 CancelouConsulta = True
-                frmMaisEscola_Novo.WindowState = FormWindowState.Maximized
+                frmPrincipal.WindowState = FormWindowState.Maximized
             Else
                 e.Cancel = True
             End If
         Else
-            frmMaisEscola_Novo.WindowState = FormWindowState.Maximized
+            frmPrincipal.WindowState = FormWindowState.Maximized
         End If
     End Sub
 

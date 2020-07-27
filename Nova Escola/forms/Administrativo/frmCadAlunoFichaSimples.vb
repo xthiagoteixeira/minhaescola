@@ -224,7 +224,7 @@ Public Class frmCadAlunoFichaSimples
         fCadAlunoFichaCompleta_Nascimento =
             viewAlunos.GetRowCellDisplayText(info.RowHandle, viewAlunos.Columns("Nascimento")).ToString
 
-        Dim fCadAlunoFichaCompleta As New frmCadAlunoFichaCompleta(RM) With {.MdiParent = frmMaisEscola_Novo}
+        Dim fCadAlunoFichaCompleta As New frmCadAlunoFichaCompleta(RM) With {.MdiParent = frmPrincipal}
         fCadAlunoFichaCompleta.Show()
     End Sub
 
