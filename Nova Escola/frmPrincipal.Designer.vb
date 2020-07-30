@@ -23,11 +23,6 @@ Partial Class frmPrincipal
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmPrincipal))
         Me.DefaultLookAndFeel1 = New DevExpress.LookAndFeel.DefaultLookAndFeel(Me.components)
         Me.barraRelatorios = New DevExpress.XtraNavBar.NavBarControl()
-        Me.navNotasFrequencias = New DevExpress.XtraNavBar.NavBarGroup()
-        Me.navNotasFrequencias_Cadastro = New DevExpress.XtraNavBar.NavBarItem()
-        Me.navNotasFrequencias_Manutenção = New DevExpress.XtraNavBar.NavBarItem()
-        Me.navNotasFrequencias_TrazerNotasExcel = New DevExpress.XtraNavBar.NavBarItem()
-        Me.navNotasFrequencias_OE = New DevExpress.XtraNavBar.NavBarItem()
         Me.navAdministrativo = New DevExpress.XtraNavBar.NavBarGroup()
         Me.navAdministrativo_Alunos = New DevExpress.XtraNavBar.NavBarItem()
         Me.navAdministrativo_Boletins = New DevExpress.XtraNavBar.NavBarItem()
@@ -39,11 +34,11 @@ Partial Class frmPrincipal
         Me.navAdministrativo_Planilha = New DevExpress.XtraNavBar.NavBarItem()
         Me.navAdministrativo_Backup = New DevExpress.XtraNavBar.NavBarItem()
         Me.navAdministrativo_Eventos = New DevExpress.XtraNavBar.NavBarItem()
-        Me.navMaisProfessor_PrepararPen = New DevExpress.XtraNavBar.NavBarItem()
-        Me.navMaisProfessor_TrazerNotasPen = New DevExpress.XtraNavBar.NavBarItem()
-        Me.navMaisProfessor_ImprimirConsolidado = New DevExpress.XtraNavBar.NavBarItem()
-        Me.navMaisProfessor_Atribuição = New DevExpress.XtraNavBar.NavBarItem()
-        Me.navMaisProfessor_StatusEntrega = New DevExpress.XtraNavBar.NavBarItem()
+        Me.navNotasFrequencias = New DevExpress.XtraNavBar.NavBarGroup()
+        Me.navNotasFrequencias_Cadastro = New DevExpress.XtraNavBar.NavBarItem()
+        Me.navNotasFrequencias_Manutenção = New DevExpress.XtraNavBar.NavBarItem()
+        Me.navNotasFrequencias_TrazerNotasExcel = New DevExpress.XtraNavBar.NavBarItem()
+        Me.navNotasFrequencias_OE = New DevExpress.XtraNavBar.NavBarItem()
         Me.navRelatorios = New DevExpress.XtraNavBar.NavBarGroup()
         Me.navRelatorios_MeuRelatorio = New DevExpress.XtraNavBar.NavBarItem()
         Me.navRelatorios_MeuGrafico = New DevExpress.XtraNavBar.NavBarItem()
@@ -54,6 +49,11 @@ Partial Class frmPrincipal
         Me.navArquivoMorto = New DevExpress.XtraNavBar.NavBarGroup()
         Me.navArquivo_Gerenciar = New DevExpress.XtraNavBar.NavBarItem()
         Me.navArquivo_ControleRegistros = New DevExpress.XtraNavBar.NavBarItem()
+        Me.navMaisProfessor_PrepararPen = New DevExpress.XtraNavBar.NavBarItem()
+        Me.navMaisProfessor_ImprimirConsolidado = New DevExpress.XtraNavBar.NavBarItem()
+        Me.navMaisProfessor_Atribuição = New DevExpress.XtraNavBar.NavBarItem()
+        Me.navMaisProfessor_StatusEntrega = New DevExpress.XtraNavBar.NavBarItem()
+        Me.navMaisProfessor_TrazerNotasPen = New DevExpress.XtraNavBar.NavBarItem()
         Me.popupAdmAlunos = New DevExpress.XtraBars.PopupMenu(Me.components)
         Me.popupAdmAlunos_Importar = New DevExpress.XtraBars.BarButtonItem()
         Me.popupAdmAlunos_FichaAluno = New DevExpress.XtraBars.BarButtonItem()
@@ -85,11 +85,11 @@ Partial Class frmPrincipal
         Me.barraConectado = New DevExpress.XtraBars.BarStaticItem()
         Me.barraComputador = New DevExpress.XtraBars.BarStaticItem()
         Me.btFerramentas = New DevExpress.XtraBars.BarButtonItem()
-        Me.btTeamviewer = New DevExpress.XtraBars.BarButtonItem()
         Me.BarDockControl1 = New DevExpress.XtraBars.BarDockControl()
         Me.BarDockControl2 = New DevExpress.XtraBars.BarDockControl()
         Me.BarDockControl3 = New DevExpress.XtraBars.BarDockControl()
         Me.BarDockControl4 = New DevExpress.XtraBars.BarDockControl()
+        Me.btTeamviewer = New DevExpress.XtraBars.BarButtonItem()
         CType(Me.barraRelatorios, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.popupAdmAlunos, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BarManager1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -128,37 +128,6 @@ Partial Class frmPrincipal
         Me.barraRelatorios.TabIndex = 2
         Me.barraRelatorios.Text = "barraRelatorios"
         Me.barraRelatorios.View = New DevExpress.XtraNavBar.ViewInfo.StandardSkinNavigationPaneViewInfoRegistrator("Office 2016 Black")
-        '
-        'navNotasFrequencias
-        '
-        Me.navNotasFrequencias.Caption = "Notas e Frequência"
-        Me.navNotasFrequencias.ImageOptions.SmallImage = CType(resources.GetObject("navNotasFrequencias.ImageOptions.SmallImage"), System.Drawing.Image)
-        Me.navNotasFrequencias.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.navNotasFrequencias_Cadastro), New DevExpress.XtraNavBar.NavBarItemLink(Me.navNotasFrequencias_Manutenção), New DevExpress.XtraNavBar.NavBarItemLink(Me.navNotasFrequencias_TrazerNotasExcel), New DevExpress.XtraNavBar.NavBarItemLink(Me.navNotasFrequencias_OE)})
-        Me.navNotasFrequencias.Name = "navNotasFrequencias"
-        '
-        'navNotasFrequencias_Cadastro
-        '
-        Me.navNotasFrequencias_Cadastro.Caption = "Cadastro"
-        Me.navNotasFrequencias_Cadastro.ImageOptions.SmallImage = CType(resources.GetObject("navNotasFrequencias_Cadastro.ImageOptions.SmallImage"), System.Drawing.Image)
-        Me.navNotasFrequencias_Cadastro.Name = "navNotasFrequencias_Cadastro"
-        '
-        'navNotasFrequencias_Manutenção
-        '
-        Me.navNotasFrequencias_Manutenção.Caption = "Manutenção"
-        Me.navNotasFrequencias_Manutenção.ImageOptions.SmallImage = CType(resources.GetObject("navNotasFrequencias_Manutenção.ImageOptions.SmallImage"), System.Drawing.Image)
-        Me.navNotasFrequencias_Manutenção.Name = "navNotasFrequencias_Manutenção"
-        '
-        'navNotasFrequencias_TrazerNotasExcel
-        '
-        Me.navNotasFrequencias_TrazerNotasExcel.Caption = "Trazer Notas em Excel"
-        Me.navNotasFrequencias_TrazerNotasExcel.ImageOptions.SmallImage = CType(resources.GetObject("navNotasFrequencias_TrazerNotasExcel.ImageOptions.SmallImage"), System.Drawing.Image)
-        Me.navNotasFrequencias_TrazerNotasExcel.Name = "navNotasFrequencias_TrazerNotasExcel"
-        '
-        'navNotasFrequencias_OE
-        '
-        Me.navNotasFrequencias_OE.Caption = "Orientador Educacional"
-        Me.navNotasFrequencias_OE.ImageOptions.SmallImage = CType(resources.GetObject("navNotasFrequencias_OE.ImageOptions.SmallImage"), System.Drawing.Image)
-        Me.navNotasFrequencias_OE.Name = "navNotasFrequencias_OE"
         '
         'navAdministrativo
         '
@@ -236,35 +205,36 @@ Partial Class frmPrincipal
         Me.navAdministrativo_Eventos.ImageOptions.SmallImage = CType(resources.GetObject("navAdministrativo_Eventos.ImageOptions.SmallImage"), System.Drawing.Image)
         Me.navAdministrativo_Eventos.Name = "navAdministrativo_Eventos"
         '
-        'navMaisProfessor_PrepararPen
+        'navNotasFrequencias
         '
-        Me.navMaisProfessor_PrepararPen.Caption = "Preparar Pen-drive!"
-        Me.navMaisProfessor_PrepararPen.ImageOptions.SmallImage = CType(resources.GetObject("navMaisProfessor_PrepararPen.ImageOptions.SmallImage"), System.Drawing.Image)
-        Me.navMaisProfessor_PrepararPen.Name = "navMaisProfessor_PrepararPen"
+        Me.navNotasFrequencias.Caption = "Notas e Frequência"
+        Me.navNotasFrequencias.ImageOptions.SmallImage = CType(resources.GetObject("navNotasFrequencias.ImageOptions.SmallImage"), System.Drawing.Image)
+        Me.navNotasFrequencias.ItemLinks.AddRange(New DevExpress.XtraNavBar.NavBarItemLink() {New DevExpress.XtraNavBar.NavBarItemLink(Me.navNotasFrequencias_Cadastro), New DevExpress.XtraNavBar.NavBarItemLink(Me.navNotasFrequencias_Manutenção), New DevExpress.XtraNavBar.NavBarItemLink(Me.navNotasFrequencias_TrazerNotasExcel), New DevExpress.XtraNavBar.NavBarItemLink(Me.navNotasFrequencias_OE)})
+        Me.navNotasFrequencias.Name = "navNotasFrequencias"
         '
-        'navMaisProfessor_TrazerNotasPen
+        'navNotasFrequencias_Cadastro
         '
-        Me.navMaisProfessor_TrazerNotasPen.Caption = "Trazer Notas Pen-drive!"
-        Me.navMaisProfessor_TrazerNotasPen.ImageOptions.SmallImage = CType(resources.GetObject("navMaisProfessor_TrazerNotasPen.ImageOptions.SmallImage"), System.Drawing.Image)
-        Me.navMaisProfessor_TrazerNotasPen.Name = "navMaisProfessor_TrazerNotasPen"
+        Me.navNotasFrequencias_Cadastro.Caption = "Cadastro"
+        Me.navNotasFrequencias_Cadastro.ImageOptions.SmallImage = CType(resources.GetObject("navNotasFrequencias_Cadastro.ImageOptions.SmallImage"), System.Drawing.Image)
+        Me.navNotasFrequencias_Cadastro.Name = "navNotasFrequencias_Cadastro"
         '
-        'navMaisProfessor_ImprimirConsolidado
+        'navNotasFrequencias_Manutenção
         '
-        Me.navMaisProfessor_ImprimirConsolidado.Caption = "Imprimir Consolidado!"
-        Me.navMaisProfessor_ImprimirConsolidado.ImageOptions.SmallImage = CType(resources.GetObject("navMaisProfessor_ImprimirConsolidado.ImageOptions.SmallImage"), System.Drawing.Image)
-        Me.navMaisProfessor_ImprimirConsolidado.Name = "navMaisProfessor_ImprimirConsolidado"
+        Me.navNotasFrequencias_Manutenção.Caption = "Manutenção"
+        Me.navNotasFrequencias_Manutenção.ImageOptions.SmallImage = CType(resources.GetObject("navNotasFrequencias_Manutenção.ImageOptions.SmallImage"), System.Drawing.Image)
+        Me.navNotasFrequencias_Manutenção.Name = "navNotasFrequencias_Manutenção"
         '
-        'navMaisProfessor_Atribuição
+        'navNotasFrequencias_TrazerNotasExcel
         '
-        Me.navMaisProfessor_Atribuição.Caption = "Atribuição"
-        Me.navMaisProfessor_Atribuição.ImageOptions.SmallImage = CType(resources.GetObject("navMaisProfessor_Atribuição.ImageOptions.SmallImage"), System.Drawing.Image)
-        Me.navMaisProfessor_Atribuição.Name = "navMaisProfessor_Atribuição"
+        Me.navNotasFrequencias_TrazerNotasExcel.Caption = "Trazer Notas em Excel"
+        Me.navNotasFrequencias_TrazerNotasExcel.ImageOptions.SmallImage = CType(resources.GetObject("navNotasFrequencias_TrazerNotasExcel.ImageOptions.SmallImage"), System.Drawing.Image)
+        Me.navNotasFrequencias_TrazerNotasExcel.Name = "navNotasFrequencias_TrazerNotasExcel"
         '
-        'navMaisProfessor_StatusEntrega
+        'navNotasFrequencias_OE
         '
-        Me.navMaisProfessor_StatusEntrega.Caption = "Status de Entrega"
-        Me.navMaisProfessor_StatusEntrega.ImageOptions.SmallImage = CType(resources.GetObject("navMaisProfessor_StatusEntrega.ImageOptions.SmallImage"), System.Drawing.Image)
-        Me.navMaisProfessor_StatusEntrega.Name = "navMaisProfessor_StatusEntrega"
+        Me.navNotasFrequencias_OE.Caption = "Orientador Educacional"
+        Me.navNotasFrequencias_OE.ImageOptions.SmallImage = CType(resources.GetObject("navNotasFrequencias_OE.ImageOptions.SmallImage"), System.Drawing.Image)
+        Me.navNotasFrequencias_OE.Name = "navNotasFrequencias_OE"
         '
         'navRelatorios
         '
@@ -327,6 +297,36 @@ Partial Class frmPrincipal
         Me.navArquivo_ControleRegistros.Caption = "Controle de Registros"
         Me.navArquivo_ControleRegistros.ImageOptions.SmallImage = CType(resources.GetObject("navArquivo_ControleRegistros.ImageOptions.SmallImage"), System.Drawing.Image)
         Me.navArquivo_ControleRegistros.Name = "navArquivo_ControleRegistros"
+        '
+        'navMaisProfessor_PrepararPen
+        '
+        Me.navMaisProfessor_PrepararPen.Caption = "Preparar Pen-drive!"
+        Me.navMaisProfessor_PrepararPen.ImageOptions.SmallImage = CType(resources.GetObject("navMaisProfessor_PrepararPen.ImageOptions.SmallImage"), System.Drawing.Image)
+        Me.navMaisProfessor_PrepararPen.Name = "navMaisProfessor_PrepararPen"
+        '
+        'navMaisProfessor_ImprimirConsolidado
+        '
+        Me.navMaisProfessor_ImprimirConsolidado.Caption = "Imprimir Consolidado!"
+        Me.navMaisProfessor_ImprimirConsolidado.ImageOptions.SmallImage = CType(resources.GetObject("navMaisProfessor_ImprimirConsolidado.ImageOptions.SmallImage"), System.Drawing.Image)
+        Me.navMaisProfessor_ImprimirConsolidado.Name = "navMaisProfessor_ImprimirConsolidado"
+        '
+        'navMaisProfessor_Atribuição
+        '
+        Me.navMaisProfessor_Atribuição.Caption = "Atribuição"
+        Me.navMaisProfessor_Atribuição.ImageOptions.SmallImage = CType(resources.GetObject("navMaisProfessor_Atribuição.ImageOptions.SmallImage"), System.Drawing.Image)
+        Me.navMaisProfessor_Atribuição.Name = "navMaisProfessor_Atribuição"
+        '
+        'navMaisProfessor_StatusEntrega
+        '
+        Me.navMaisProfessor_StatusEntrega.Caption = "Status de Entrega"
+        Me.navMaisProfessor_StatusEntrega.ImageOptions.SmallImage = CType(resources.GetObject("navMaisProfessor_StatusEntrega.ImageOptions.SmallImage"), System.Drawing.Image)
+        Me.navMaisProfessor_StatusEntrega.Name = "navMaisProfessor_StatusEntrega"
+        '
+        'navMaisProfessor_TrazerNotasPen
+        '
+        Me.navMaisProfessor_TrazerNotasPen.Caption = "Trazer Notas Pen-drive!"
+        Me.navMaisProfessor_TrazerNotasPen.ImageOptions.SmallImage = CType(resources.GetObject("navMaisProfessor_TrazerNotasPen.ImageOptions.SmallImage"), System.Drawing.Image)
+        Me.navMaisProfessor_TrazerNotasPen.Name = "navMaisProfessor_TrazerNotasPen"
         '
         'popupAdmAlunos
         '
@@ -561,12 +561,6 @@ Partial Class frmPrincipal
         Me.btFerramentas.ImageOptions.LargeImage = CType(resources.GetObject("btFerramentas.ImageOptions.LargeImage"), System.Drawing.Image)
         Me.btFerramentas.Name = "btFerramentas"
         '
-        'btTeamviewer
-        '
-        Me.btTeamviewer.Id = 4
-        Me.btTeamviewer.ImageOptions.Image = CType(resources.GetObject("btTeamviewer.ImageOptions.Image"), System.Drawing.Image)
-        Me.btTeamviewer.Name = "btTeamviewer"
-        '
         'BarDockControl1
         '
         Me.BarDockControl1.CausesValidation = False
@@ -602,6 +596,12 @@ Partial Class frmPrincipal
         Me.BarDockControl4.Manager = Me.barraStatus
         Me.BarDockControl4.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.BarDockControl4.Size = New System.Drawing.Size(0, 817)
+        '
+        'btTeamviewer
+        '
+        Me.btTeamviewer.Id = 4
+        Me.btTeamviewer.ImageOptions.Image = CType(resources.GetObject("btTeamviewer.ImageOptions.Image"), System.Drawing.Image)
+        Me.btTeamviewer.Name = "btTeamviewer"
         '
         'frmPrincipal
         '
